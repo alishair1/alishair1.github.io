@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<!--=== Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="info.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--<title>Responsive Regisration Form </title>--> 
+</head>
+<body>
+
+<!-- nav bar-->
+
+
+     <nav>
+         <ul>
+            <li class="logo"><img src="pics/lo.png"></li>
+            <div class="items">
+              <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
+              <li><a href="#"><i class="fa fa-file"></i>My Files</a></li>
+                    <li class="search-icon"><input type="search" name="" placeholder="search...">
+              <label class="icon"><span class="fa fa-arrow-right"></span></label></li>
+        </div>
+        <div class="admin">
+                  <li><a href="#"><i class="fa fa-user-circle"></i>  Admin</a></li>
+            </div>
+         </ul>
+      </nav>
+
+
+
+<!--
+
+    INFO fORM
+-->
+
+
+    <div class="container">
+        
+
+        <form action="#">
+            <h1>One More Step</h1>
+            <p>please enter the information bellow</p>
+
+            <!--
+                    peronal detaila
+                -->
+
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Clients details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Client Full Name</label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Client Ref No</label>
+                            <input type="text" placeholder="refernce number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Client short Name</label>
+                            <input type="text" placeholder="second name" required>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--  
+                    document details
+                -->
+
+
+            <div class="details ID">
+                    <span class="title">Documentation Identification</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Title project Name</label>
+                            <input type="text" placeholder="Name project" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Subject</label>
+                            <input type="number" placeholder="Subject" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Classification</label>
+                            <input type="text" placeholder="Classification" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>URN</label>
+                            <input type="text" placeholder="your URN" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Issued Date</label>
+                            <input type="date" placeholder="Enter your issued date" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Vaild Far</label>
+                            <input type="text" placeholder="Vaild far" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Type</label>
+                            <input type="text" placeholder="Type" required> required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Version</label>
+                            <input type="text" placeholder="Version" required>
+                        </div>
+                    </div>
+                </div>
+
+<!--
+    contact details
+-->
+
+
+            <div class="details ID">
+                    <span class="title">Document Contact Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Author</label>
+                            <input type="text" placeholder="Author" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Compapny</label>
+                            <input type="number" placeholder="Compapny name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mobile Number</label>
+                            <input type="text" placeholder="phone number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Office Number</label>
+                            <input type="text" placeholder="number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Job Title</label>
+                            <input type="text" placeholder="title" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text" placeholder="email address" required>
+                        </div>
+    
+                    </div>
+                </div> 
+
+
+
+
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+<button class="nextBtn">
+                        <span class="btnText">Next</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+    <script>
+        const form = document.querySelector("form"),
+        nextBtn = form.querySelector(".nextBtn"),
+        backBtn = form.querySelector(".backBtn"),
+        allInput = form.querySelectorAll(".first input");
+
+
+nextBtn.addEventListener("click", ()=> {
+    allInput.forEach(input => {
+        if(input.value != ""){
+            form.classList.add('secActive');
+        }else{
+            form.classList.remove('secActive');
+        }
+    })
+})
+
+backBtn.addEventListener("click", () => form.classList.remove('secActive'));
+
+    </script>
+
+</body>
+</html>
