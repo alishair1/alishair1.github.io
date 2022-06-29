@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <!-- <title>Responsive Navbar with Searchbox</title> -->
+      <link rel="stylesheet" href="downloadpage.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+   </head>
+   <body>
+      <nav>
+         <ul>
+            <li class="logo"><img src="pics/lo.png"></li>
+            <div class="items">
+               <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
+               <div class="space"><p>       </p></div>
+             <li><a href="#"><i class="fa fa-file-contract"></i>My  Files</a></li>  </div>
+             <div class="col1">
+               <li><input type="text" placeholder="  Search.."></li>
+            </div>
+               <div class="Admin">
+                             
+                  <li><a href="#"><i class="fa fa-user-circle"></i> Admin</a></li>
+
+            </div>
+
+         </ul>
+      </nav>
+<div class="row">
+         <div class="col">
+            <h1>The Download is About Start</h1>
+            <br>
+            <p>Hy i am ali welcome to me brand new web site of fitness <br><br>freaks love u all here is full transformaion  jurney are ready.<br><br> asjdhas asdfasc eadsxx
+             </p>
+            <br><br>
+            <button type="button">Download Now</button>
+         </div>
+         <div class="col">
+            <div class="card card1">
+               <img src="pics/do.png" width="400" height="500">
+            </div>
+      
+            <script>
+         $('nav ul li.btn span').click(function(){
+           $('nav ul div.items').toggleClass("show");
+           $('nav ul li.btn span').toggleClass("show");
+         });
+      </script>
+   </body>
+</html>
