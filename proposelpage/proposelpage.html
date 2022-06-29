@@ -4,13 +4,16 @@
    <head>
       <meta charset="utf-8">
       <!-- <title>Responsive Navbar with Searchbox</title> -->
-      <link rel="stylesheet" href="downloadpage.css">
+      <link rel="stylesheet" href="styles.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
       <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
    </head>
    <body>
-      
+
+<!-- NAv bar start 
+-->
+
       <nav>
          <ul>
             <li class="logo"><img src="pics/lo.png"></li>
@@ -26,25 +29,39 @@
          </ul>
       </nav>
 
-<div class="row">
-         <div class="col">
-            <h1>The Download is About Start</h1>
-            <br>
-            <p>Hy i am ali welcome to me brand new web site of fitness <br><br>freaks love u all here is full transformaion  jurney are ready.<br><br> asjdhas asdfasc eadsxx
-             </p>
-            <br><br>
-            <button type="button">Download Now</button>
-         </div>
-         <div class="col">
-            <div class="card card1">
-               <img src="pics/do.png" width="400" height="500">
+<!-- nav bar end -->
+<!-- services section start-->
+
+  
+          <ul class="service-list">
+                <div class="service-card">
+                <div class="card-icon">
+                  <img src="pics/p2.png">
+                </div>
+                <h3 >Construction</h3>
+                <p>
+                  This is the future you will see soon,<br>its in development
+                </p>
+              </div>
+            
+<!--services section end -->
+            
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="pics/p1.png">
+                </div>
+
+                <h3>Property Manager</h3>
+                <p>
+                   This is the future you will see soon,<br>its in development
+                </p>
+              </div>
+            </ul>
+            <div class="btn">
+            <button type="button">Proceed Next  <i class="fa fa-arrow-right"></i></button>
             </div>
+         
       
-            <script>
-         $('nav ul li.btn span').click(function(){
-           $('nav ul div.items').toggleClass("show");
-           $('nav ul li.btn span').toggleClass("show");
-         });
-      </script>
    </body>
 </html>

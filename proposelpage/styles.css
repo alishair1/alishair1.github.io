@@ -93,77 +93,7 @@ nav ul .admin a i{
   }
 }
 
-
-.row{
-  display: flex;
-  height: 88%;
-  align-items: center;
-  margin-left: 10%;
-}
-.col{
-  flex-basis: 50%;
-
-}
-h1{
-  color: blue;
-  font-size: 50px;
-
-}
-p{
-  color: black;
-  font-size: 20px;
-
-  font-weight: 500;
-  line-height: 15px;
-
-}
-button{
-  height: 50px;
-  width: 200px;
-  color: #fff;
-  font-size: 15px;
-  font-weight: 600;
-  padding: 12px 0;
-  background: blue;
-  border: 0;
-  border-radius: 10px;
-  outline: none;
-  margin-top: 30px;
-    transition: transform 0.5s;
-
-}
-button:hover{
-  transform: translateY(-10px);
-}
-.card{
-  width: 200px;
-  height: 230px;
-  display: inline-block;
-  border-radius: 10px;
-  padding: 15px 25px;
-  box-sizing: border-box;
-  cursor: pointer;
-  margin: 10px 15px; 
-  background-position: center;
-  background-size: cover;
-  transition: transform 0.5s;
-}
-
-
-
-
-
-@media screen and (max-width: 1052px) {
-  nav{
-    padding: 10px 40px 10px 0px;
-  }
-  nav ul li.logo{
-    display: none;
-  }
-  nav ul div.items{
-    flex: 4;
-  }
-}
+/*
 @media screen and (max-width: 800px){
   nav ul li.btn{
     display: block;
@@ -194,6 +124,10 @@ button:hover{
     font-size: 19px;
   }
 }
+
+
+
+
 @media screen and (max-width: 405px) {
   nav ul{
     flex-wrap: nowrap;
@@ -228,4 +162,55 @@ button:hover{
   font-size: 28px;
   font-weight: 600;
   color: #202020;
+}
+
+
+
+*/
+.service-list{
+  display: flex;
+  margin-left: 25%;
+  margin-top: 10%;
+  gap: 30px;
+  align-content: center;
+}
+.service-list .service-card{
+ box-sizing: border-box;
+ color: black;
+ box-shadow: 0 5px 20px 1px hsla(220, 63%, 33%, 0.3);
+ padding: 15px 10px;
+ border-radius: 15px;
+}
+.service-list .service-card p{
+  text-align: center;
+  padding: 5px 5px;
+  font-size: 16px;
+  align-content: center;
+  color: black;
+}
+.service-list .service-card h3{
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+.service-list .service-card .card-icon{
+  text-align: center;
+}
+.btn{
+  margin-left: 40%;
+  margin-top: 3%;
+}
+.btn button{
+  width: 200px;
+  border-radius: 25px;
+  height: 50px;
+  background: blue;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  }
+.btn button:hover{
+ box-shadow: 0 0 5px 5px hsla(220, 63%, 33%, 0.3);
+
 }
