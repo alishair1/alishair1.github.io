@@ -280,6 +280,26 @@ body {
   }
 }
 
+@media(max-width: 385px){
+
+  .hero .container .hero-content img{
+    margin-left: 20%;
+  }
+  .hero .container .hero-content h2{
+    font-size: 2.5rem;
+    margin-left: 20%;
+  }
+  .hero .container .hero-content p{
+    font-size: 1.5rem;
+    margin-left: 20%;
+  }
+  .hero .container .hero-content button{
+    margin-left:  20%;
+  }
+  .hero .hero-banner img{
+    margin-left: 30%;
+  }
+}
 
 
 
@@ -362,6 +382,25 @@ body {
   }
 }
 
+@media (max-width: 385px) {
+  .about .about-banner img{
+    width: 270px;
+    height: 430x;
+    margin-left: 20%;
+  }
+  .about .about-content h2{
+    margin-left: 30%;
+  }
+  .about .about-content .about-text{
+    font-size: 1.3rem;
+    margin-left: 20%;
+    text-align: center;
+  }
+  .about .about-content .stats-card{
+    width: 250px;
+    margin-left: 25%;
+  }
+}
 
 
 
@@ -443,6 +482,16 @@ body {
   .service-card{
     width: 350px;
     height: 430px;
+    margin-left: 20%;
+  }
+  .service .container h2{
+    margin-left: 40%;
+  }
+}
+@media (max-width: 385px) {
+  .service-card{
+    width: 280px;
+    height: 440px;
     margin-left: 20%;
   }
   .service .container h2{
@@ -602,13 +651,28 @@ box-shadow: 0 0 5px 5px var(--platinum);
     height: 300px;
     margin-left: 25%;
   }
-}
 
-@media (max-width: 567px) {
   .title h1 {
     font-size: 3rem;
   }
 }
+
+@media (max-width: 385px) {
+  .rent h2 {
+    margin-left: 25%;
+    font-size: 2rem;
+  }
+  .rent .box{
+    width: 280px;
+    height: 300px;
+    margin-left: 20%;
+  }
+
+  .title h1 {
+    font-size: 3rem;
+  }
+}
+
 
 
 
@@ -735,7 +799,16 @@ box-shadow: 0 0 5px 5px var(--platinum);
   }
 }
 
-
+@media (max-width: 385px) {
+  .blog .blog-card{
+    width: 280px;
+    height: 480px;
+    margin-left: 20%;
+  }
+  .blog h2{
+    margin-left: 40%;
+  }
+}
 
 
 
@@ -858,6 +931,28 @@ box-shadow: 0 0 5px 5px var(--platinum);
     margin-left: 1%;
   }
 }
+
+
+@media only screen and (max-width: 385px) {
+  .contact--us{
+    width: 280px;
+    height: 350px;
+  padding: 1rem  1rem;
+  text-align: center;
+  }
+    .contact--us .row .col h2{
+      color: red;
+    
+      text-align: center;
+    }
+  .contact--us .row .col p{
+    font-size: 1.3rem; 
+  }
+  .contact--us .row .col .a{
+    display: none;
+  }
+}
+
 /*
 @media only screen and (max-width: 567px) {
   .contact--us {
@@ -972,7 +1067,14 @@ box-shadow: 0 0 5px 5px var(--platinum);
   }
 }
 
-
+@media (max-width: 568px){
+  .footer .footer-top .footer-brand{
+    margin-left: 20%;
+  }
+  .footer .footer-top .footer-list{
+    margin-left: 20%;
+  }
+}
 
 
 /*-----------------------------------*\
