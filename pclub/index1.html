@@ -4,137 +4,304 @@
   <head>
     <meta charset="UTF-8">
       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!--<title> Responsive Sidebar Menu  | CodingLab </title>-->
-    <link rel="stylesheet" href="sidebar.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <!-- Boxicons CDN Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
+    <!--<title> Responsive Sidebar Menu  | CodingLab </title>-->
+    <link rel="stylesheet" href="style1.css">
+    <!-- css file -->
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Boxicons CDN Link -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- font Awsome-->
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+      <!--  - google font link -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
    </head>
 <body>
-  <div class="sidebar">
+
+<!--
+      SIDE BAR STARTS
+
+
+ -->
+
+
+
+ <div class="sidebar close">
     <div class="logo-details">
       <i class='bx bx-home-heart icon'></i>
-        <div class="logo_name">Property Club</div>
-        <i class='bx bx-menu' id="btn" ></i>
+      <span class="logo_name">Property Club</span>
     </div>
-    <ul class="nav-list">
-      <li>
-          <i class='bx bx-search' ></i>
-         <input type="text" placeholder="Search...">
-         <span class="tooltip">Search</span>
-      </li>
+    <ul class="nav-links">
       <li>
         <a href="#home">
-          <i class='bx bx-home'></i>
-          <span class="links_name">Home</span>
+          <i class='bx bx-home' ></i>
+          <span class="link_name">Home</span>
         </a>
-         <span class="tooltip">Home</span>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Home</a></li>
+        </ul>
       </li>
       <li>
-       <a href="#about">
-         <i class='bx bx-user' ></i>
-         <span class="links_name">About</span>
-       </a>
-       <span class="tooltip">About</span>
-     </li>
-     <li>
-       <a href="#services">
-         <i class='bx bx-chat' ></i>
-         <span class="links_name">Services</span>
-       </a>
-       <span class="tooltip">Services</span>
-     </li>
-     <li>
-       <a href="#featured">
-         <i class='bx bx-pie-chart-alt-2' ></i>
-         <span class="links_name">Featured</span>
-       </a>
-       <span class="tooltip">Featured</span>
-     </li>
-     <li>
-       <a href="#blog">
-         <i class='bx bx-body' ></i>
-         <span class="links_name">Dealers</span>
-       </a>
-       <span class="tooltip">Dealer</span>
-     </li>
-     <li>
-       <a href="#contact--us">
-         <i class='bx bx-phone' ></i>
-         <span class="links_name">Contact</span>
-       </a>
-       <span class="tooltip">Contact</span>
-     </li>
-
-     <!-- <li>
-       <a href="#">
-         <i class='bx bx-chat' ></i>
-         <span class="links_name">Contact</span>
-       </a>
-       <span class="tooltip">Contact</span>
-     </li>
-      </li>-->
-    <li>
-       <a href="#search">
-         <i class='bx bx-search-alt' ></i>
-         <span class="links_name">Bottom</span>
-       </a>
-       <span class="tooltip">Bottom</span>
-    
-     <li class="profile">
-         <div class="profile-details">
-           <!--<img src="profile.jpg" alt="profileImg">-->
-           <div class="name_job">
-             <div class="name">Ali Shair</div>
-             <div class="job">Web designer</div>
-           </div>
-         </div>
-         <i class='bx bx-log-out' id="log_out" ></i>
-     </li>
-    </ul>
+        <a href="#about">
+          <i class='bx bx-user' ></i>
+          <span class="link_name">About Us</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">About Us</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#search">
+            <i class='bx bx-search-alt' ></i>
+            <span class="link_name">Search Place</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Search</a></li>
+          <li><a href="#">Rent</a></li>
+          <li><a href="#">Sell</a></li>
+          <li><a href="#">Comercial</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#services">
+            <i class='fa-brands fa-servicestack' ></i>
+            <span class="link_name">Services</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Services</a></li>
+          <li><a href="#">Property Manager</a></li>
+          <li><a href="#">Construction</a></li>
+          <li><a href="#">Machinary</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#featured">
+          <i class='bx bx-pie-chart-alt-2' ></i>
+          <span class="link_name">Featured</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Featured</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#blog">
+          <i class='bx bx-body' ></i>
+          <span class="link_name">Dealers</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Dealers</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-plug' ></i>
+            <span class="link_name">Plugins</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Plugins</a></li>
+          <li><a href="#">UI Face</a></li>
+          <li><a href="#">Pigments</a></li>
+          <li><a href="#">Box Icons</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#contact--us">
+          <i class='bx bx-phone' ></i>
+          <span class="link_name">Contact Us</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Contact Us</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-history'></i>
+          <span class="link_name">History</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">History</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#footer">
+          <i class='bx bx-cog' ></i>
+          <span class="link_name">Setting</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Setting</a></li>
+        </ul>
+      </li>
+      <li>
+    <div class="profile-details">
+      <div class="profile-content">
+        <!--<img src="image/profile.jpg" alt="profileImg">-->
+      </div>
+      <div class="name-job">
+        <div class="profile_name">Ali Shair</div>
+        <div class="job">Web Desginer</div>
+      </div>
+      <a href="loginpage.html"><i class='bx bx-log-in' ></i></a>
+    </div>
+  </li>
+</ul>
   </div>
-   
- 
+  <section class="home-section">
+    <div class="home-content">
+      <i class='bx bx-menu' ></i>
+    </div>
+  </section>
+  
+<!--
+      SIDE BAR ENDS
+
+
+ -->
+
+     
+
 
       <!-- 
         - #HERO
       -->
 
       <section class="hero" id="home" >
+     
         <div class="container">
-
-          <div class="hero-content"  data-aos="zoom-in"  data-aos-duration="3000">
+<div class="row">
+          <div class="hero-content"  data-aos="fade-right"  data-aos-duration="800">
             <img src="./assets/images/rlog.png" width="100">
+            <h3 style="color: #fff;">The sign of Experience </h3><br>
             <p class="hero-subtitle">We Are the best real estate company in pakistan. 
-            The sign of experience</p>
+            The sign of experience</p><br>
 
-            <h2 class="h2 hero-title">We Choose best Property That Users Love</h2>
-
-            <p class="hero-text">
-             We are called the property club we do what that our cutomers wants here you can find your dream lands plots and comercials focus on your goal you will get many holesasc
-            </p>
-
+        <h2 class="h2 hero-title">We Choose<span>best Property </span> That Users Love</h2>
             <button class="btn">Learn More</button>
-
           </div>
 
-          <figure class="hero-banner"  data-aos="zoom-in" data-aos-duration="2000">
-            <img src="./assets/images/ree.jpg"  width="694" height="529" loading="lazy" alt="hero-banner"
-              class="w-100 banner-animation">
-          </figure>
 
+          <div class="hero-form-wrapper">
+            <div class="form-tab">
+
+              <button class="tab-btn active" data-tab-btn>Buy</button>
+              <button class="tab-btn" data-tab-btn>Sell</button>
+              <button class="tab-btn" data-tab-btn>Rent</button>
+
+            </div>
+
+            <form action="" class="hero-form">
+
+              <div class="input-wrapper">
+                <div>
+                <label for="search" class="input-label">Search : *</label>
+                </div>
+                <div class="lab">
+                <input type="search" name="search" id="search" placeholder="Search your home" required class="input-field">
+
+                <ion-icon name="search-outline"></ion-icon>
+               </div> 
+              </div>
+
+              <div class="input-wrapper">
+                <div>
+                <label for="category" class="input-label">Select Categories:</label>
+                </div>
+                <div class="lab">
+                <select name="category" id="category" class="dropdown-list">
+
+                  <option value="house">House</option>
+                  <option value="apartment">Apartment</option>
+                  <option value="offices">Offices</option>
+                  <option value="apartment">flat</option>
+                  <option value="townhome">Townhome</option>
+
+                </select>
+            </div>
+              </div>
+
+              <div class="input-wrapper">
+                <div>
+                <label for="min-price" class="input-label">Min Price :</label>
+                    </div>
+                    <div class="lab">
+                <select name="min-price" id="min-price" class="dropdown-list">
+
+                  <option value="min price">Min Price</option>
+                  <option value="500">5000</option>
+                  <option value="1000">10000</option>
+                  <option value="2000">20000</option>
+                  <option value="3000">30000</option>
+                  <option value="4000">40000</option>
+                  <option value="5000">50000</option>
+                  <option value="6000">60000</option>
+
+                </select>
+                </div>
+              </div>
+
+              <div class="input-wrapper">
+                <div>
+                <label for="max-price" class="input-label">Max Price :</label>
+                    </div>
+                    <div class="lab">
+                <select name="max-price" id="max-price" class="dropdown-list">
+
+                  <option value="max price">Max Price</option>
+                  <option value="500">50000</option>
+                  <option value="1000">100000</option>
+                  <option value="2000">200000</option>
+                  <option value="3000">300000</option>
+                  <option value="4000">400000</option>
+                  <option value="5000">500000</option>
+                  <option value="6000">600000</option>
+
+                </select>
+                </div>
+              </div>
+
+               <button type="submit" class="btn btn-primary">Search now</button>
+
+            </form>
+           
+          </div>
+
+          </div>
         </div>
       </section>
 
 
+<!--
+    
+    HERO SECTION ENDS
 
+
+ -->
 
 
       <!-- 
-        - #ABOUT
+        - #ABOUT SECTION STARTS 
       -->
 
       <section class="section about" id="about" >
@@ -159,11 +326,10 @@
               The sign of experience 
             </p>
 
-            <p class="about-text">
+         
               <h2>How Many Cities Covering </h2>
-              We in  
-              All DHA's In Pakistan
-            </p>
+             <p>All DHA's in Pakistan</p>
+           
 
             <ul class="stats-list">
 
@@ -194,6 +360,18 @@
 
         </div>
       </section>
+
+
+
+  <!-- 
+        - #ABOUT SECTION STARTS 
+      -->
+
+
+
+  <!-- 
+        - #HOME SERACH SECTION STARTS 
+      -->
 
 
 <section class="home" id="search" div data-aos="zoom-in"
@@ -284,10 +462,13 @@
 
 </section>
 
+  <!-- 
+        - HOME SEARCH  SECTION ENDS 
+      -->
 
 
       <!-- 
-        - #SERVICE
+        - #SERVICE SECTION STARTS
       -->
 
       <section class="section service" id="services" data-aos="zoom-in-up"  data-aos-duration="2000">
@@ -369,11 +550,13 @@
       </section>
 
 
-
+  <!-- 
+        - #SERVICES SECTION ENDS 
+      -->
 
 
       <!-- 
-        - #FEATURES
+        - #FEATURES SECTION STARTS
       -->
 
 <section class="featured" id="featured" div data-aos="zoom-in"
@@ -597,224 +780,88 @@
     
 </section>
 
-
-
-
-
-      <!-- 
-        - #BLOG
+  <!-- 
+        - #FEATURED SECTION ENDS 
       -->
 
-      <section class="section blog" id="blog">
-        <div class="container">
+  <!-- 
+        - #BLOG SECTION STARTS 
+      -->
+
+
+  <section class="section blog" id="blog">
+        <div class="container" >
 
           <h2 class="h2 section-title underline" data-aos="fade-up"
      data-aos-duration="3000">Our Dealers</h2>
-
-          <ul class="blog-list">
-
-            <li>
-              <div class="blog-card"data-aos="zoom-in-up"  data-aos-duration="2000">
-
-                <figure class="banner">
-                  <a href="#">
-                    <img src="./assets/images/ali.jpeg" width="750" height="350" loading="lazy"
-                      alt="Vestibulum massa arcu, consectetu pellentesque scelerisque." class="img-cover">
-                  </a>
-                </figure>
-
-                <div class="content">
-
-                  <h3 class="h3 title">
-                    <a href="#">
-                      Ali Shair
-                    </a>
-                  </h3>
-
-                  <p class="text">
-                    Sed quis sagittis velit. Aliquam velit eros, bibendum ut massa et, consequat laoreet erat nam ac
-                    imperdiet.
-                  </p>
-
-                  <div class="meta">
-
-                    <div class="publish-date">
-                      <ion-icon name="time-outline"></ion-icon>
-
-                      <time datetime="2022-03-07">7 March, 2022</time>
-                    </div>
-
-                    <button class="comment" aria-label="Comment">
-                      <ion-icon name="chatbubble-outline"></ion-icon>
-
-                      <data value="15">15</data>
-                    </button>
-
-                    <button class="share" aria-label="Share">
-                      <ion-icon name="share-social-outline"></ion-icon>
-                    </button>
-
-                  </div>
-
+     <div class="card-ho">
+ <div class="card">
+        <div class="image ">
+            <img class="imge" src="assets/images/ceo.jpeg">
+        </div>
+        <div class="content">
+            <h1>Abdul Majeed</h1>
+            <p>This Is our CEO of property club company <br> 
+            thanks!</p>
+            <div class="social">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
                 </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="blog-card"data-aos="zoom-in-up"  data-aos-duration="2000">
-
-                <figure class="banner">
-                  <a href="#">
-                    <img src="./assets/images/ali.jpeg" width="750" height="350" loading="lazy"
-                      alt="Quisque egestas iaculis felis eget placerat ut pulvinar mi." class="img-cover">
-                  </a>
-                </figure>
-
-                <div class="content">
-
-                  <h3 class="h3 title">
-                    <a href="#">
-                     Ali Shair
-                    </a>
-                  </h3>
-
-                  <p class="text">
-                    Sed quis sagittis velit. Aliquam velit eros, bibendum ut massa et, consequat laoreet erat nam ac
-                    imperdiet.
-                  </p>
-
-                  <div class="meta">
-
-                    <div class="publish-date">
-                      <ion-icon name="time-outline"></ion-icon>
-
-                      <time datetime="2022-03-07">7 March, 2022</time>
-                    </div>
-
-                    <button class="comment" aria-label="Comment">
-                      <ion-icon name="chatbubble-outline"></ion-icon>
-
-                      <data value="15">15</data>
-                    </button>
-
-                    <button class="share" aria-label="Share">
-                      <ion-icon name="share-social-outline"></ion-icon>
-                    </button>
-
-                  </div>
-
+        </div>
+        
+    </div>
+    <div class="card">
+        <div class="image">
+            <img src="ali.jpeg">
+            
+        </div>
+        <div class="content">
+            <h1>Ali Shair</h1>
+            <p>I am a professional web developer and a graphic desinger 
+            if you wanna web site contact with me<br> 
+            thanks!</p>
+            <div class="social">
+                   <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+        
+    </div>
+    <div class="card">
+        <div class="image">
+            <img src="ali.jpeg">
+            
+        </div>
+        <div class="content">
+            <h1>Ali Shair</h1>
+            <p>I am a professional web developer and a graphic desinger 
+            if you wanna web site contact with me<br> 
+            thanks!</p>
+            <div class="social">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
                 </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="blog-card"data-aos="zoom-in-up"  data-aos-duration="2000">
-
-                <figure class="banner">
-                  <a href="#">
-                    <img src="./assets/images/ali.jpeg" width="750" height="350" loading="lazy"
-                      alt="Fusce sem ligula, imperdiet sed nisi sit amet, euismod posuere." class="img-cover">
-                  </a>
-                </figure>
-
-                <div class="content">
-
-                  <h3 class="h3 title">
-                    <a href="#">
-                     Ali Shair
-                    </a>
-                  </h3>
-
-                  <p class="text">
-                    Sed quis sagittis velit. Aliquam velit eros, bibendum ut massa et, consequat laoreet erat nam ac
-                    imperdiet.
-                  </p>
-
-                  <div class="meta">
-
-                    <div class="publish-date">
-                      <ion-icon name="time-outline"></ion-icon>
-
-                      <time datetime="2022-03-07">7 March, 2022</time>
-                    </div>
-
-                    <button class="comment" aria-label="Comment">
-                      <ion-icon name="chatbubble-outline"></ion-icon>
-
-                      <data value="15">15</data>
-                    </button>
-
-                    <button class="share" aria-label="Share">
-                      <ion-icon name="share-social-outline"></ion-icon>
-                    </button>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="blog-card"data-aos="zoom-in-up"  data-aos-duration="2000">
-
-                <figure class="banner">
-                  <a href="#">
-                    <img src="./assets/images/ali.jpeg" width="750" height="350" loading="lazy"
-                      alt="Donec feugiat mollis nisi in dignissim. Morbi sollicitudin quis." class="img-cover">
-                  </a>
-                </figure>
-
-                <div class="content">
-
-                  <h3 class="h3 title">
-                    <a href="#">
-                      Ali Shair
-                    </a>
-                  </h3>
-
-                  <p class="text">
-                    Sed quis sagittis velit. Aliquam velit eros, bibendum ut massa et, consequat laoreet erat nam ac
-                    imperdiet.
-                  </p>
-
-                  <div class="meta">
-
-                    <div class="publish-date">
-                      <ion-icon name="time-outline"></ion-icon>
-
-                      <time datetime="2022-03-07">7 March, 2022</time>
-                    </div>
-
-                    <button class="comment" aria-label="Comment">
-                      <ion-icon name="chatbubble-outline"></ion-icon>
-
-                      <data value="15">15</data>
-                    </button>
-
-                    <button class="share" aria-label="Share">
-                      <ion-icon name="share-social-outline"></ion-icon>
-                    </button>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
 
         </div>
-      </section>
+        
+    </div>
+</div>
+</div>
+</section>
+  <!-- 
+        - #BLOGS SECTION ENDS 
+      -->
 
-    </article>
-  </main>
 
-
- <!-- Contact -->
+ <!--
+        Contact  SECTION STARTS
+ -->
     <section class="section contact--us" id="contact--us"  data-aos="zoom-in" data-aos-duration="2000">
       <div class="container">
        <div class="row" >
@@ -835,9 +882,13 @@
           </form>
         </div>
       </div>
+  </div>
       </div>
 </section>
 
+  <!-- 
+        - #CONTACT-US SECTION STARTS 
+      -->
 
 
 
@@ -854,65 +905,35 @@
 
         <div class="footer-brand">
 
-          <img src="./assets/images/rlog.png" width="80">
-
+            <h2>Property Club</h2>
           <p class="text">
-            
             <br>
-            Property club company is standing on second number in pakistan chalanging all the real estate companies in the pakistan.
+            Our company is standing on second number in pakistan chalanging all the real estate companies in the pakistan.
           </p>
-<!--
+
           <ul class="social-list">
 
             <li>
               <a href="https://web.facebook.com/alishair030" class="social-link" target="_blank">
-                <ion-icon name="logo-facebook"></ion-icon>
+               <i class="fa-brands fa-facebook"></i>
               </a>
             </li>
 
             <li>
               <a href="https://www.instagram.com/alishairfitness/" class="social-link" target="_blank">
-                <ion-icon name="logo-instagram"></ion-icon>
+                <i class="fa-brands fa-instagram"></i>
               </a>
             </li>
 
             <li>
               <a href="https://web.facebook.com/alishair030" class="social-link" target="_blank">
-                <ion-icon name="logo-linkedin"></ion-icon>
+                <i class="fa-brands fa-linkedin"></i>
               </a>
             </li>
 
-          </ul>-->
+          </ul>
 
         </div>
-<!--
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">Our links</p>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Home</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">About Us</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Services</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">properties</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Dealers</a>
-          </li>
-
-        </ul>-->
 
         <ul class="footer-list">
 
@@ -1027,33 +1048,26 @@
 
   </footer>
 
+<!--
+        footer section ends
+ -->
 
 
 
-    <script>
-   
-  let sidebar = document.querySelector(".sidebar");
-  let closeBtn = document.querySelector("#btn");
-  let searchBtn = document.querySelector(".bx-search");
-
-  closeBtn.addEventListener("click", ()=>{
-    sidebar.classList.toggle("open");
-    menuBtnChange();//calling the function(optional)
-  });
-
-  searchBtn.addEventListener("click", ()=>{ // Sidebar open when you click on the search iocn
-    sidebar.classList.toggle("open");
-    menuBtnChange(); //calling the function(optional)
-  });
-
-  // following are the code to change sidebar button(optional)
-  function menuBtnChange() {
-   if(sidebar.classList.contains("open")){
-     closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
-   }else {
-     closeBtn.classList.replace("bx-menu-alt-right","bx-menu");//replacing the iocns class
-   }
+ <script>
+  let arrow = document.querySelectorAll(".arrow");
+  for (var i = 0; i < arrow.length; i++) {
+    arrow[i].addEventListener("click", (e)=>{
+   let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
+   arrowParent.classList.toggle("showMenu");
+    });
   }
+  let sidebar = document.querySelector(".sidebar");
+  let sidebarBtn = document.querySelector(".bx-menu");
+  console.log(sidebarBtn);
+  sidebarBtn.addEventListener("click", ()=>{
+    sidebar.classList.toggle("close");
+  });
   </script>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
