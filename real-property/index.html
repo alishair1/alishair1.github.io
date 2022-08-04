@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Drop Down Sidebar Menu | CodingLab </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxiocns CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- font Awsome-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+   </head>
+<body>
+  <div class="sidebar close">
+    <div class="logo-details">
+      <i class='bx bx-home-heart'></i>
+      <span class="logo_name">Property Club</span>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="#home">
+          <i class='bx bx-home' ></i>
+          <span class="link_name">Home</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">About</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#about">
+            <i class='bx bx-user-circle' ></i>
+            <span class="link_name">About</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">About</a></li>
+          <li><a href="#">HTML & CSS</a></li>
+          <li><a href="#">JavaScript</a></li>
+          <li><a href="#">PHP & MySQL</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#services">
+            <i class='bx bx-donate-heart' ></i>
+            <span class="link_name">Services</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Services</a></li>
+          <li><a href="#">Web Design</a></li>
+          <li><a href="#">Login Form</a></li>
+          <li><a href="#">Card Design</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#featured">
+          <i class='bx bx-pie-chart-alt-2' ></i>
+          <span class="link_name">Featured</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Featured</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-body' ></i>
+          <span class="link_name">Dealers</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Dealers</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#contact--us">
+            <i class='bx bx-phone' ></i>
+            <span class="link_name">Contact</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Contact</a></li>
+          <li><a href="#">UI Face</a></li>
+          <li><a href="#">Pigments</a></li>
+          <li><a href="#">Box Icons</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-compass' ></i>
+          <span class="link_name">Explore</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Explore</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-history'></i>
+          <span class="link_name">History</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">History</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cog' ></i>
+          <span class="link_name">Setting</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Setting</a></li>
+        </ul>
+      </li>
+      <li>
+    <div class="profile-details">
+      <div class="profile-content">
+        <!-- <img src="image/profile.jpg" alt="profileImg"> -->
+      </div>
+      <div class="name-job">
+        <div class="profile_name">Prem Shahi</div>
+        <div class="job">Web Desginer</div>
+      </div>
+      <i class='bx bx-log-out' ></i>
+    </div>
+  </li>
+</ul>
+  </div>
+  <section class="home-section">
+    <div class="home-content">
+      <i class='bx bx-menu' ></i>
+      <img src="assets/images/rlog.png">
+    </div>
+    <div class="btns">
+    <button class="model-btn">Login Here</button>
+    </div>
+  </section>
+
+<div class="model-bg">
+  <div class="model">
+    <img src="assets/images/icon-2.png">
+    <h1>Login Here</h1>
+    <div class="form">
+      <input type="text" name="name" required placeholder="Enter your name">
+  
+      <input type="email" name="mail" required placeholder="Enter your email">
+
+      <input type="password" name="password" required placeholder="Enter password">
+      <br>
+      <a href="#">Forget your password?</a>
+      <button class="btn4">Login</button>
+    </div>
+    <i class="fa-solid fa-rectangle-xmark model-close"></i>
+  </div>
+</div>
+
+     
+
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" >
+     
+        <div class="container">
+            <div class="row">
+          <div class="hero-content"  data-aos="fade-right"  data-aos-duration="800">
+            <h3 style="color: #fff;">The sign of Experience </h3><br>
+            <p class="hero-subtitle">We Are the best real estate company in pakistan. 
+            The sign of experience</p><br>
+
+              <h2 class="h2 hero-title">We Choose<span>best Property </span> That Users Love</h2>
+            <button class="btn">Learn More</button>
+          </div>
+
+
+          <div class="hero-form-wrapper">
+            <div class="form-tab">
+
+              <button class="tab-btn active" data-tab-btn>Buy</button>
+              <button class="tab-btn" data-tab-btn>Sell</button>
+              <button class="tab-btn" data-tab-btn>Rent</button>
+
+            </div>
+
+            <form action="" class="hero-form">
+
+              <div class="input-wrapper">
+                <div>
+                <label for="search" class="input-label">Search : *</label>
+                </div>
+                <div class="lab">
+                <input type="search" name="search" id="search" placeholder="Search your home" required class="input-field">
+
+                <ion-icon name="search-outline"></ion-icon>
+               </div> 
+              </div>
+
+              <div class="input-wrapper">
+                <div>
+                <label for="category" class="input-label">Select Categories:</label>
+                </div>
+                <div class="lab">
+                <select name="category" id="category" class="dropdown-list">
+
+                  <option value="house">House</option>
+                  <option value="apartment">Apartment</option>
+                  <option value="offices">Offices</option>
+                  <option value="apartment">flat</option>
+                  <option value="townhome">Townhome</option>
+
+                </select>
+            </div>
+              </div>
+
+              <div class="input-wrapper">
+                <div>
+                <label for="min-price" class="input-label">Min Price :</label>
+                    </div>
+                    <div class="lab">
+                <select name="min-price" id="min-price" class="dropdown-list">
+
+                  <option value="min price">Min Price</option>
+                  <option value="500">5000</option>
+                  <option value="1000">10000</option>
+                  <option value="2000">20000</option>
+                  <option value="3000">30000</option>
+                  <option value="4000">40000</option>
+                  <option value="5000">50000</option>
+                  <option value="6000">60000</option>
+
+                </select>
+                </div>
+              </div>
+
+              <div class="input-wrapper">
+                <div>
+                <label for="max-price" class="input-label">Max Price :</label>
+                    </div>
+                    <div class="lab">
+                <select name="max-price" id="max-price" class="dropdown-list">
+
+                  <option value="max price">Max Price</option>
+                  <option value="500">50000</option>
+                  <option value="1000">100000</option>
+                  <option value="2000">200000</option>
+                  <option value="3000">300000</option>
+                  <option value="4000">400000</option>
+                  <option value="5000">500000</option>
+                  <option value="6000">600000</option>
+
+                </select>
+                </div>
+              </div>
+
+               <button type="submit" class="btn btn-primary">Search now</button>
+
+            </form>
+           
+          </div>
+
+          </div>
+        </div>
+      </section>
+
+
+<!--
+    
+    HERO SECTION ENDS
+
+
+ -->
+
+
+      <!-- 
+        - #ABOUT SECTION STARTS 
+      -->
+
+      <section class="section about" id="about" >
+        <div class="container" div data-aos="fade-up"
+     data-aos-duration="2000">
+
+          <figure class="about-banner" div data-aos="fade-up"
+     data-aos-duration="2000">
+            <img src="./assets/images/pic1.jpg" width="700" height="532" loading="lazy" alt="about banner"
+              class="w-100 banner-animation">
+          </figure>
+
+          <div class="about-content" div data-aos="fade-up"
+     data-aos-duration="1000">
+
+            <h2 class="h2 section-title underline" data-aos="fade-up"
+     data-aos-duration="3000">Why Our Estate</h2>
+
+            <p class="about-text">
+               Property Club is a Real Estate company dealing in Buying, sales, & rental. 
+               The place where you can find dream home with your own style requirments
+              The sign of experience 
+            </p>
+
+         
+              <h2>How Many Cities Covering </h2>
+             <p>All DHA's in Pakistan</p>
+           
+
+            <ul class="stats-list">
+
+              <li class="stats-card" div data-aos="fade-up"
+     data-aos-duration="2000">
+                <p class="h3 stats-title">9000+</p>
+
+                <p class="stats-text">Satisfied Clients</p>
+              </li>
+
+              <li class="stats-card" div data-aos="fade-up"
+     data-aos-duration="2000">
+                <p class="h3 stats-title">2000+</p>
+
+                <p class="stats-text">Lands sold</p>
+              </li>
+
+              <li class="stats-card" div data-aos="fade-up"
+     data-aos-duration="2000">
+                <p class="h3 stats-title">15</p>
+
+                <p class="stats-text">Years Experience</p>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+  <!-- 
+        - #ABOUT SECTION STARTS 
+      -->
+
+
+
+  <!-- 
+        - #HOME SERACH SECTION STARTS 
+      -->
+
+
+<section class="home" id="search" div data-aos="zoom-in"
+     data-aos-duration="3000">
+
+            <h2 class="h2 section-title underline" data-aos="fade-up"
+     data-aos-duration="3000">Find Your Perfect Home</h2>
+    <form action="">
+
+
+        <div class="buttons-container">
+            <a href="#" class="btn">for rent</a>
+            <a href="#" class="btn">for sell</a>
+        </div>
+
+        <div class="inputBox">
+            <input type="search" name="" placeholder="neighborhood" id="">
+            <input type="search" name="" placeholder="city" id="">
+            <select name="" id="">
+                <option value="" disabled hidden selected>minimum price</option>
+                <option value="$5000">$5000</option>
+                <option value="$10000">$10000</option>
+                <option value="$15000">$15000</option>
+                <option value="$20000">$20000</option>
+                <option value="$25000">$25000</option>
+            </select>
+            <select name="" id="">
+                <option value="" disabled hidden selected>maximum price</option>
+                <option value="$30000">$30000</option>
+                <option value="$35000">$35000</option>
+                <option value="$40000">$40000</option>
+                <option value="$45000">$45000</option>
+                <option value="$50000">$50000</option>
+            </select>
+            <select name="" id="">
+                <option value="" disabled hidden selected>property status</option>
+                <option value="Ready To Move">Ready To Move</option>
+                <option value="under construction">under construction</option>
+                <option value="furnished">furnished</option>
+                <option value="semi-furnished">semi-furnished</option>
+                <option value="unfurnished">unfurnished</option>
+            </select>
+            <select name="" id="">
+                <option value="" disabled hidden selected>property type</option>
+                <option value="flat">flat</option>
+                <option value="house">house</option>
+                <option value="shop">shop</option>
+                <option value="warehouse">warehouse</option>
+                <option value="land">land</option>
+            </select>
+            <select name="" id="">
+                <option value="" disabled hidden selected>BHK</option>
+                <option value="1 BHK">1 BHK</option>
+                <option value="2 BHK">2 BHK</option>
+                <option value="3 BHK">3 BHK</option>
+                <option value="4 BHK">4 BHK</option>
+                <option value="5 BHK">5 BHK</option>
+            </select>
+            <select name="" id="">
+                <option value="" disabled hidden selected>aminities</option>
+                <option value="parking space">parking space</option>
+                <option value="swimming pool">swimming pool</option>
+                <option value="playground">playground</option>
+                <option value="security">security</option>
+                <option value="all">all</option>
+            </select>
+            <select name="" id="">
+                <option value="" disabled hidden selected>bedrooms</option>
+                <option value="1 bedroom">1 bedroom</option>
+                <option value="2 bedroom">2 bedroom</option>
+                <option value="3 bedroom">3 bedroom</option>
+                <option value="4 bedroom">4 bedroom</option>
+                <option value="5 bedroom">5 bedroom</option>
+            </select>
+            <select name="" id="">
+                <option value="" disabled hidden selected>bathrooms</option>
+                <option value="1 bathroom">1 bathroom</option>
+                <option value="2 bathroom">2 bathroom</option>
+                <option value="3 bathroom">3 bedroom</option>
+                <option value="4 bathroom">4 bathroom</option>
+                <option value="5 bathroom">5 bathroom</option>
+            </select>
+        </div>
+
+        <input type="submit" value="search property" class="btn">
+
+    </form>
+
+</section>
+
+  <!-- 
+        - HOME SEARCH  SECTION ENDS 
+      -->
+
+
+      <!-- 
+        - #SERVICE SECTION STARTS
+      -->
+
+      <section class="section service" id="services" data-aos="zoom-in-up"  data-aos-duration="2000">
+<div class="container">
+          <h2 class="h2 section-title underline" data-aos="fade-up"
+     data-aos-duration="3000">Our Services</h2>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/s-1.png">
+                </div>
+
+                <h3 class="h3 title">Construction</h3>
+
+                <p class="text">
+                  Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus
+                  suscipit, enim ex
+                  venenatis ipsum, et porttitor.
+                </p>
+
+                <button class="card-btn" aria-label="Show More">
+                          <i class='bx bx-right-arrow' ></i>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/s-2.png">
+                </div>
+
+                <h3 class="h3 title">Property Manager</h3>
+
+                <p class="text">
+                  Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus
+                  suscipit, enim ex
+                  venenatis ipsum, et porttitor.
+                </p>
+
+                <button class="card-btn" aria-label="Show More">
+                          <i class='bx bx-right-arrow' ></i>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/s-3.png">
+                </div>
+
+                <h3 class="h3 title">Machinary</h3>
+
+                <p class="text">
+                  Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus
+                  suscipit, enim ex
+                  venenatis ipsum, et porttitor.
+                </p>
+
+                <button class="card-btn" aria-label="Show More">
+                          <i class='bx bx-right-arrow' ></i>
+                </button>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+  <!-- 
+        - #SERVICES SECTION ENDS 
+      -->
+
+
+      <!-- 
+        - #FEATURES SECTION STARTS
+      -->
+
+<section class="featured" id="featured" div data-aos="zoom-in"
+     data-aos-duration="3000">
+
+    <h2 class="h2 section-title underline">Featured properties </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image-container">
+                <img src="assets/images2/img-1.jpg" alt="">
+                <div class="info">
+                    <h3>3 days ago</h3>
+                    <h3>for rent</h3>
+                </div>
+                <div class="icons">
+                    <a href="#" class="fas fa-film"><h3>1</h3></a>
+                    <a href="#" class="fas fa-camera"><h3>4</h3></a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="price">
+                    <h3>$25,000/mo</h3>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-envelope"></a>
+                    <a href="#" class="fas fa-phone"></a>
+                </div>
+                <div class="location">
+                    <h3>modern apartments</h3>
+                    <p>jogeshwari west, mumbai, india - 400104</p>
+                </div>
+                <div class="details">
+                    <h3> <i class="fas fa-expand"></i> 3500 sqft </h3>
+                    <h3> <i class="fas fa-bed"></i> 3 beds </h3>
+                    <h3> <i class="fas fa-bath"></i> 2 baths </h3>
+                </div>
+                <div class="buttons">
+                    <a href="#" class="btn3">request info</a>
+                    <a href="#" class="btn3">view details</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image-container">
+                <img src="assets/images2/img-2.jpg" alt="">
+                <div class="info">
+                    <h3>6 days ago</h3>
+                    <h3>for sell</h3>
+                </div>
+                <div class="icons">
+                    <a href="#" class="fas fa-film"><h3>2</h3></a>
+                    <a href="#" class="fas fa-camera"><h3>7</h3></a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="price">
+                    <h3>$25,000/mo</h3>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-envelope"></a>
+                    <a href="#" class="fas fa-phone"></a>
+                </div>
+                <div class="location">
+                    <h3>modern apartments</h3>
+                    <p>jogeshwari west, mumbai, india - 400104</p>
+                </div>
+                <div class="details">
+                    <h3> <i class="fas fa-expand"></i> 3500 sqft </h3>
+                    <h3> <i class="fas fa-bed"></i> 3 beds </h3>
+                    <h3> <i class="fas fa-bath"></i> 2 baths </h3>
+                </div>
+                <div class="buttons">
+                    <a href="#" class="btn3">request info</a>
+                    <a href="#" class="btn3">view details</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image-container">
+                <img src="assets/images2/img-3.jpg" alt="">
+                <div class="info">
+                    <h3>1 days ago</h3>
+                    <h3>for rent</h3>
+                </div>
+                <div class="icons">
+                    <a href="#" class="fas fa-film"><h3>1</h3></a>
+                    <a href="#" class="fas fa-camera"><h3>6</h3></a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="price">
+                    <h3>$25,000/mo</h3>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-envelope"></a>
+                    <a href="#" class="fas fa-phone"></a>
+                </div>
+                <div class="location">
+                    <h3>modern apartments</h3>
+                    <p>jogeshwari west, mumbai, india - 400104</p>
+                </div>
+                <div class="details">
+                    <h3> <i class="fas fa-expand"></i> 3500 sqft </h3>
+                    <h3> <i class="fas fa-bed"></i> 3 beds </h3>
+                    <h3> <i class="fas fa-bath"></i> 2 baths </h3>
+                </div>
+                <div class="buttons">
+                    <a href="#" class="btn3">request info</a>
+                    <a href="#" class="btn3">view details</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image-container">
+                <img src="assets/images2/img-4.jpg" alt="">
+                <div class="info">
+                    <h3>9 days ago</h3>
+                    <h3>for rent</h3>
+                </div>
+                <div class="icons">
+                    <a href="#" class="fas fa-film"><h3>2</h3></a>
+                    <a href="#" class="fas fa-camera"><h3>6</h3></a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="price">
+                    <h3>$25,000/mo</h3>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-envelope"></a>
+                    <a href="#" class="fas fa-phone"></a>
+                </div>
+                <div class="location">
+                    <h3>modern apartments</h3>
+                    <p>jogeshwari west, mumbai, india - 400104</p>
+                </div>
+                <div class="details">
+                    <h3> <i class="fas fa-expand"></i> 3500 sqft </h3>
+                    <h3> <i class="fas fa-bed"></i> 3 beds </h3>
+                    <h3> <i class="fas fa-bath"></i> 2 baths </h3>
+                </div>
+                <div class="buttons">
+                    <a href="#" class="btn3">request info</a>
+                    <a href="#" class="btn3">view details</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image-container">
+                <img src="assets/images2/img-5.jpg" alt="">
+                <div class="info">
+                    <h3>10 days ago</h3>
+                    <h3>for sell</h3>
+                </div>
+                <div class="icons">
+                    <a href="#" class="fas fa-film"><h3>3</h3></a>
+                    <a href="#" class="fas fa-camera"><h3>8</h3></a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="price">
+                    <h3>$25,000/mo</h3>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-envelope"></a>
+                    <a href="#" class="fas fa-phone"></a>
+                </div>
+                <div class="location">
+                    <h3>modern apartments</h3>
+                    <p>jogeshwari west, mumbai, india - 400104</p>
+                </div>
+                <div class="details">
+                    <h3> <i class="fas fa-expand"></i> 3500 sqft </h3>
+                    <h3> <i class="fas fa-bed"></i> 3 beds </h3>
+                    <h3> <i class="fas fa-bath"></i> 2 baths </h3>
+                </div>
+                <div class="buttons">
+                    <a href="#" class="btn3">request info</a>
+                    <a href="#" class="btn3">view details</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image-container">
+                <img src="assets/images2/img-6.jpg" alt="">
+                <div class="info">
+                    <h3>3 days ago</h3>
+                    <h3>for sell</h3>
+                </div>
+                <div class="icons">
+                    <a href="#" class="fas fa-film"><h3>1</h3></a>
+                    <a href="#" class="fas fa-camera"><h3>4</h3></a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="price">
+                    <h3>$25,000/mo</h3>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-envelope"></a>
+                    <a href="#" class="fas fa-phone"></a>
+                </div>
+                <div class="location">
+                    <h3>modern apartments</h3>
+                    <p>jogeshwari west, mumbai, india - 400104</p>
+                </div>
+                <div class="details">
+                    <h3> <i class="fas fa-expand"></i> 3500 sqft </h3>
+                    <h3> <i class="fas fa-bed"></i> 3 beds </h3>
+                    <h3> <i class="fas fa-bath"></i> 2 baths </h3>
+                </div>
+                <div class="buttons">
+                    <a href="#" class="btn3">request info</a>
+                    <a href="#" class="btn3">view details</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+</section>
+
+  <!-- 
+        - #FEATURED SECTION ENDS 
+      -->
+
+  <!-- 
+        - #BLOG SECTION STARTS 
+      -->
+
+<section class="dealers" id="Dealers">
+   <div class="card">
+        <div class="card-image">
+            <img src="assets/images/ceo.jpeg" alt="Profile image">
+        </div>
+        <p class="name">Julie Watson</p>
+        <p>UX / UI developer</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur delectus, mollitia tenetur libero quam recusandae alias in incidunt.</p>
+        <div class="socials">
+            <button class="facebook"><i class="fab fa-facebook"></i></button>
+            <button class="twitter"><i class="fab fa-twitter"></i></button>
+            <button class="instagram"><i class="fab fa-instagram"></i></button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-image">
+            <img src="assets/images/ali.jpeg" alt="Profile image">
+        </div>
+        <p class="name">Marc McKnew</p>
+        <p>Front-End developer</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur delectus, mollitia tenetur libero quam recusandae alias in incidunt.</p>
+        <div class="socials">
+            <button class="facebook"><i class="fab fa-facebook"></i></button>
+            <button class="instagram"><i class="fab fa-instagram"></i></button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-image">
+            <img src="assets/images/ali.jpeg" alt="Profile image">
+        </div>
+        <p class="name">Jenny McKnew</p>
+        <p>Back-End developer</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur delectus, mollitia tenetur libero quam recusandae alias in incidunt.</p>
+        <div class="socials">
+            <button class="facebook"><i class="fab fa-facebook"></i></button>
+            <button class="instagram"><i class="fab fa-instagram"></i></button>
+        </div>
+    </div>
+    
+</section>
+
+ <!--
+        Contact  SECTION STARTS
+ -->
+    <section class="section contact--us" id="contact--us"  data-aos="zoom-in" data-aos-duration="2000">
+      <div class="container">
+       <div class="row" >
+        <div class="col">
+          <h2>EXCELLENT SUPPORT</h2>
+          <p>
+            We love our customers and they can reach us any time of day we will
+            be at your service 24/7
+          </p>
+          <a href="contact.html" class="btn btn-1">Contact</a>
+        </div>
+        <div class="col">
+          <form action="">
+            <div class="a">
+              <input type="email" placeholder="Email Address" />
+              <a href="">Send</a>
+            </div>
+          </form>
+        </div>
+      </div>
+  </div>
+      </div>
+</section>
+
+  <!-- 
+        - #CONTACT-US SECTION STARTS 
+      -->
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" id="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+            <h2>Property Club</h2>
+          <p class="text">
+            <br>
+            Our company is standing on second number in pakistan chalanging all the real estate companies in the pakistan.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://web.facebook.com/alishair030" class="social-link" target="_blank">
+               <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/alishairfitness/" class="social-link" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://web.facebook.com/alishair030" class="social-link" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Services</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">lands & Plots</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Construct house</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Multi featured house</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Construction</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Machinary</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">More links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FAQ</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms & Conditions</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Support</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Us</p>
+          </li>
+
+          <li class="footer-item">
+
+           
+              <div class="footer-item-icon">
+                 <i class='bx bx-phone' ></i>
+            </div>
+
+            <div>
+              <a href="tel:+2484214313" class="footer-item-link">+248-421-4313</a>
+              <a href="tel:+2486871365" class="footer-item-link">+248-687-1365</a>
+            </div>
+
+          </li>
+
+          <li class="footer-item">
+
+            <div class="footer-item-icon">
+                 <i class='bx bx-envelope' ></i>
+            </div>
+            <div>
+              <a href="mailto:info@desinic.com" class="footer-item-link">info@desinic.com</a>
+              <a href="mailto:help@desinic.com" class="footer-item-link">help@desinic.com</a>
+            </div>
+
+          </li>
+
+          <li class="footer-item">
+
+            <div class="footer-item-icon">
+                 <i class='bx bx-map' ></i>
+            </div>
+
+            <address class="footer-item-link">
+              Pontiac, Michigan, United States of America
+            </address>
+
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="copyright">
+        &copy; 2022 <a href="#" class="copyright-link">Code with Ali</a>. All Right Reserved
+      </p>
+    </div>
+
+  </footer>
+
+<!--
+        footer section ends
+ -->
+
+
+
+ <script>
+  let arrow = document.querySelectorAll(".arrow");
+  for (var i = 0; i < arrow.length; i++) {
+    arrow[i].addEventListener("click", (e)=>{
+   let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
+   arrowParent.classList.toggle("showMenu");
+    });
+  }
+  let sidebar = document.querySelector(".sidebar");
+  let sidebarBtn = document.querySelector(".bx-menu");
+  console.log(sidebarBtn);
+  sidebarBtn.addEventListener("click", ()=>{
+    sidebar.classList.toggle("close");
+  });
+  </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <script>
+            
+        var modelBtn = document.querySelector('.model-btn');
+        var modelBg = document.querySelector('.model-bg');
+        var modelClose = document.querySelector('.model-close');
+
+
+        modelBtn.addEventListener('click',function(){
+          modelBg.classList.add('bg-active');
+        });
+        modelClose.addEventListener('click',function(){
+          modelBg.classList.remove('bg-active');
+        });
+  </script>
+  <script src="script.js"></script>
+
+</body>
+</html>
