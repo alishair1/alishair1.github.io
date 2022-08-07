@@ -139,7 +139,7 @@ body{
 
 }
 }
-@media (max-width: 375px){
+@media (max-width: 390px){
 	.header .container .info .search{
 	display: none;}	
 
@@ -235,9 +235,9 @@ body{
 		margin-top: 250%;
 	}
 }
-@media (max-width: 390px){
+@media (max-width: 450px){
 	.featured{
-		margin-top:330%;
+		margin-top:280%;
 	}
 	.featured .container .cards{
 	display: grid;
