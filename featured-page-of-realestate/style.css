@@ -235,7 +235,7 @@ body{
 		margin-top: 250%;
 	}
 }
-@media (max-width: 390px){
+@media (max-width: 420px){
 	.featured{
 		margin-top:330%;
 	}
