@@ -139,6 +139,11 @@ body{
 
 }
 }
+@media (max-width: 375px){
+	.header .container .info .search{
+	display: none;}	
+
+}
 
 .featured{
 	margin-top: 30%;
