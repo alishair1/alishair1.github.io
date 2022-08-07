@@ -235,7 +235,11 @@ body{
 		margin-top: 250%;
 	}
 }
+<<<<<<< HEAD
 @media (max-width: 450px){
+=======
+@media (max-width: 420px){
+>>>>>>> b5e7dcdf03bb38eeb3e1e47024557e53e4f4a7e1
 	.featured{
 		margin-top:280%;
 	}
