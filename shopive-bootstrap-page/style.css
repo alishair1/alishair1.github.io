@@ -1,0 +1,19 @@
+.header .container .top-link{
+	font-size: 14px;
+}
+.header .container .top-link li{
+	list-style-type: none;
+	display: inline-block;
+}
+.header .container .top-link a{
+	margin: 2px;
+}
+.logo{
+	text-align: center;
+}
+.cart{
+	text-align: center;
+}
+.Copyright{
+	border-top: dotted;
+}
