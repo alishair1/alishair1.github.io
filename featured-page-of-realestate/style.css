@@ -5,9 +5,7 @@
 	font-family: 'Source Sans Pro', sans-serif;
 	text-decoration: none;
 }
-body{
 
-}
 .header{
   	background-image: linear-gradient(to top, hsla(261, 64%, 46%, 0.7), hsla(261, 64%, 46%, 0.0)),url("assets/images/pic3.jpg");  
 	background-size: cover,no-repeat;
@@ -139,7 +137,7 @@ body{
 
 }
 }
-@media (max-width: 391px){
+@media (max-width: 390px){
 	.header .container .info .search{
 	display: none;}	
 
@@ -235,11 +233,7 @@ body{
 		margin-top: 250%;
 	}
 }
-<<<<<<< HEAD
 @media (max-width: 450px){
-=======
-@media (max-width: 420px){
->>>>>>> b5e7dcdf03bb38eeb3e1e47024557e53e4f4a7e1
 	.featured{
 		margin-top:280%;
 	}
