@@ -1047,6 +1047,9 @@ box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;}
 /*=============================================*\
               FEATURES  SECTION END
 \*=============================================*/
+/*=============================================*\
+              FPROPERTIES SECTION END
+\*=============================================*/
 
 
 .properties {
@@ -1068,6 +1071,7 @@ background: #dcdde8;
 border-radius: 5px;
 padding: 20px;
 transition: all .4s ease;
+cursor: pointer;
 }
 .properties .card-container .card:hover{
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
@@ -1150,4 +1154,81 @@ transition: all .4s ease;
   gap: 20px;
 
 }
+}
+/*=============================================*\
+              SERVICES  SECTION END
+\*=============================================*/
+
+
+.Services{
+
+}
+.Services  .heading{
+  text-align: center;
+}
+.Services  .heading h1{
+  font-size: 60px;
+
+}
+.Services  .heading p{
+  font-size: 25px;
+  font-weight: 600;
+}
+.Services .card-boxs{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 50px 100px 50px 150px;
+  gap: 30px;
+}
+.Services .card-boxs .box{
+  text-align: center;
+  padding: 30px;
+  transition: all .4s ease;
+  border: 1px solid lightblue;
+}
+.Services .card-boxs .box:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+   rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+   background: #fff;
+   border-radius: 10px;
+}
+.Services .card-boxs .box h2{
+  margin-top: 5%;
+  text-transform: capitalize;
+}
+.Services .card-boxs .box p{
+  font-size: 20px;
+  margin-top: 5%;
+}
+
+
+
+@media (max-width: 968px){
+  .Services .card-boxs{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+ 
+}
+}
+@media (max-width: 728px){
+  .Services .card-boxs{
+  display: grid;
+  grid-template-columns: 1fr ;
+  grid-template-rows: 1fr 1fr 1fr;
+ 
+}
+}
+@media (max-width: 568px){
+  .Services .heading h1{
+    font-size: 40px;
+  }
+  .Services .heading p{
+    font-weight: unset;
+  }
+  .Services .card-boxs{
+      padding: 50px 50px 50px 50px;
+
+}
+ 
 }
