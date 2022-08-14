@@ -1,80 +1,75 @@
-.boxs{
+
+
+.accordion {
+  width: 90%;
+  max-width: 1000px;
+  margin: 2rem auto;
+
+}
+.accordion-item {
+  background-color: #fff;
+  color: #111;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+}
+.accordion-item-header {
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.accordion-item-header::after {
+  content: "\002B";
+  font-size: 2rem;
+  position: absolute;
+  right: 1rem;
+}
+.accordion-item-header.active::after {
+  content: "\2212";
+}
+.accordion-item-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordion-item-body-content {
+  padding: 1rem;
+  line-height: 1.5rem;
+  border-top: 1px solid;
+  border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.accordion-item-body-content div{
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(2, 1fr);
-	gap: 50px;
-	padding: 50px 100px 50px 150px;
+	grid-template-rows: repeat(10, 1fr);
 }
-.wrapper{
-	display: flex;
-	/*padding-top: 50px;*/
-	justify-content: center;
-	margin-block-end: 20%;
+@media(max-width:767px) {
+  html {
+    font-size: 14px;
+  }
 }
-.collapsable{
-	max-width: 450px;
-	overflow: hidden;
-	font-weight: 500;
+@media(max-width:1300px) {
+	.accordion {
+  padding-left: 100px;
+  
 }
-.collapsable input{
-	display: none;
+ 
 }
-.collapsable label{
-	position: absolute;
-	font-weight: 600;
-	background: #fff;
-	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .1),0 4px 11px 0 rgba(0, 0, 0, .08);
-	color: #1c1c6b;
-	display: block;
-	margin-bottom: 10px;
-	cursor: pointer;
-	padding: 15px;
-	border-radius: 4px;
-	z-index: 1;
-
+@media(max-width:568px) {
+	.accordion {
+  padding-left: 0px;
+  
 }
-
-.collapsable label:after{
-	content: "";
-	position: absolute;
-	right: 15px;
-	top: 20px;
-	width: 18px;
-	height: 18px;
-
-	transition: all .3s ease;
-
+ .accordion-item-body-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  /*place-items: center;*/
 }
-.collapsable input:checked + i:after{
-	transform: rotate(90deg);
-} 
-
-.collapsable-text{
-	max-height: 1px;
-	overflow: hidden;
-	border-radius: 4px;
-	line-height: 1.4;
-	position: relative;
-	top: -100%;
-	opacity: .5;
-	transition: all .3s ease;
-}
-.collapsable input:checked ~ .collapsable-text{
-	margin-top: 15%;
-	max-height: 300px;
-	padding-bottom: 25px;
-	background: #fff;
-	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .1),0 4px 11px 0 rgba(0, 0, 0, .08);
-	opacity: 1;
-	top: 0;
-	z-index: -1;
-}
-.collapsable .collapsable-text h2{
-	margin-bottom: 10px;
-	padding: 15px 15px 0;
-	color: #1c1c6b;
-}
-.collapsable .collapsable-text a{
-	cursor: pointer;
-	
 }

@@ -616,6 +616,7 @@ ul {
   z-index: 2;
   border-bottom-right-radius: 30px;
    border-bottom-left-radius: 30px;
+   margin-block-end: 10%;
 }
 .sidebar.open ~ .home-section{
  /* left: 250px;
@@ -866,6 +867,30 @@ box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;}
   font-size: 30px;
   color: #04134a;
 }
+.about .btns{
+  display: grid;
+  place-items: center;
+   margin-bottom: 10%;
+}
+.about .btns .btn{
+  width: 150px;
+  height: 50px;
+  background: #000;
+  color: #fff;
+  font-weight: 600;
+  transition: .25s ease;
+  transform: scale(1.1);
+  cursor: pointer;
+
+}
+.about .btns .btn:hover{
+  background: #fff;
+  color: #000;
+}
+
+
+
+
 
 
 @media (max-width: 1115px){
@@ -885,9 +910,7 @@ box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;}
   gap: 20px;
   padding:100px 40px;
 }
-.about .boxs .box1{
-  
-}
+
 .about .boxs .box2 p{
   font-size: 15px;
 }
@@ -906,9 +929,14 @@ box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;}
 }
 @media (max-width: 568px){
   .about{
-  
+  display: grid;
+  place-items: center;
   left: 0px;
-  
+  width: 100%;
+}
+ .about .boxs{
+
+  padding:50px;
 }
 .about h1{
   margin-top: 20%;
@@ -1394,6 +1422,7 @@ font-size: 60px;
   grid-template-rows: repeat(2, 1fr);
   padding: 50px 100px 50px 150px;
   gap: 30px;
+  cursor: pointer;
  /* overflow-x: scroll;*/
 }
 .new-properties .card-boxs .blog-card{
