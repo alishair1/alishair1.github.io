@@ -1,0 +1,80 @@
+.boxs{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 50px;
+	padding: 50px 100px 50px 150px;
+}
+.wrapper{
+	display: flex;
+	/*padding-top: 50px;*/
+	justify-content: center;
+	margin-block-end: 20%;
+}
+.collapsable{
+	max-width: 450px;
+	overflow: hidden;
+	font-weight: 500;
+}
+.collapsable input{
+	display: none;
+}
+.collapsable label{
+	position: absolute;
+	font-weight: 600;
+	background: #fff;
+	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .1),0 4px 11px 0 rgba(0, 0, 0, .08);
+	color: #1c1c6b;
+	display: block;
+	margin-bottom: 10px;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 4px;
+	z-index: 1;
+
+}
+
+.collapsable label:after{
+	content: "";
+	position: absolute;
+	right: 15px;
+	top: 20px;
+	width: 18px;
+	height: 18px;
+
+	transition: all .3s ease;
+
+}
+.collapsable input:checked + i:after{
+	transform: rotate(90deg);
+} 
+
+.collapsable-text{
+	max-height: 1px;
+	overflow: hidden;
+	border-radius: 4px;
+	line-height: 1.4;
+	position: relative;
+	top: -100%;
+	opacity: .5;
+	transition: all .3s ease;
+}
+.collapsable input:checked ~ .collapsable-text{
+	margin-top: 15%;
+	max-height: 300px;
+	padding-bottom: 25px;
+	background: #fff;
+	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .1),0 4px 11px 0 rgba(0, 0, 0, .08);
+	opacity: 1;
+	top: 0;
+	z-index: -1;
+}
+.collapsable .collapsable-text h2{
+	margin-bottom: 10px;
+	padding: 15px 15px 0;
+	color: #1c1c6b;
+}
+.collapsable .collapsable-text a{
+	cursor: pointer;
+	
+}
