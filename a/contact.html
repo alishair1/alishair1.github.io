@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/CodingLabYT-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!--<title> Responsive Sidebar Menu  | CodingLab </title>-->
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" type="text/css" href="contact.css">
+
+
+
+
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+
+     <!--=============== UNICONS ===============-->
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+      <!-- FONT ICON -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   </head>
+<body>
+
+    <!-- PRE LOADER -->
+
+    <div id="preloader">
+   
+    <!-- PRE LOADER -->
+ <!--        
+    ========================================
+           SIDEBAR STARTS
+    ========================================
+ -->
+    </div>
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class='bx bx-home-heart icon'></i>
+        <div class="logo_name">Property Club</div>
+        <i class='bx bx-menu' id="btn" ></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+          <i class='bx bx-search' ></i>
+         <input type="text" placeholder="Search...">
+         <span class="tooltip">Search</span>
+      </li>
+      <li>
+        <a href="#home">
+          <i class='bx bx-home'></i>
+          <span class="links_name">Home</span>
+        </a>
+         <span class="tooltip">Home</span>
+      </li>
+      <li>
+       <a href="#about">
+         <i class='bx bx-user' ></i>
+         <span class="links_name">About</span>
+       </a>
+       <span class="tooltip">About</span>
+     </li>
+     <li>
+       <a href="#featured">
+         <i class='bx bx-chat' ></i>
+         <span class="links_name">Featured</span>
+       </a>
+       <span class="tooltip">Featured</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-pie-chart-alt-2' ></i>
+         <span class="links_name">Featured</span>
+       </a>
+       <span class="tooltip">Featured</span>
+     </li>
+     <li>
+       <a href="#Properties">
+         <i class='bx bx-folder' ></i>
+         <span class="links_name">Properties</span>
+       </a>
+       <span class="tooltip">Properties</span>
+     </li>
+     <li>
+       <a href="#Services">
+         <i class='bx bx-cart-alt' ></i>
+         <span class="links_name">Services</span>
+       </a>
+       <span class="tooltip">Services</span>
+     </li>
+     <li>
+       <a href="#new-properties">
+         <i class='bx bx-chat' ></i>
+         <span class="links_name">new-properties</span>
+       </a>
+       <span class="tooltip">new-properties</span>
+     </li>
+      <li>
+       <a href="#footer">
+         <i class='bx bx-chat' ></i>
+         <span class="links_name">footer</span>
+       </a>
+       <span class="tooltip">footer</span>
+     </li>
+      <li>
+       <a href="#">
+         <i class='bx bx-chat' ></i>
+         <span class="links_name">footer</span>
+       </a>
+       <span class="tooltip">Contact</span>
+     </li>
+      <li>
+       <a href="#">
+         <i class='bx bx-chat' ></i>
+         <span class="links_name">Contact</span>
+       </a>
+       <span class="tooltip">Contact</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-chat' ></i>
+         <span class="links_name">Contact</span>
+       </a>
+       <span class="tooltip">Contact</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-chat' ></i>
+         <span class="links_name">Contact</span>
+       </a>
+       <span class="tooltip">Contact</span>
+     </li>
+
+     <li>
+       <a href="#">
+         <i class='bx bx-cog' ></i>
+         <span class="links_name">Setting</span>
+       </a>
+       <span class="tooltip">Setting</span>
+     </li>
+     <li class="profile">
+         <div class="profile-details">
+           <!--<img src="profile.jpg" alt="profileImg">-->
+           <div class="name_job">
+             <div class="name">Ali Shair</div>
+             <div class="job">Web designer</div>
+           </div>
+         </div>
+         <i class='bx bx-log-out' id="log_out" ></i>
+     </li>
+    </ul>
+  </div>
+
+  <!-- 
+==================================================
+
+                BOTTOM BAR STARTS
+
+==================================================
+ -->
+
+     <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Property Club</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#featured" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i> feadured
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#Properties" class="nav__link">
+                            <i class="uil uil-briefcase-alt nav__icon"></i> Properties
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#Services" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i> Services
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#new-properties" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> new-properties
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#footer" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> footer 
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <i class="uil uil-user theme-customization model-btn"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+  <!--
+  =====================================================
+                   POPUP  BOX STARTS
+  =====================================================  
+  -->
+
+
+<div class="model-bg">
+  
+    
+    <div class="form1">
+      
+      <div class="form">
+      <i class="fa-solid fa-circle-xmark model-close"></i>
+        <img src="assets/images/icons/icon-2.png">
+        <h2>Login Here</h2>
+        <input type="text" name="name" required placeholder="Enter your name">
+        <input type="Email" name="mail" required placeholder="Enter your email">
+        <input type="password" name="password" required placeholder="Enter password">
+        <a href="#">Forget your password?</a>
+        <button class="btn4">Create Account</button>
+        <p>=========== OR=========== </p>
+        <button class="btn4"><i class="fa-brands fa-google"></i>Sign Up with Google</button>
+        </div>
+      <div class="image">
+        <img src="assets/images/vert2.jpg">
+      </div>
+    </div>
+   
+</div>
+
+       <!--
+  =====================================================
+                   POPUP BOX STARTS
+  =====================================================  
+  -->
+
+<!-- 
+==================================================
+
+              HOME SECTION STARTS
+
+==================================================
+ -->
+
+  <section class="home-section" id="home">
+      <!-- <div class="container"> -->
+        <div class="logo-top">
+          <img src="assets/images/rlog.png">
+          <div class="btns">
+          <button class="btn1 model-btn"><i class="bx bx-user"> </i> Login</button>
+          <button class="btn">Sign Up</button>
+          </div>
+         
+        </div>
+        <div class="row">
+          <div class="content">
+            <h1>Find Real Estate And<br> Get Dream Space</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit,  labore et dolore magna aliqua. </p>
+            <button class="btn">Explore More</button>
+          </div>
+          
+        </div>
+      <!-- </div> -->
+  </section>
+<!-- 
+==================================================
+
+             CONTACT SECTION ENDS
+
+==================================================
+ -->
+ <section class="Contact">
+<div class="container">
+    <div class="content">
+      <div class="left-side">
+        <div class="address details">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="topic">Address</div>
+          <div class="text-one">Surkhet, NP12</div>
+          <div class="text-two">Birendranagar 06</div>
+        </div>
+        <div class="phone details">
+          <i class="fas fa-phone-alt"></i>
+          <div class="topic">Phone</div>
+          <div class="text-one">+0098 9893 5647</div>
+          <div class="text-two">+0096 3434 5678</div>
+        </div>
+        <div class="email details">
+          <i class="fas fa-envelope"></i>
+          <div class="topic">Email</div>
+          <div class="text-one">codinglab@gmail.com</div>
+          <div class="text-two">info.codinglab@gmail.com</div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="topic-text">Send us a message</div>
+        <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from here. It's my pleasure to help you.</p>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Enter your name">
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Enter your email">
+        </div>
+        <div class="input-box message-box">
+          <textarea placeholder="Enter your message"></textarea>
+        </div>
+        <div class="button">
+          <input type="button" value="Send Now" >
+        </div>
+      </form>
+    </div>
+    </div>
+  </div>
+</section>
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" id="footer">
+
+    <div class="footer-top">
+     
+
+        <div class="footer-brand">
+
+          
+            <img src="assets/images/rlog.png" alt="Homeverse logo">
+         
+
+          <p class="section-text">
+            Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is dummy text of the printing.
+          </p>
+
+          <ul class="contact-list">
+
+            <li>
+              <a href="#" class="contact-link">
+                <i class="bx bx-map"></i>
+                <address>Brooklyn, New York, United States</address>
+              </a>
+            </li>
+
+            <li>
+              <a href="tel:+0123456789" class="contact-link">
+               <i class="bx bx-phone"></i>
+
+                <span>+0123-456789</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:contact@homeverse.com" class="contact-link">
+                <i class="bx bx-envelope"></i>
+
+                <span>contact@homeverse.com</span>
+              </a>
+            </li>
+
+          </ul>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <img src="assets/images/icons/fb.png">                
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <img src="assets/images/icons/insta.png">                
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <img src="assets/images/icons/twitt.png">                
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <img src="assets/images/icons/yt.png">                
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+   
+
+          <ul class="footer-list">
+
+            <li>
+              <h1 class="footer-list-title">Company</h1>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">About</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Blog</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">All Products</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Locations Map</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">FAQ</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contact us</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <h1 class="footer-list-title">Services</h1>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Order tracking</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Wish List</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Login</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">My account</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Terms & Conditions</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Promotional Offers</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list" id="last">
+
+            <li>
+              <h1 class="footer-list-title">Customer Care</h1>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Login</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">My account</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Wish List</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Order tracking</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">FAQ</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contact us</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+   
+  
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2022 <a href="#">codewithAli</a>. All Rights Reserved
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+   <!--
+  =====================================================
+                 JAVASCRIPT SECTION STARTS 
+  =====================================================  
+  -->
+
+  <script>
+  let sidebar = document.querySelector(".sidebar");
+  let closeBtn = document.querySelector("#btn");
+  let searchBtn = document.querySelector(".bx-search");
+
+  closeBtn.addEventListener("click", ()=>{
+    sidebar.classList.toggle("open");
+    menuBtnChange();//calling the function(optional)
+  });
+
+  searchBtn.addEventListener("click", ()=>{ // Sidebar open when you click on the search iocn
+    sidebar.classList.toggle("open");
+    menuBtnChange(); //calling the function(optional)
+  });
+
+  // following are the code to change sidebar button(optional)
+  function menuBtnChange() {
+   if(sidebar.classList.contains("open")){
+     closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
+   }else {
+     closeBtn.classList.replace("bx-menu-alt-right","bx-menu");//replacing the iocns class
+   }
+  }
+
+
+
+      /*=============== SHOW MENU ===============*/
+const navMenu = document.getElementById('nav-menu'),
+      navToggle = document.getElementById('nav-toggle'),
+      navClose = document.getElementById('nav-close')
+
+/*===== MENU SHOW =====*/
+/* Validate If Constant Exists */
+if(navToggle) {
+    navToggle.addEventListener('click', () => {
+        navMenu.classList.add('show-menu')
+    })
+}
+
+/*===== MENU HIDDEN =====*/
+/* Validate If Constant Exists */
+if(navClose) {
+    navClose.addEventListener('click', () => {
+        navMenu.classList.remove('show-menu')
+    })
+}
+  </script>
+
+   <script>
+            
+        var modelBtn = document.querySelector('.model-btn');
+        var modelBg = document.querySelector('.model-bg');
+        var modelClose = document.querySelector('.model-close');
+
+
+        modelBtn.addEventListener('click',function(){
+          modelBg.classList.add('bg-active');
+        });
+        modelClose.addEventListener('click',function(){
+          modelBg.classList.remove('bg-active');
+        });
+  </script>
+  <script>
+      var loader = document.getElementById("preloader");
+
+      window.addEventListener("load", function() {
+          loader.style.display = "none";
+      })
+  </script>
+
+</body>
+</html>
