@@ -96,10 +96,15 @@
 }
 
 .Contact-form  .content .right-side .form .info .info-box input{
-  width: 250px;
+
+  width: 350px;
   height:50px;
   border: none;
   padding: 10px;
+  
+}
+.Contact-form  .content .right-side .form .info .info-box input:invalid{
+    animation: shake .3s;
 }
 .Contact-form  .content .right-side .form .info .info-box input:after{
   border: none;
@@ -139,6 +144,8 @@
   border: none;
   background: #000;
   color: #fff;
+  transition: .25s ease;
+  cursor: pointer;
 
 }
 .Contact-form  .content .right-side .form .btn input:hover{
@@ -205,10 +212,30 @@
   height: 750px;
  
 }
+
+.Contact-form  .content .right-side .form .info .info-box input{
+
+  width: 250px;
+  height:50px;
+  border: none;
+  padding: 10px;
+  
+}
 .Contact-form  .content .right-side .form .message textarea{
   width: 250px;
   height: 200px;
   border: none;
   padding: 10px;
 }
+}
+
+
+
+
+
+
+@keyframes shake {
+  25%{ transform: translateX(4px); }
+  50%{ transform: translateX(-4px); }
+  75%{ transform: translateX(4px); }
 }
