@@ -277,7 +277,7 @@
           <div class="content">
             <h1>Find Real Estate And<br> Get Dream Space</h1>
             <p>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit,  labore et dolore magna aliqua. </p>
-            <button class="btn">Explore More</button>
+            <a href="Addproperty.html"> <button class="btn">Add Property</button></a>
           </div>
           
         </div>
@@ -1396,18 +1396,18 @@
   =====================================================  
   -->
 <script>
-    const accordionItemHeaders = document.querySelectorAll(".accordion-item-header");
+ const accordionItemHeaders = document.querySelectorAll(".accordion-item-header");
 
-accordionItemHeaders.forEach(accordionItemHeader => {
+  accordionItemHeaders.forEach(accordionItemHeader => {
   accordionItemHeader.addEventListener("click", event => {
     
     // Uncomment in case you only want to allow for the display of only one collapsed item at a time!
     
-    // const currentlyActiveAccordionItemHeader = document.querySelector(".accordion-item-header.active");
-    // if(currentlyActiveAccordionItemHeader && currentlyActiveAccordionItemHeader!==accordionItemHeader) {
-    //   currentlyActiveAccordionItemHeader.classList.toggle("active");
-    //   currentlyActiveAccordionItemHeader.nextElementSibling.style.maxHeight = 0;
-    // }
+    const currentlyActiveAccordionItemHeader = document.querySelector(".accordion-item-header.active");
+    if(currentlyActiveAccordionItemHeader && currentlyActiveAccordionItemHeader!==accordionItemHeader) {
+        currentlyActiveAccordionItemHeader.classList.toggle("active");
+        currentlyActiveAccordionItemHeader.nextElementSibling.style.maxHeight = 0;
+    }
 
     accordionItemHeader.classList.toggle("active");
     const accordionItemBody = accordionItemHeader.nextElementSibling;

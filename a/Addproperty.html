@@ -48,49 +48,49 @@
          <span class="tooltip">Home</span>
       </li>
       <li>
-       <a href="#about">
+       <a href="about.html">
          <i class='bx bx-user' ></i>
          <span class="links_name">About</span>
        </a>
        <span class="tooltip">About</span>
      </li>
      <li>
-       <a href="#featured">
+       <a href="properties.html">
          <i class='bx bx-chat' ></i>
          <span class="links_name">Featured</span>
        </a>
        <span class="tooltip">Featured</span>
      </li>
      <li>
-       <a href="#Properties">
+       <a href="properties.html">
          <i class='bx bx-pie-chart-alt-2' ></i>
          <span class="links_name">Properties-types</span>
        </a>
        <span class="tooltip">Properties-types</span>
      </li>
      <li>
-       <a href="#Services">
+       <a href="Services.html">
          <i class='bx bx-folder' ></i>
          <span class="links_name">Services</span>
        </a>
        <span class="tooltip">Services</span>
      </li>
      <li>
-       <a href="#new-properties">
+       <a href="properties.html">
          <i class='bx bx-cart-alt' ></i>
          <span class="links_name">new-properties</span>
        </a>
        <span class="tooltip">new-properties</span>
      </li>
      <li>
-       <a href="#team">
+       <a href="about.html">
          <i class='bx bx-chat' ></i>
          <span class="links_name">Team</span>
        </a>
        <span class="tooltip">Team</span>
      </li>
       <li>
-       <a href="#contact">
+       <a href="contact.html">
          <i class='bx bx-chat' ></i>
          <span class="links_name">contact-us</span>
        </a>
@@ -160,42 +160,42 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link">
+                        <a href="sidebar.html" class="nav__link">
                             <i class="uil uil-estate nav__icon"></i> Home
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#about" class="nav__link">
+                        <a href="about.html" class="nav__link">
                             <i class="uil uil-user nav__icon"></i> About
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#featured" class="nav__link">
+                        <a href="properties.html" class="nav__link">
                             <i class="uil uil-file-alt nav__icon"></i> feadured
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#Properties" class="nav__link">
+                        <a href="Properties.html" class="nav__link">
                             <i class="uil uil-briefcase-alt nav__icon"></i> Properties
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#Services" class="nav__link">
+                        <a href="Services.html" class="nav__link">
                             <i class="uil uil-scenery nav__icon"></i> Services
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#new-properties" class="nav__link">
+                        <a href="properties.html" class="nav__link">
                             <i class="uil uil-message nav__icon"></i> NewProperties
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#team" class="nav__link">
+                        <a href="about.html" class="nav__link">
                             <i class="uil uil-message nav__icon"></i> Team 
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#contact" class="nav__link">
+                        <a href="contact.html" class="nav__link">
                             <i class="uil uil-message nav__icon"></i> Contact 
                         </a>
                     </li>
@@ -276,7 +276,7 @@
           <div class="content">
             <h1>Find Real Estate And<br> Get Dream Space</h1>
             <p>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit,  labore et dolore magna aliqua. </p>
-            <button class="btn">Explore More</button>
+           <a href="sidebar.html">  <button class="btn">Return Home</button></a>
           </div>
           
         </div>
@@ -431,9 +431,29 @@
     <div class="textarea">
       <textarea placeholder="Description" required></textarea>
     </div>
+    <div class="wrapper">
+    <header>Upload File/Image</header>
+    <form action="#">
+      <input class="file-input" type="file" name="file" hidden>
+      <i class="fas fa-cloud-upload-alt"></i>
+      <p>Browse File to Upload</p>
+    </form>
+    <section class="progress-area"></section>
+    <section class="uploaded-area"></section>
   </div>
+
+  <div class="submit-btn">
+      <input type="submit" class="Send" name="submit" value="submit" >
+  </div>
+
+  </div>
+
+
   
+
+
 </section>
+
 
 
   
@@ -670,6 +690,7 @@
                  JAVASCRIPT SECTION STARTS 
   =====================================================  
   -->
+  <script src="js/script.js"></script>
 
   <script>
   let sidebar = document.querySelector(".sidebar");
