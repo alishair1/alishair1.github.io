@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tour</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	 <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+   
+
+</head>
+<body>
+	<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span><i class="fas fa-plane-departure"></i>t</span>ravel</a>
+
+    <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="#about">about</a>
+        <a href="index.html">Destination</a>
+        <a href="index.html">services</a>
+        <a href="index.html">review</a>
+        <a href="contact.html">contact</a>
+    </nav>
+
+    <div class="icons">
+        
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="login-form">
+
+        <div class="inputBox">
+            <span>username</span>
+            <input type="text" placeholder="enter your name">
+        </div>
+
+        <div class="inputBox">
+            <span>password</span>
+            <input type="password" placeholder="enter your password">
+        </div>
+
+        <div class="remember">
+            <input type="checkbox" name="" id="login-remember">
+            <label for="login-remember">remember me</label>
+        </div>
+
+        <input type="submit" class="btn" value="login">
+
+    </form>
+
+
+</header>
+
+
+
+<section class="home" id="home">
+	<div class="container">
+		<h1>Travel with experience</h1>
+		<p>Lorem ipsum dolor sit amet,
+		tempor incididunt ut labore et dolore magna aliqua.</p>
+		<button class="btn">Explore More</button>
+	</div>
+</section>
+
+
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3>quick links</h3>
+         <a href="#"> <i class="fas fa-angle-right"></i> home</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> about</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> package</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> book</a>
+      </div>
+
+      <div class="box">
+         <h3>extra links</h3>
+         <a href="#"> <i class="fas fa-angle-right"></i> ask questions</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> about us</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> privacy policy</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> terms of use</a>
+      </div>
+
+      <div class="box">
+         <h3>contact info</h3>
+         <a href="tel:+923065983785"> <i class="fas fa-phone"></i> +923065983785 </a>
+         <a href="tel:+923146188176"> <i class="fas fa-phone"></i> +923146188176 </a>
+         <a href="mailto:alishair@gmail.com">
+          <i class="fas fa-envelope"></i>
+           alishair@gmail.com
+         </a>
+         <a href="#"> <i class="fas fa-map"></i> punjab, pakistan - 400104 </a>
+      </div>
+
+      <div class="box">
+         <h3>follow us</h3>
+         <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+         <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+         <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+         <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+      </div>
+
+   </div>
+
+   <div class="credit"> created by <span>Mr.Ali Shair</span> | all rights reserved! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+<script>
+ const accordionItemHeaders = document.querySelectorAll(".accordion-item-header");
+
+  accordionItemHeaders.forEach(accordionItemHeader => {
+  accordionItemHeader.addEventListener("click", event => {
+    
+    // Uncomment in case you only want to allow for the display of only one collapsed item at a time!
+    
+    const currentlyActiveAccordionItemHeader = document.querySelector(".accordion-item-header.active");
+    if(currentlyActiveAccordionItemHeader && currentlyActiveAccordionItemHeader!==accordionItemHeader) {
+        currentlyActiveAccordionItemHeader.classList.toggle("active");
+        currentlyActiveAccordionItemHeader.nextElementSibling.style.maxHeight = 0;
+    }
+
+    accordionItemHeader.classList.toggle("active");
+    const accordionItemBody = accordionItemHeader.nextElementSibling;
+    if(accordionItemHeader.classList.contains("active")) {
+      accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px";
+    }
+    else {
+      accordionItemBody.style.maxHeight = 0;
+    }
+    
+  });
+});
+</script>
+
+</body>
+</html>
