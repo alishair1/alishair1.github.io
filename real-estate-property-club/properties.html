@@ -1,0 +1,1397 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/CodingLabYT-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!--<title> Responsive Sidebar Menu  | CodingLab </title>-->
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" type="text/css" href="properties.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--=============== UNICONS ===============-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+      <!-- FONT ICON -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   </head>
+<body>
+
+    <!-- PRE LOADER -->
+
+    <div id="preloader">
+    </div>
+    <!-- PRE LOADER -->
+ <!--        
+    ========================================
+           SIDEBAR STARTS
+    ========================================
+ -->
+   
+    
+ <div class="sidebar">
+    <div class="logo-details">
+      <i class='bx bx-home-heart icon'></i>
+        <div class="logo_name">Property Club</div>
+        <i class='bx bx-menu' id="btn" ></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+          <i class='bx bx-search' ></i>
+         <input type="text" placeholder="Search...">
+         <span class="tooltip">Search</span>
+      </li>
+      <li>
+        <a href="#home">
+          <i class='bx bx-home'></i>
+          <span class="links_name">Home</span>
+        </a>
+         <span class="tooltip">Home</span>
+      </li>
+      <li>
+       <a href="about.html">
+         <i class='bx bx-user' ></i>
+         <span class="links_name">About</span>
+       </a>
+       <span class="tooltip">About</span>
+     </li>
+        <li>
+       <a href="Addproperty.html">
+         <i class="fa-solid fa-house-chimney-medical"></i>
+         <span class="links_name">Addproperty</span>
+       </a>
+       <span class="tooltip">Addproperty</span>
+     </li>     
+     <li>
+       <a href="properties.html">
+        <i class="fa-solid fa-arrow-right-to-city"></i> 
+        <span class="links_name">Properties</span>
+       </a>
+       <span class="tooltip">Properties</span>
+     </li>
+     <li>
+       <a href="Services.html">
+        <i class="fa-brands fa-servicestack"></i>
+         <span class="links_name">Services</span>
+       </a>
+       <span class="tooltip">Services</span>
+     </li>
+     <!-- <li>
+       <a href="properties.html">
+         <i class='bx bx-cart-alt' ></i>
+         <span class="links_name">new-properties</span>
+       </a>
+       <span class="tooltip">new-properties</span>
+     </li>
+     <li>
+       <a href="about.html">
+         <i class='bx bx-chat' ></i>
+         <span class="links_name">Team</span>
+       </a>
+       <span class="tooltip">Team</span>
+     </li> -->
+      <li>
+       <a href="contact.html">
+         <i class="fa-solid fa-address-card"></i>
+         <span class="links_name">contact-us</span>
+       </a>
+       <span class="tooltip">contact-us</span>
+     </li>
+       <!-- <li>
+       <a href="#footer">
+         <i class='bx bx-chat' ></i>
+         <span class="links_name">footer</span>
+       </a>
+       <span class="tooltip">footer</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-chat' ></i>
+         <span class="links_name">Rent</span>
+       </a>
+       <span class="tooltip">Rent</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-chat' ></i>
+         <span class="links_name">Contact</span>
+       </a>
+       <span class="tooltip">Contact</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-chat' ></i>
+         <span class="links_name">Contact</span>
+       </a>
+       <span class="tooltip">Contact</span>
+     </li>
+
+     <li>
+       <a href="#">
+         <i class='bx bx-cog' ></i>
+         <span class="links_name">Setting</span>
+       </a>
+       <span class="tooltip">Setting</span>
+     </li> -->
+     <li class="profile">
+         <div class="profile-details">
+           <!--<img src="profile.jpg" alt="profileImg">-->
+           <div class="name_job">
+             <div class="name">Ali Shair</div>
+             <div class="job">Web designer</div>
+           </div>
+         </div>
+         <i class='bx bx-log-out' id="log_out" ></i>
+     </li>
+    </ul>
+  </div>
+  <!-- 
+==================================================
+
+                BOTTOM BAR STARTS
+
+==================================================
+ -->
+
+    
+      <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo nav__icon">Property Club</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="sidebar.html" class="nav__link">
+                            <i class='bx bx-home nav__icon'></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link">
+                            <i class='bx bx-user nav__icon' ></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="properties.html" class="nav__link">
+                            <i class="fa-solid fa-arrow-right-to-city nav__icon"></i> Properties
+                        </a>
+                    </li>
+                     <li class="nav__item">
+                        <a href="Addproperty.html" class="nav__link">
+                            <i class="fa-solid fa-house-chimney-medical nav__icon"></i> Addproperty
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="Services.html" class="nav__link">
+                            <i class="fa-brands fa-servicestack nav__icon"></i> Services
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="properties.html" class="nav__link">
+                                    <i class="fa-solid fa-address-card nav__icon"></i> Contact
+                        </a>
+                    </li>
+                    <!-- <li class="nav__item">
+                        <a href="about.html" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> Team 
+                        </a>
+                    </li> -->
+                    <!-- <li class="nav__item">
+                        <a href="contact.html" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> Contact 
+                        </a>
+                    </li> 
+                    <li class="nav__item">
+                        <a href="#footer" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> Footer
+                        </a>
+                    </li>-->
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!-- <i class="uil uil-user theme-customization"></i> -->
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+  <!--
+  =====================================================
+                   POPUP  BOX STARTS
+  =====================================================  
+  -->
+
+
+<div class="model-bg">
+  
+    
+     <div class="form1">
+      
+      <div class="form">
+      <i class="fa-solid fa-circle-xmark model-close"></i>
+        <img src="assets/images/icons/icon-2.png">
+        <h2>Login Here</h2>
+        <!-- <input type="text" name="name" required placeholder="Enter your name"> -->
+        <input type="Email" name="mail" required placeholder="Enter your email">
+        <input type="password" name="password" required placeholder="Enter password">
+        <a href="#">Forget your password?</a>
+        <button class="btn4">Login</button>
+        <!-- <p>======== OR======== </p> -->
+        <p>Don't have account?<a href="#model-bg2">Sign Up</a></p>
+        <button class="btn4"><i class="fa-brands fa-google"></i>Sign Up with Google</button>
+        </div>
+      <div class="image">
+        <img src="assets/images/vert2.jpg">
+      </div>
+    </div>
+   
+</div>
+
+<div class="model-bg2" id="second">
+  
+    
+    <div class="form2">
+      
+      <div class="form1">
+      <i class="fa-solid fa-circle-xmark model-close2"></i>
+        <img src="assets/images/icons/icon-2.png">
+        <h2>Sign Up</h2>
+        <input type="text" name="name" required placeholder="Enter your name">
+        <input type="Email" name="mail" required placeholder="Enter your email">
+        <input type="number" name="phone-number" required placeholder="Enter your phone number">
+        <input type="password" name="password" required placeholder="Enter password">
+        <!-- <a href="#">Forget your password?</a> -->
+        <button class="btn4">Create Account</button>
+        <!-- <p>=========== OR=========== </p> -->
+        <button class="btn4"><i class="fa-brands fa-google"></i>Sign Up with Google</button>
+        </div>
+      <div class="image">
+        <img src="assets/images/vert2.jpg">
+      </div>
+    </div>
+   
+</div>
+       <!--
+  =====================================================
+                   POPUP BOX STARTS
+  =====================================================  
+  -->
+
+<!-- 
+==================================================
+
+              HOME SECTION STARTS
+
+==================================================
+ -->
+
+  <section class="home-section" id="home">
+      <!-- <div class="container"> -->
+        <div class="logo-top">
+          <div class="logo-img"><img src="assets/images/logo.png"></div>          
+          <h1>Property Club<i class="fa-regular fa-registered" id="rig"></i> Real Estate</h1>
+          <div class="btns">
+          <button class="btn model-btn">Login</button>
+          <button class="btn model-btn2">Sign Up</button>
+          </div>
+         
+        </div>
+        <div class="row">
+          <div class="content">
+            <h1>Find Real Estate And<br> Get Dream Space</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit,  labore et dolore magna aliqua. </p>
+            <a href="Addproperty.html"> <button class="btn"><i class="bx bx-home-heart"></i>  Add Property</button></a>
+          </div>
+          
+        </div>
+      <!-- </div> -->
+  </section>
+<!-- 
+==================================================
+
+              HOME SECTION ENDS
+
+==================================================
+ -->
+
+
+ <!-- 
+==================================================
+
+              FEATUERED SECTION STARTS
+
+==================================================
+ -->
+
+
+<section class="featured" id="featured">
+  <h1>Featured Properties</h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image-container">
+                
+                <div class="info">
+                    <h3>3 days ago</h3>
+                    <h3>for rent</h3>
+                </div>
+                <div class="icons">
+                    <a href="#" class="bx bx-film"><h3>1</h3></a>
+                    <a href="#" class="bx bx-camera"><h3>4</h3></a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="price">
+                    <h3>$25,000/mo</h3>
+                    <a href="#" class="bx bx-heart"></a>
+                    <a href="#" class="bx bx-envelope"></a>
+                    <a href="#" class="bx bx-phone"></a>
+                </div>
+                <div class="location">
+                    <h3>modern apartments</h3>
+                    <p>dha lahore , punjab ,pakistan</p>
+                </div>
+                <div class="details">
+                    <h3> <i class="bx bx-expand"></i> 3500 sqft </h3>
+                    <h3> <i class="bx bx-bed"></i> 3 beds </h3>
+                    <h3> <i class="bx bx-bath"></i> 2 baths </h3>
+                </div>
+                <div class="buttons">
+                    <a href="#" class="btn3"> Info</a>
+                    <a href="#" class="btn3">Details</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image-container">
+               
+                <div class="info">
+                    <h3>6 days ago</h3>
+                    <h3>for sell</h3>
+                </div>
+                <div class="icons">
+                    <a href="#" class="bx bx-film"><h3>2</h3></a>
+                    <a href="#" class="bx bx-camera"><h3>7</h3></a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="price">
+                    <h3>$25,000/mo</h3>
+                    <a href="#" class="bx bx-heart"></a>
+                    <a href="#" class="bx bx-envelope"></a>
+                    <a href="#" class="bx bx-phone"></a>
+                </div>
+                <div class="location">
+                    <h3>modern apartments</h3>
+                    <p>dha lahore , punjab ,pakistan</p>
+                </div>
+                <div class="details">
+                    <h3> <i class="bx bx-expand"></i> 3500 sqft </h3>
+                    <h3> <i class="bx bx-bed"></i> 3 beds </h3>
+                    <h3> <i class="bx bx-bath"></i> 2 baths </h3>
+                </div>
+                <div class="buttons">
+                    <a href="#" class="btn3"> Info</a>
+                    <a href="#" class="btn3">Details</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image-container">
+              
+                <div class="info">
+                    <h3>1 days ago</h3>
+                    <h3>for rent</h3>
+                </div>
+                <div class="icons">
+                    <a href="#" class="bx bx-film"><h3>1</h3></a>
+                    <a href="#" class="bx bx-camera"><h3>6</h3></a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="price">
+                    <h3>$25,000/mo</h3>
+                    <a href="#" class="bx bx-heart"></a>
+                    <a href="#" class="bx bx-envelope"></a>
+                    <a href="#" class="bx bx-phone"></a>
+                </div>
+                <div class="location">
+                    <h3>modern apartments</h3>
+                    <p>dha lahore , punjab ,pakistan</p>
+                </div>
+                <div class="details">
+                    <h3> <i class="bx bx-expand"></i> 3500 sqft </h3>
+                    <h3> <i class="bx bx-bed"></i> 3 beds </h3>
+                    <h3> <i class="bx bx-bath"></i> 2 baths </h3>
+                </div>
+                <div class="buttons">
+                    <a href="#" class="btn3"> Info</a>
+                    <a href="#" class="btn3">Details</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image-container">
+          
+                <div class="info">
+                    <h3>9 days ago</h3>
+                    <h3>for rent</h3>
+                </div>
+                <div class="icons">
+                    <a href="#" class="bx bx-film"><h3>2</h3></a>
+                    <a href="#" class="bx bx-camera"><h3>6</h3></a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="price">
+                    <h3>$25,000/mo</h3>
+                    <a href="#" class="bx bx-heart"></a>
+                    <a href="#" class="bx bx-envelope"></a>
+                    <a href="#" class="bx bx-phone"></a>
+                </div>
+                <div class="location">
+                    <h3>modern apartments</h3>
+                    <p>dha lahore , punjab ,pakistan</p>
+                </div>
+                <div class="details">
+                    <h3> <i class="bx bx-expand"></i> 3500 sqft </h3>
+                    <h3> <i class="bx bx-bed"></i> 3 beds </h3>
+                    <h3> <i class="bx bx-bath"></i> 2 baths </h3>
+                </div>
+                <div class="buttons">
+                    <a href="#" class="btn3"> Info</a>
+                    <a href="#" class="btn3">Details</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="box">
+            <div class="image-container">
+                <img src="assets/images2/img-5.jpg" alt="">
+                <div class="info">
+                    <h3>10 days ago</h3>
+                    <h3>for sell</h3>
+                </div>
+                <div class="icons">
+                    <a href="#" class="fas fa-film"><h3>3</h3></a>
+                    <a href="#" class="fas fa-camera"><h3>8</h3></a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="price">
+                    <h3>$25,000/mo</h3>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-envelope"></a>
+                    <a href="#" class="fas fa-phone"></a>
+                </div>
+                <div class="location">
+                    <h3>modern apartments</h3>
+                    <p>jogeshwari west, mumbai, india - 400104</p>
+                </div>
+                <div class="details">
+                    <h3> <i class="fas fa-expand"></i> 3500 sqft </h3>
+                    <h3> <i class="fas fa-bed"></i> 3 beds </h3>
+                    <h3> <i class="fas fa-bath"></i> 2 baths </h3>
+                </div>
+                <div class="buttons">
+                    <a href="#" class="btn3">Request Info</a>
+                    <a href="#" class="btn3">View Details</a>
+                </div>
+            </div>
+        </div> -->
+
+       <!--  <div class="box">
+            <div class="image-container">
+                <img src="assets/images2/img-6.jpg" alt="">
+                <div class="info">
+                    <h3>3 days ago</h3>
+                    <h3>for sell</h3>
+                </div>
+                <div class="icons">
+                    <a href="#" class="fas fa-film"><h3>1</h3></a>
+                    <a href="#" class="fas fa-camera"><h3>4</h3></a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="price">
+                    <h3>$25,000/mo</h3>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-envelope"></a>
+                    <a href="#" class="fas fa-phone"></a>
+                </div>
+                <div class="location">
+                    <h3>modern apartments</h3>
+                    <p>jogeshwari west, mumbai, india - 400104</p>
+                </div>
+                <div class="details">
+                    <h3> <i class="fas fa-expand"></i> 3500 sqft </h3>
+                    <h3> <i class="fas fa-bed"></i> 3 beds </h3>
+                    <h3> <i class="fas fa-bath"></i> 2 baths </h3>
+                </div>
+                <div class="buttons">
+                    <a href="#" class="btn3">Request Info</a>
+                    <a href="#" class="btn3">View Details</a>
+                </div>
+            </div>
+        </div> -->
+
+    </div>
+    
+</section>
+
+   <!--
+  =====================================================
+                   FEATURED SECTION ENDS 
+  =====================================================  
+  -->
+
+
+   <!--
+  =====================================================
+                 properties SECTION STARTS 
+  =====================================================  
+  -->
+<section class="properties" id="Properties">
+    <h1>Properties Types</h1>
+   <div class="card-container">
+    <div class="card">
+       <div class="icon">
+           <img src="assets/images/icons/i-1.png">
+       </div>
+       <div class="info">
+           <h2>Privert House</h2>
+           <p>20 properties</p>
+       </div>
+    </div>
+    <div class="card">
+       <div class="icon">
+           <img src="assets/images/icons/i-2.png">
+       </div>
+       <div class="info">
+           <h2>apartment</h2>
+           <p>100 properties</p>
+       </div>
+    </div>
+    <div class="card">
+       <div class="icon">
+           <img src="assets/images/icons/i-3.png">
+       </div>
+       <div class="info">
+           <h2>townHouse</h2>
+           <p>20 properties</p>
+       </div>
+    </div>
+    <div class="card">
+       <div class="icon">
+           <img src="assets/images/icons/i-4.png">
+       </div>
+       <div class="info">
+           <h2>villa</h2>
+           <p>20 properties</p>
+       </div>
+    </div>
+    <div class="card">
+       <div class="icon">
+           <img src="assets/images/icons/i-5.png">
+       </div>
+       <div class="info">
+           <h2>office</h2>
+           <p>20 properties</p>
+       </div>
+    </div>
+    <div class="card">
+       <div class="icon">
+           <img src="assets/images/icons/i-6.png">
+       </div>
+       <div class="info">
+           <h2>shop</h2>
+           <p>20 properties</p>
+       </div>
+    </div>
+   </div> 
+</section>
+
+
+   
+
+   <!--
+  =====================================================
+                 properties SECTION ENDS
+  =====================================================  
+  -->
+
+   <!--
+  =====================================================
+                 New Properties SECTION STARTS 
+  =====================================================  
+  -->
+
+<section class="new-properties" id="new-properties">
+    <div class="head">
+         <h1>new Properties</h1>
+         <div>
+         <button class="btn">All</button>
+         <button class="btn">Rent</button>
+         <button class="btn">Sell</button>
+         </div>
+
+    </div>
+   
+
+    <div class="card-boxs">
+        <div class="blog-card">
+                <figure class="card-banner">
+                  <img src="assets/images/property-1.jpg" alt="The Most Inspiring Interior Design Of 2021" class="w-100">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-content-top">
+
+                    <ul class="card-meta-list">
+
+                      <li>
+                        <a href="#" class="card-meta-link">
+                            <i class="fa fa-user"></i>
+
+                          <span>by: Admin</span>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="#" class="card-meta-link">
+                          <i class="fa fa-tags"></i>
+                          <span>Interior</span>
+                        </a>
+                      </li>
+
+                    </ul>
+
+                    <h3 class="h3 blog-title">
+                      <a href="#">The Most Inspiring Interior Design Of 2021</a>
+                    </h3>
+
+                  </div>
+                  
+                  <div class="blog-content-bottom">
+                    <div class="publish-date">
+                      <i class="fa fa-calendar"></i>
+
+                      <time datetime="2022-27-04">Apr 27, 2022</time>
+                    </div>
+
+                    <a href="#" class="read-more-btn">Read More</a>
+                  </div>
+
+                </div>
+            </div>
+            <div class="blog-card">
+                <figure class="card-banner">
+                  <img src="assets/images/property-2.jpg" alt="The Most Inspiring Interior Design Of 2021" class="w-100">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-content-top">
+
+                    <ul class="card-meta-list">
+
+                      <li>
+                        <a href="#" class="card-meta-link">
+                          <i class="fa fa-user"></i>
+
+                          <span>by: Admin</span>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="#" class="card-meta-link">
+                          <i class="fa fa-tags"></i>
+
+                          <span>Interior</span>
+                        </a>
+                      </li>
+
+                    </ul>
+
+                    <h3 class="h3 blog-title">
+                      <a href="#">The Most Inspiring Interior Design Of 2021</a>
+                    </h3>
+
+                  </div>
+
+                  <div class="blog-content-bottom">
+                    <div class="publish-date">
+                      <i class="fa fa-calendar"></i>
+
+                      <time datetime="2022-27-04">Apr 27, 2022</time>
+                    </div>
+
+                    <a href="#" class="read-more-btn">Read More</a>
+                  </div>
+
+                </div>
+            </div> <div class="blog-card">
+                <figure class="card-banner">
+                  <img src="assets/images/property-3.jpg" alt="The Most Inspiring Interior Design Of 2021" class="w-100">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-content-top">
+
+                    <ul class="card-meta-list">
+
+                      <li>
+                        <a href="#" class="card-meta-link">
+                          <i class="fa fa-user"></i>
+
+                          <span>by: Admin</span>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="#" class="card-meta-link">
+                          <i class="fa fa-tags"></i>
+
+                          <span>Interior</span>
+                        </a>
+                      </li>
+
+                    </ul>
+
+                    <h3 class="h3 blog-title">
+                      <a href="#">The Most Inspiring Interior Design Of 2021</a>
+                    </h3>
+
+                  </div>
+
+                  <div class="blog-content-bottom">
+                    <div class="publish-date">
+                      <i class="fa fa-calendar"></i>
+
+                      <time datetime="2022-27-04">Apr 27, 2022</time>
+                    </div>
+
+                    <a href="#" class="read-more-btn">Read More</a>
+                  </div>
+
+                </div>
+            </div>
+            
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <img src="assets/images/property-4.jpg" alt="Recent Commercial Real Estate Transactions" class="w-100">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-content-top">
+
+                    <ul class="card-meta-list">
+
+                      <li>
+                        <a href="#" class="card-meta-link">
+                          <i class="fa fa-user"></i>
+
+                          <span>by: Admin</span>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="#" class="card-meta-link">
+                          <i class="fa fa-tags"></i>
+
+                          <span>Estate</span>
+                        </a>
+                      </li>
+
+                    </ul>
+
+                    <h3 class="h3 blog-title">
+                      <a href="#">Recent Commercial Real Estate Transactions</a>
+                    </h3>
+
+                  </div>
+
+                  <div class="blog-content-bottom">
+                    <div class="publish-date">
+                      <i class="fa fa-calendar"></i>
+
+                      <time datetime="2022-27-04">Apr 27, 2022</time>
+                    </div>
+
+                    <a href="#" class="read-more-btn">Read More</a>
+                  </div>
+
+                </div>
+
+              </div>
+           
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <img src="assets/images/property-5.jpg" alt="Renovating a Living Room? Experts Share Their Secrets"
+                    class="w-100">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-content-top">
+
+                    <ul class="card-meta-list">
+
+                      <li>
+                        <a href="#" class="card-meta-link">
+                          <i class="fa fa-user"></i>
+
+                          <span>by: Admin</span>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="#" class="card-meta-link">
+                          <i class="fa fa-tags"></i>
+
+                          <span>Room</span>
+                        </a>
+                      </li>
+
+                    </ul>
+
+                    <h3 class="h3 blog-title">
+                      <a href="#">Renovating a Living Room? Experts Share Their Secrets</a>
+                    </h3>
+
+                  </div>
+
+                  <div class="blog-content-bottom">
+                    <div class="publish-date">
+                      <i class="fa fa-calendar"></i>
+
+                      <time datetime="2022-27-04">Apr 27, 2022</time>
+                    </div>
+
+                    <a href="#" class="read-more-btn">Read More</a>
+                  </div>
+
+                </div>
+              </div>
+         <div class="blog-card">
+                <figure class="card-banner">
+                  <img src="assets/images/property-6.jpg" alt="The Most Inspiring Interior Design Of 2021" class="w-100">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-content-top">
+
+                    <ul class="card-meta-list">
+
+                      <li>
+                        <a href="#" class="card-meta-link">
+                          <i class="fa fa-user"></i>
+
+                          <span>by: Admin</span>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="#" class="card-meta-link">
+                          <i class="fa fa-tags"></i>
+
+                          <span>Interior</span>
+                        </a>
+                      </li>
+
+                    </ul>
+
+                    <h3 class="h3 blog-title">
+                      <a href="#">The Most Inspiring Interior Design Of 2021</a>
+                    </h3>
+
+                  </div>
+
+                  <div class="blog-content-bottom">
+                    <div class="publish-date">
+                      <i class="fa fa-calendar"></i>
+
+                      <time datetime="2022-27-04">Apr 27, 2022</time>
+                    </div>
+
+                    <a href="#" class="read-more-btn">Read More</a>
+                  </div>
+
+                </div>
+            </div>
+      </div>
+
+   
+</section>
+
+
+<div class="accordion">
+    <h1>Properties Locations</h1>
+  <div class="accordion-item">
+    <div class="accordion-item-header">
+      Buy properties in pakistan
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+       <div>
+           <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+       </div>
+       <div>
+           <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+       </div>
+       <div>
+           <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+       </div>
+          
+
+   
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <div class="accordion-item-header">
+      Apartments
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+      <div>
+           <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+       </div>
+       <div>
+           <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+       </div>
+       <div>
+           <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+       </div>
+          
+
+  
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <div class="accordion-item-header">
+      Houses
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+        
+        <div>
+           <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+       </div>
+       <div>
+           <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+       </div>
+       <div>
+           <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+       </div>
+          
+
+      
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <div class="accordion-item-header">
+      RENTAL PROPERTIES BY SIZE
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+        <div>
+           <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+       </div>
+       <div>
+           <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+       </div>
+       <div>
+           <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+       </div>
+          
+
+      
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <div class="accordion-item-header">
+      COMERCIAL PROPERTIES IN PAKISTAN
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+    
+       <div>
+           <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+       </div>
+       <div>
+           <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+       </div>
+       <div>
+           <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+          <a href="#">Houses for Sale in Lahore (3931)</a>
+       </div>
+          
+      
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+     <section class="Contact-us" id="contact">
+ 
+
+          <div class="contact-card">
+                <div class="card-content">
+                  <h2 class="h2 card-title">Are You Looking for a dream home?</h2>
+
+                  <p class="card-text">We can help you choose dream of a new home</p>
+                </div>
+                 <div class="submit-btn">
+                 <button class="btn">contact us 
+                      <i class="fa-solid fa-circle-arrow-right">
+                 </i></button>
+                </div>
+          </div>
+
+    
+      </section>
+
+
+
+
+
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+   <div class="top-footer">
+
+      <div class="box-1">
+         <h3>quick links</h3>
+         <a href="#"> <i class="fas fa-angle-right"></i> home</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> about</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> package</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> book</a>
+      </div>
+
+    <!--   <div class="box-1">
+         <h3>extra links</h3>
+         <a href="#"> <i class="fas fa-angle-right"></i> ask questions</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> about us</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> privacy policy</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> terms of use</a>
+      </div> -->
+
+      <div class="box-1">
+         <h3>contact info</h3>
+         <a href="tel:+923065983785"> <i class="fas fa-phone"></i> +923065983785 </a>
+         <a href="tel:+923146188176"> <i class="fas fa-phone"></i> +923146188176 </a>
+         <a href="mailto:alishair@gmail.com">
+          <i class="fas fa-envelope"></i>
+           alishair@gmail.com<br>
+           <p>alishair@gmail.com</p>
+         </a>
+         <a href="#"> <i class="fas fa-map"></i> punjab, pakistan - 400104<br>
+            <p>punjab, pakistan - 400104</p> </a>
+      </div>
+
+      <div class="box-1">
+         <h3>follow us</h3>
+         <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+         <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+         <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+         <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+      </div>
+
+   </div>
+
+   <div class="credit"> created by <span>Mr.Ali Shair</span> | all rights reserved! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+   <!--
+  =====================================================
+                 JAVASCRIPT SECTION STARTS 
+  =====================================================  
+  -->
+<script>
+ const accordionItemHeaders = document.querySelectorAll(".accordion-item-header");
+
+  accordionItemHeaders.forEach(accordionItemHeader => {
+  accordionItemHeader.addEventListener("click", event => {
+    
+    // Uncomment in case you only want to allow for the display of only one collapsed item at a time!
+    
+    const currentlyActiveAccordionItemHeader = document.querySelector(".accordion-item-header.active");
+    if(currentlyActiveAccordionItemHeader && currentlyActiveAccordionItemHeader!==accordionItemHeader) {
+        currentlyActiveAccordionItemHeader.classList.toggle("active");
+        currentlyActiveAccordionItemHeader.nextElementSibling.style.maxHeight = 0;
+    }
+
+    accordionItemHeader.classList.toggle("active");
+    const accordionItemBody = accordionItemHeader.nextElementSibling;
+    if(accordionItemHeader.classList.contains("active")) {
+      accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px";
+    }
+    else {
+      accordionItemBody.style.maxHeight = 0;
+    }
+    
+  });
+});
+</script>
+  <script>
+  let sidebar = document.querySelector(".sidebar");
+  let closeBtn = document.querySelector("#btn");
+  let searchBtn = document.querySelector(".bx-search");
+
+  closeBtn.addEventListener("click", ()=>{
+    sidebar.classList.toggle("open");
+    menuBtnChange();//calling the function(optional)
+  });
+
+  searchBtn.addEventListener("click", ()=>{ // Sidebar open when you click on the search iocn
+    sidebar.classList.toggle("open");
+    menuBtnChange(); //calling the function(optional)
+  });
+
+  // following are the code to change sidebar button(optional)
+  function menuBtnChange() {
+   if(sidebar.classList.contains("open")){
+     closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
+   }else {
+     closeBtn.classList.replace("bx-menu-alt-right","bx-menu");//replacing the iocns class
+   }
+  }
+
+
+
+      /*=============== SHOW MENU ===============*/
+const navMenu = document.getElementById('nav-menu'),
+      navToggle = document.getElementById('nav-toggle'),
+      navClose = document.getElementById('nav-close')
+
+/*===== MENU SHOW =====*/
+/* Validate If Constant Exists */
+if(navToggle) {
+    navToggle.addEventListener('click', () => {
+        navMenu.classList.add('show-menu')
+    })
+}
+
+/*===== MENU HIDDEN =====*/
+/* Validate If Constant Exists */
+if(navClose) {
+    navClose.addEventListener('click', () => {
+        navMenu.classList.remove('show-menu')
+    })
+}
+  </script>
+
+   <script>
+            
+        var modelBtn = document.querySelector('.model-btn');
+        var modelBg = document.querySelector('.model-bg');
+        var modelClose = document.querySelector('.model-close');
+
+
+        modelBtn.addEventListener('click',function(){
+          modelBg.classList.add('bg-active');
+        });
+        modelClose.addEventListener('click',function(){
+          modelBg.classList.remove('bg-active');
+        });
+  </script>
+
+<script>
+            
+        var modelBtn2 = document.querySelector('.model-btn2');
+        var modelBg2 = document.querySelector('.model-bg2');
+        var modelClose2 = document.querySelector('.model-close2');
+
+
+        modelBtn2.addEventListener('click',function(){
+          modelBg2.classList.add('bg-active2');
+        });
+        modelClose2.addEventListener('click',function(){
+          modelBg2.classList.remove('bg-active2');
+        });
+  </script>
+
+
+  <script>
+      var loader = document.getElementById("preloader");
+
+      window.addEventListener("load", function() {
+          loader.style.display = "none";
+      })
+  </script>
+
+</body>
+</html>

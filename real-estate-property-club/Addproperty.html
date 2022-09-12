@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/CodingLabYT-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!--<title> Responsive Sidebar Menu  | CodingLab </title>-->
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="Addproperty.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--=============== UNICONS ===============-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+      <!-- FONT ICON -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   </head>
+<body>
+
+    <!-- PRE LOADER -->
+
+    <div id="preloader">
+     </div>
+    <!-- PRE LOADER -->
+ <!--        
+    ========================================
+           SIDEBAR STARTS
+    ========================================
+ -->
+  
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class='bx bx-home-heart icon'></i>
+        <div class="logo_name">Property Club</div>
+        <i class='bx bx-menu' id="btn" ></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+          <i class='bx bx-search' ></i>
+         <input type="text" placeholder="Search...">
+         <span class="tooltip">Search</span>
+      </li>
+      <li>
+        <a href="sidebar.html">
+          <i class='bx bx-home'></i>
+          <span class="links_name">Home</span>
+        </a>
+         <span class="tooltip">Home</span>
+      </li>
+      <li>
+       <a href="about.html">
+         <i class='bx bx-user' ></i>
+         <span class="links_name">About</span>
+       </a>
+       <span class="tooltip">About</span>
+     </li>
+        <li>
+       <a href="Addproperty.html">
+         <i class="fa-solid fa-house-chimney-medical"></i>
+         <span class="links_name">Addproperty</span>
+       </a>
+       <span class="tooltip">Addproperty</span>
+     </li>     
+     <li>
+       <a href="properties.html">
+        <i class="fa-solid fa-arrow-right-to-city"></i> 
+        <span class="links_name">Properties</span>
+       </a>
+       <span class="tooltip">Properties</span>
+     </li>
+     <li>
+       <a href="Services.html">
+        <i class="fa-brands fa-servicestack"></i>
+         <span class="links_name">Services</span>
+       </a>
+       <span class="tooltip">Services</span>
+     </li>
+     <!-- <li>
+       <a href="properties.html">
+         <i class='bx bx-cart-alt' ></i>
+         <span class="links_name">new-properties</span>
+       </a>
+       <span class="tooltip">new-properties</span>
+     </li>
+     <li>
+       <a href="about.html">
+         <i class='bx bx-chat' ></i>
+         <span class="links_name">Team</span>
+       </a>
+       <span class="tooltip">Team</span>
+     </li> -->
+      <li>
+       <a href="contact.html">
+         <i class="fa-solid fa-address-card"></i>
+         <span class="links_name">contact-us</span>
+       </a>
+       <span class="tooltip">contact-us</span>
+     </li>
+         <!--<li>
+       <a href="#footer">
+         <i class='bx bx-chat' ></i>
+         <span class="links_name">footer</span>
+       </a>
+       <span class="tooltip">footer</span>
+     </li>
+    <li>
+       <a href="#">
+         <i class='bx bx-chat' ></i>
+         <span class="links_name">Rent</span>
+       </a>
+       <span class="tooltip">Rent</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-chat' ></i>
+         <span class="links_name">Contact</span>
+       </a>
+       <span class="tooltip">Contact</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-chat' ></i>
+         <span class="links_name">Contact</span>
+       </a>
+       <span class="tooltip">Contact</span>
+     </li>
+
+     <li>
+       <a href="#">
+         <i class='bx bx-cog' ></i>
+         <span class="links_name">Setting</span>
+       </a>
+       <span class="tooltip">Setting</span>
+     </li> -->
+     <li class="profile">
+         <div class="profile-details">
+           <!--<img src="profile.jpg" alt="profileImg">-->
+           <div class="name_job">
+             <div class="name">Ali Shair</div>
+             <div class="job">Web designer</div>
+           </div>
+         </div>
+         <i class='bx bx-log-out' id="log_out" ></i>
+     </li>
+    </ul>
+  </div>
+
+  <!-- 
+==================================================
+
+                BOTTOM BAR STARTS
+
+==================================================
+ -->
+
+     <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo nav__icon">Property Club</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="sidebar.html" class="nav__link">
+                            <i class='bx bx-home nav__icon'></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link">
+                            <i class='bx bx-user nav__icon' ></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="properties.html" class="nav__link">
+                            <i class="fa-solid fa-arrow-right-to-city nav__icon"></i>Properties
+                        </a>
+                    </li>
+                     <li class="nav__item">
+                        <a href="Addproperty.html" class="nav__link">
+                            <i class="fa-solid fa-house-chimney-medical nav__icon"></i> Addproperty
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="Services.html" class="nav__link">
+                            <i class="fa-brands fa-servicestack nav__icon"></i> Services
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="properties.html" class="nav__link">
+                                    <i class="fa-solid fa-address-card nav__icon"></i> Contact
+                        </a>
+                    </li>
+                    <!-- <li class="nav__item">
+                        <a href="about.html" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> Team 
+                        </a>
+                    </li> -->
+                    <!-- <li class="nav__item">
+                        <a href="contact.html" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> Contact 
+                        </a>
+                    </li> 
+                    <li class="nav__item">
+                        <a href="#footer" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> Footer
+                        </a>
+                    </li>-->
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!-- <i class="uil uil-user theme-customization"></i> -->
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+  <!--
+  =====================================================
+                   POPUP  BOX STARTS
+  =====================================================  
+  -->
+
+
+<div class="model-bg">
+  
+    
+     <div class="form1">
+      
+      <div class="form">
+      <i class="fa-solid fa-circle-xmark model-close"></i>
+        <img src="assets/images/icons/icon-2.png">
+        <h2>Login Here</h2>
+        <!-- <input type="text" name="name" required placeholder="Enter your name"> -->
+        <input type="Email" name="mail" required placeholder="Enter your email">
+        <input type="password" name="password" required placeholder="Enter password">
+        <a href="#">Forget your password?</a>
+        <button class="btn4">Login</button>
+        <!-- <p>======== OR======== </p> -->
+        <p>Don't have account?<a href="#model-bg2">Sign Up</a></p>
+        <button class="btn4"><i class="fa-brands fa-google"></i>Sign Up with Google</button>
+        </div>
+      <div class="image">
+        <img src="assets/images/vert2.jpg">
+      </div>
+    </div>
+   
+</div>
+
+<div class="model-bg2" id="second">
+  
+    
+    <div class="form2">
+      
+      <div class="form1">
+      <i class="fa-solid fa-circle-xmark model-close2"></i>
+        <img src="assets/images/icons/icon-2.png">
+        <h2>Sign Up</h2>
+        <input type="text" name="name" required placeholder="Enter your name">
+        <input type="Email" name="mail" required placeholder="Enter your email">
+        <input type="number" name="phone-number" required placeholder="Enter your phone number">
+        <input type="password" name="password" required placeholder="Enter password">
+        <!-- <a href="#">Forget your password?</a> -->
+        <button class="btn4">Create Account</button>
+        <!-- <p>=========== OR=========== </p> -->
+        <button class="btn4"><i class="fa-brands fa-google"></i>Sign Up with Google</button>
+        </div>
+      <div class="image">
+        <img src="assets/images/vert2.jpg">
+      </div>
+    </div>
+   
+</div>
+       <!--
+  =====================================================
+                   POPUP BOX STARTS
+  =====================================================  
+  -->
+
+<!-- 
+==================================================
+
+              HOME SECTION STARTS
+
+==================================================
+ -->
+
+  <section class="home-section" id="home">
+      <!-- <div class="container"> -->
+        <div class="logo-top">
+          <div class="logo-img"><img src="assets/images/logo.png"></div>          
+          <h1>Property Club<i class="fa-regular fa-registered" id="rig"></i> Real Estate</h1>
+          <div class="btns">
+          <button class="btn model-btn">Login</button>
+          <button class="btn model-btn2">Sign Up</button>
+          </div>
+         
+        </div>
+        <div class="row">
+          <div class="content">
+            <h1>Find Real Estate And<br> Get Dream Space</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit,  labore et dolore magna aliqua. </p>
+           <a href="sidebar.html">  <button class="btn">Return Home</button></a>
+          </div>
+          
+        </div>
+      <!-- </div> -->
+  </section>
+<!-- 
+==================================================
+
+              HOME SECTION ENDS
+
+==================================================
+ -->
+
+
+
+
+   <!--
+  =====================================================
+                 SERVICES SECTION STARTS 
+  =====================================================  
+  -->
+<section class="Addproperty" id="Addproperty">
+  <div class="property-form">
+    <div class="btns">
+      <div>
+        <button class="btn">rent</button>
+      <button class="btn">sell</button>
+      </div>
+      
+      <input type="text" name="title" placeholder="Custome title">
+    </div>
+    <div class="property-type">
+      <div class="select">
+        <div>
+          <input type="radio" name="property" value="Residential">
+        <label for="Residential">Residential</label>
+        </div>
+      <div>
+        <input type="radio" name="property" value="Plot">
+        <label for="Plot">Plot</label>
+      </div>
+      <div>
+        <input type="radio" name="property" value="Commercial">
+        <label for="Commercial">Commercial</label>
+      </div>
+      
+      </div>
+      <div class="choose">
+        <label for="property-type">Choose a property type:</label>
+          <select name="property-t" id="property-t">
+              <option value="volvo">Select Property</option>
+              <option value="saab">Office</option>
+              <option value="opel">wherehouse</option>
+              <option value="audi">workshop</option>
+              <option value="audi">hotel</option>
+              <option value="audi">gym</option>
+              <option value="audi">building</option>
+              <option value="audi">factory</option>
+              <option value="audi">other</option>
+          </select>
+      </div>
+    </div>
+    <div class="property-location">
+      <h1>where your property located</h1>
+      <div class="area">
+        <select name="property-t" id="property-t">
+              <option value="volvo">Select city</option>
+              <option value="saab">Lahore</option>
+              <option value="opel">Islamabad</option>
+              <option value="audi">Karachi</option>
+              <option value="audi">queta</option>
+              <option value="audi">Multan</option>
+              <option value="audi">sadiqabad</option>
+              <option value="audi">peshawar</option>
+              <option value="audi">other</option>
+      </select>
+      <select name="property-t" id="property-t">
+              <option value="volvo">Select Area</option>
+              <option value="saab">DHA</option>
+              <option value="opel">TOWN</option>
+              <option value="audi">VILLAGE</option>
+              <option value="audi">other</option>
+      </select>
+      <input type="text" name="area" placeholder="enter new area">
+      
+      </div>
+      <div class="address">
+      <label>Detailed Address</label>
+      <input type="text" name="address" placeholder="Enter address" required>
+      </div>
+    </div>
+    <div class="property-details">
+            <select name="" id="">
+                <option value="" disabled hidden selected>property status</option>
+                <option value="Ready To Move">Ready To Move</option>
+                <option value="under construction">under construction</option>
+                <option value="furnished">furnished</option>
+                <option value="semi-furnished">semi-furnished</option>
+                <option value="unfurnished">unfurnished</option>
+            </select>
+            <select name="" id="">
+                <option value="" disabled hidden selected>property type</option>
+                <option value="flat">flat</option>
+                <option value="house">house</option>
+                <option value="shop">shop</option>
+                <option value="warehouse">warehouse</option>
+                <option value="land">land</option>
+            </select>
+            <select name="" id="">
+                <option value="" disabled hidden selected>Price</option>
+                <option value="1 BHK">1lakh - 10lakh</option>
+                <option value="2 BHK">10lakh - 30lakh</option>
+                <option value="3 BHK">20lakh - 30lakh</option>
+                <option value="4 BHK">40lakh - 50lakh</option>
+                <option value="5 BHK">60lakh - 70lakh</option>
+            </select>
+            <select name="" id="">
+                <option value="" disabled hidden selected>BHK</option>
+                <option value="1 BHK">1 BHK</option>
+                <option value="2 BHK">2 BHK</option>
+                <option value="3 BHK">3 BHK</option>
+                <option value="4 BHK">4 BHK</option>
+                <option value="5 BHK">5 BHK</option>
+            </select>
+            <select name="" id="">
+                <option value="" disabled hidden selected>aminities</option>
+                <option value="parking space">parking space</option>
+                <option value="swimming pool">swimming pool</option>
+                <option value="playground">playground</option>
+                <option value="security">security</option>
+                <option value="all">all</option>
+            </select>
+            <select name="" id="">
+                <option value="" disabled hidden selected>bedrooms</option>
+                <option value="1 bedroom">1 bedroom</option>
+                <option value="2 bedroom">2 bedroom</option>
+                <option value="3 bedroom">3 bedroom</option>
+                <option value="4 bedroom">4 bedroom</option>
+                <option value="5 bedroom">5 bedroom</option>
+            </select>
+            <select name="" id="">
+                <option value="" disabled hidden selected>bathrooms</option>
+                <option value="1 bathroom">1 bathroom</option>
+                <option value="2 bathroom">2 bathroom</option>
+                <option value="3 bathroom">3 bedroom</option>
+                <option value="4 bathroom">4 bathroom</option>
+                <option value="5 bathroom">5 bathroom</option>
+            </select>
+            
+            
+    </div>
+    <div class="textarea">
+      <textarea placeholder="Description" required></textarea>
+    </div>
+    <div class="wrapper">
+    <header>Upload File/Image</header>
+    <form action="#">
+      <input class="file-input" type="file" name="file" hidden>
+      <i class="fas fa-cloud-upload-alt"></i>
+      <p>Browse File to Upload</p>
+    </form>
+    <section class="progress-area"></section>
+    <section class="uploaded-area"></section>
+  </div>
+    <div class="submit-btn">
+        <button class="btn">submit</button>
+    </div>
+
+  </div>
+
+
+  
+
+
+</section>
+
+
+
+  
+
+
+
+
+     <section class="Contact-us" id="contact">
+ 
+
+          <div class="contact-card">
+            <div class="card-content">
+              <h2 class="h2 card-title">Are You Looking for a dream home?</h2>
+
+              <p class="card-text">We can help you choose dream of a new home</p>
+            </div>
+
+            
+                <div class="submit-btn">
+                <button class="btn">contact us
+                    <i class="fa-solid fa-circle-arrow-right">
+                </i></button>
+             </div>
+       
+          </div>
+
+    
+      </section>
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+   <div class="top-footer">
+
+      <div class="box-1">
+         <h3>quick links</h3>
+         <a href="#"> <i class="fas fa-angle-right"></i> home</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> about</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> package</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> book</a>
+      </div>
+
+      <!-- <div class="box-1">
+         <h3>extra links</h3>
+         <a href="#"> <i class="fas fa-angle-right"></i> ask questions</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> about us</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> privacy policy</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> terms of use</a>
+      </div> -->
+
+      <div class="box-1">
+         <h3>contact info</h3>
+         <a href="tel:+923065983785"> <i class="fas fa-phone"></i> +923065983785 </a>
+         <a href="tel:+923146188176"> <i class="fas fa-phone"></i> +923146188176 </a>
+         <a href="mailto:alishair@gmail.com">
+          <i class="fas fa-envelope"></i>
+           alishair@gmail.com<br>
+           <p>alishair@gmail.com</p>
+         </a>
+         <a href="#"> <i class="fas fa-map"></i> punjab, pakistan - 400104<br>
+            <p>punjab, pakistan - 400104</p> </a>
+      </div>
+
+      <div class="box-1">
+         <h3>follow us</h3>
+         <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+         <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+         <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+         <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+      </div>
+
+   </div>
+
+   <div class="credit"> created by <span>Mr.Ali Shair</span> | all rights reserved! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+   <!--
+  =====================================================
+                 JAVASCRIPT SECTION STARTS 
+  =====================================================  
+  -->
+  <script src="js/script.js"></script>
+
+  <script>
+  let sidebar = document.querySelector(".sidebar");
+  let closeBtn = document.querySelector("#btn");
+  let searchBtn = document.querySelector(".bx-search");
+
+  closeBtn.addEventListener("click", ()=>{
+    sidebar.classList.toggle("open");
+    menuBtnChange();//calling the function(optional)
+  });
+
+  searchBtn.addEventListener("click", ()=>{ // Sidebar open when you click on the search iocn
+    sidebar.classList.toggle("open");
+    menuBtnChange(); //calling the function(optional)
+  });
+
+  // following are the code to change sidebar button(optional)
+  function menuBtnChange() {
+   if(sidebar.classList.contains("open")){
+     closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
+   }else {
+     closeBtn.classList.replace("bx-menu-alt-right","bx-menu");//replacing the iocns class
+   }
+  }
+
+
+
+      /*=============== SHOW MENU ===============*/
+const navMenu = document.getElementById('nav-menu'),
+      navToggle = document.getElementById('nav-toggle'),
+      navClose = document.getElementById('nav-close')
+
+/*===== MENU SHOW =====*/
+/* Validate If Constant Exists */
+if(navToggle) {
+    navToggle.addEventListener('click', () => {
+        navMenu.classList.add('show-menu')
+    })
+}
+
+/*===== MENU HIDDEN =====*/
+/* Validate If Constant Exists */
+if(navClose) {
+    navClose.addEventListener('click', () => {
+        navMenu.classList.remove('show-menu')
+    })
+}
+  </script>
+
+   <script>
+            
+        var modelBtn = document.querySelector('.model-btn');
+        var modelBg = document.querySelector('.model-bg');
+        var modelClose = document.querySelector('.model-close');
+
+
+        modelBtn.addEventListener('click',function(){
+          modelBg.classList.add('bg-active');
+        });
+        modelClose.addEventListener('click',function(){
+          modelBg.classList.remove('bg-active');
+        });
+  </script>
+  <script>
+            
+        var modelBtn2 = document.querySelector('.model-btn2');
+        var modelBg2 = document.querySelector('.model-bg2');
+        var modelClose2 = document.querySelector('.model-close2');
+
+
+        modelBtn2.addEventListener('click',function(){
+          modelBg2.classList.add('bg-active2');
+        });
+        modelClose2.addEventListener('click',function(){
+          modelBg2.classList.remove('bg-active2');
+        });
+  </script>
+
+  
+  <script>
+      var loader = document.getElementById("preloader");
+
+      window.addEventListener("load", function() {
+          loader.style.display = "none";
+      })
+  </script>
+
+</body>
+</html>

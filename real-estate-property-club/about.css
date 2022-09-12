@@ -1,0 +1,138 @@
+*{
+    font-family: "Open Sans" , sans-serif;
+}
+.home-section{
+	background-image: url("image/about.gif");  
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
+  top: 0;
+  left: 78px;
+  width: calc(100% - 78px);
+  transition: all .5s ease;
+  
+  margin-block-end: 100px;
+  border-radius: unset;
+}
+.home-section .logo-top{
+	z-index: 1000;
+}
+
+.home-section.about{
+	display: grid;
+	place-items: center;
+	z-index: 1;
+}
+
+.about-us .ceo{
+    display: grid;
+    place-items: center;
+    padding: 50px 50px 100px 150px;
+}
+.about-us .ceo h1{
+    border-top: 1px solid black;
+      box-shadow: rgba(171, 160, 186, 0.5) 0px 10px 24px;
+      border-radius: 5px;
+    font-size: 40px;
+    padding: 20px;
+    margin-bottom: 5%;
+}
+.about-us .ceo .box{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+.about-us .ceo .box .info{
+    padding: 20px;
+
+}
+.about-us .ceo .box .info h1{
+    font-size: 40px;
+    text-align: center;
+}
+.about-us .ceo .box .info p{
+    /*border: 1px solid lightblue;*/
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 500;
+
+}
+.about-us .ceo .box .image{
+    max-width: 400px;
+    max-height: 400px;
+    padding: 10px;
+    margin-top: 5%;
+    box-shadow: rgba(171, 160, 186, 0.5) 0px 10px 24px;
+}
+
+.about-us .ceo .box .image img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.about-us .about-box{
+    margin-top: 10%;
+    display: grid;
+    place-items: center;
+}
+.about-us .about-box h1{
+    font-size: 40px;
+}
+.about-us .about-box h2{
+    padding: 10px;
+    margin-bottom: 3%;
+}
+.about-us .about-box p{
+/*     border: 1px solid lightblue;
+*/    padding: 10px;
+    font-weight: 500;
+    text-transform: capitalize;
+    word-spacing: 2px;
+    font-size: 17px;
+
+
+}
+.about-us .about-box p span{
+    color: brown;
+    font-weight: 600;
+    font-size: 30px;
+}
+@media (max-width: 868px){
+  
+.about-us .ceo .box{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px;
+    place-items: center;
+}
+}
+@media (max-width: 968px){
+  
+.about-us .ceo{
+   
+    padding: 50px 20px 100px 100px;
+}
+.about-us .ceo h1{
+    font-size: 40px;
+}
+}
+@media (max-width: 568px){
+    .home-section{
+    left: 0px;
+    width: 100%;
+
+  }
+  .about-us .ceo h1{
+    font-size: 40px;
+  }
+  .about-us .ceo{
+   
+    padding: 20px
+}
+}
