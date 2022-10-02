@@ -1,0 +1,25 @@
+.contact-us .text-center h6{
+	color: #AE247F;
+	font-weight: 700;
+	font-size: 20px;
+
+}
+.contact-us .text-center a h3{
+	font-weight: 500;
+	font-size: 25px;
+	color: #2159b5;
+}
+.contact-us .text-center .social-links a{
+	font-size: 30px;
+
+}
+.contact-us .text-center .social-links a:hover{
+	color: #17499c;
+}
+.contact-us form .btn{
+	width: 150px;
+}
+.contact-us .heading{
+	font-weight: 800px;
+
+}

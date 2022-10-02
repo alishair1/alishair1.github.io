@@ -300,6 +300,7 @@ font-weight: 700;
 
 
 @media (min-width: 320px) and (max-width: 480px) { 
+    
     .topbar .info-box{
         display: none;
     }
