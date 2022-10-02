@@ -1,0 +1,23 @@
+.cruis-dinner img{
+	width: 600px;
+}
+.cruis-dinner .btn{
+	width: 150px;
+}
+.cruis-dinner p span{
+	font-weight: 700;
+}
+
+.cruis-dinner .bord{
+	border-radius: 5px;
+}
+.cruis-dinner .bord span{
+	color: #3268a8;
+}
+.cruis-dinner .text-p{
+	color: #3268a8;
+}
+
+ .marina .card .card-title{
+ 	font-weight: 600;
+ }
