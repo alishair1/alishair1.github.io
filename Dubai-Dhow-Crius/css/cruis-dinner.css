@@ -1,8 +1,11 @@
 .cruis-dinner img{
 	width: 600px;
+	margin-bottom: 10px;
 }
 .cruis-dinner .btn{
 	width: 150px;
+	font-weight: 600;
+	letter-spacing: 1px;
 }
 .cruis-dinner p span{
 	font-weight: 700;
@@ -21,3 +24,21 @@
  .marina .card .card-title{
  	font-weight: 600;
  }
+
+.marina .card .card-footer .btn{
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+ @media (max-width: 1200px){
+ 	.cruis-dinner img{
+	width: 500px;
+}
+}
+
+
+ @media (max-width: 1200px){
+ 	.cruis-dinner img{
+	width: 350px;
+}
+}
