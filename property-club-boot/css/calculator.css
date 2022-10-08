@@ -1,0 +1,40 @@
+
+.transfer-calculator label{
+	font-size: 14px;
+	font-weight: 600;
+}
+.transfer-calculator .form-select{
+	border-radius: 4px;
+	height: 40px;
+	border: 1px solid skyblue;
+	transition: .4s ease;
+	font-size: 12px;
+	font-weight: 600;
+
+}
+.transfer-calculator .form-select option{
+	font-weight: 600;
+}
+
+.transfer-calculator .form-control{
+	border-radius: 4px;
+	height: 40px;
+	border: 1px solid skyblue;
+	transition: .4s ease;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.transfer-calculator .btn{
+	border-radius: 20px;
+	width: 100px;
+	height: 40px;
+}
+@media(max-width: 568px){
+	.calculator-boxs{
+		text-align: center;
+	}
+	.calculator-boxs h2{
+	font-size: 22px;
+}
+}
