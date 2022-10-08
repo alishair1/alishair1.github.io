@@ -1,0 +1,38 @@
+.construction-box .Services h5{
+	color: #1f1f1f;
+	font-size: 22px;
+	font-weight: 600;
+}
+.construction-box .Services p{
+	color: #1f1f1f;
+	font-size: 14px;
+	font-weight: 600;
+}
+.construction-box .Services i{
+	border: 2px solid #1a237d;
+	padding: 7px;
+	border-radius: 50%;
+	color:  #1a237d;
+}
+
+.construction-box .calculator-box h4{
+	color: #1f1f1f;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 27px;
+}
+.construction-box .calculator-box p{
+	color: #1f1f1f;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.Services-offer h6{
+	font-size: 24px;
+	font-weight: 600;
+}
+.Services-offer p{
+	margin-left: 10px;
+	font-size: 14px;
+	font-weight: 600;
+}
