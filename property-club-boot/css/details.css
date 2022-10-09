@@ -1,0 +1,75 @@
+.banner{
+	height: 540px;
+}
+.mainsectiondetail h1{
+	font-size: 27px;
+	line-height: 35px;
+	font-weight: 600;
+	color: #1a237d;
+
+}
+.sidesectiondetail{
+	box-shadow:0 1px 5px 1px rgba(0, 0, 0, .3);
+}
+.sidesectiondetail .propertydetail h4{
+	font-size: 20px;
+	font-weight: 600;
+	color: #1a237d;
+	line-height: 22px;
+}
+.sidesectiondetail .propertydetail .pdetail strong{
+	font-size: 15px;
+	font-weight: 600;
+}
+.propertydetail .amenitiesdata del{
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 14px;
+
+}
+.sidesectiondetail .btns a{
+	border-radius: 4px;
+	margin-left: 10px;
+	background: transparent;
+	border: 2px solid #1a237d;
+	font-weight: 600;
+	font-size: 15px;
+	padding: 6px;
+}
+.sidesectiondetail .btns a:hover{
+	color: yellowgreen;
+	border-color: yellowgreen;
+}
+@media(max-width: 568px){
+.sidesectiondetail .btns a{
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+.mainsectiondetail h1{
+	font-size: 20px;
+
+}
+}
+.property_brief h3{
+	font-size: 23px;
+	font-weight: 600;
+	line-height: 25px;
+	color: #1a237d;
+}
+
+.location h3{
+	font-size: 23px;
+	font-weight: 600;
+	line-height: 25px;
+	color: #1a237d;
+}
+
+.location .locationdetail strong{
+	font-size: 15px;
+	font-weight: 600;
+}
+.location .locationdetail {
+	font-size: 15px;
+	font-weight: normal;
+}

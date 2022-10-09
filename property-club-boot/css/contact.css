@@ -1,0 +1,65 @@
+.contact-info{
+    font-family: lato, sans-serif;
+}
+.contact-info .contact-info-item i{
+    color: #8449e7;
+}
+.contact-info .contact-info-item h4{
+    font-size: 22px;
+    color: #1f1f1f;
+    font-weight: 600;
+    line-height: 24px;
+}
+.contact-info .contact-info-item p{
+    font-size: 14px;
+    font-weight: 600;
+}
+.contact-info .contact-info-item p strong{
+    color: #1a237e;
+    font-weight: 600;
+    font-size: 18px;
+}
+.contact-info .contact-info-item p a{
+    color: #1a237e;
+    font-weight: 600;
+}
+.contact-section iframe{
+    height: 400px;
+}
+.contact-section .section-title .write-us{
+    font-weight: 600;
+    font-size: 30px;
+}
+.contact-section form input{
+    border-radius: 0px;
+    height: 40px;
+    border: 1px solid skyblue;
+    transition: .4s ease;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.contact-section form input::placeholder{
+  font-size: 12px;
+  font-weight: 600;
+}
+.contact-section form textarea{
+    border-radius: 0px;
+
+    border: 1px solid skyblue;
+    transition: .4s ease;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.contact-section form textarea::placeholder{
+  font-size: 12px;
+  font-weight: 600;
+}
+
+
+@media(max-width: 568px){
+    .contact-section .section-title{
+    text-align: center;
+}
+}
