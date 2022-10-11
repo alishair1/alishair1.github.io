@@ -1,0 +1,12 @@
+.post-tags{
+	display: flex;
+}
+.post-tags .social-links a{
+	padding: 10px;
+	border: 1px solid skyblue;
+	border-radius: 2px;
+
+}
+.post-tags .social-links a:hover{
+	border-color: yellowgreen;
+}
