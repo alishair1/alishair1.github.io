@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/colors.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" type="text/css" href="css/calculator.css">
-
+    <link rel="stylesheet" type="text/css" href="css/postproperty.css">
+    <link rel="stylesheet" type="text/css" href="css/progress.css">
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!-- bootstrap -->
@@ -140,152 +140,181 @@
         </div>
     </nav>
 
-   
 
 
 
-<div class="calculator-boxs bg-light">
+   <div class="bannerimagecontact" style="    background-repeat: no-repeat;
+            background-size: cover;">
+        <div class="overlay-bg"></div>
     <div class="container">
-        <div class="row pt-4">
-            <div>
-                <h2 class="text-left" style="font-weight: 600;">Property Transfer Calculator</h2>
-                <p style="font-weight: 600; font-size:14px;">DHA Transfer calculator is for real estates to provide calculation platform for property transfer agency.</p>
-            </div>
-
-        </div>
+        <h3 class="text-center">Post Requirement</h3>
     </div>
-    <div>
-
-       <img src="images/bg-image.jpg" class="img-fluid" style="width: 100%; height: 60vh;">
     </div>
-</div>
+    
 
-
-<div class="transfer-calculator  mt-5 mb-5">
+<section>
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
-             <label for="exampleFormControlSelect1">Property Type:</label>
-             <select class="form-select" aria-label="Default select example">
-              <option selected>select</option>
-              <option value="1">house</option>
-              <option value="2">plot</option>
+            
+<div class="wrapper">
+    <div class="header">
+        <ul>
+            <li class="active form_1_progessbar">
+                <div>
+                    <p>1</p>
+                </div>
+            </li>
+            <li class="form_2_progessbar">
+                <div>
+                    <p>2</p>
+                </div>
+            </li>
+            <li class="form_3_progessbar">
+                <div>
+                    <p>3</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="form_wrap">
+        <div class="form_1 data_info">
+            <h2>Requirement Details</h2>
+            <form>
+               <div class="container">
+                   <div class="row">
+                       <div class="col-lg-6 col-md-6 col-sm-12 col-12 form-group">
+                           <label>Property For</label>
+                        <select name="purpose" class="form-control"> 
+                            <option value='Rent'>Rent</option>
+                            <option value='Sale'>Sale</option>
+                        </select>
+                       </div>
+                       <div class="col-lg-6 col-md-6 col-sm-12 col-12 form-group">
+                           <label>Property Type*</label>
+                        <select name="property_type" class="form-control">
+                            <option value='Residential'>House</option>
+                            <option value='Building'>Building</option>
+                            <option value='office'>office</option>
+                            <option value='WhareHouse'>WhareHouse</option>
+                            <option value='Factory'>Factory</option>
+                        </select>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="col-lg-6 col-md-6 col-sm-12 col-12 form-group">
+                           <label>Budget</label>
+                        <input type="text" name="name" required class="form-control">
+                       </div>
+                       <div class="col-lg-3 col-md-3 col-sm-12 col-12 form-group">
+                           <label>Property Type*</label>
+                        <select name="property_type" class="form-control">
+                            <option value='Residential'>House</option>
+                            <option value='Building'>Building</option>
+                            <option value='office'>office</option>
+                            <option value='WhareHouse'>WhareHouse</option>
+                            <option value='Factory'>Factory</option>
+                        </select>
+                       </div>
+                       <div class="col-lg-3 col-md-3 col-sm-12 col-12 form-group">
+                           <label>Area</label>
+                        <input type="text" name="name" required class="form-control" placeholder="Area"> 
+                       </div>
+                   </div>
+                    <div class="row">
+                       <div class="col-lg-6 col-md-6 col-sm-12 col-12 form-group">
+                           <label>Budget</label>
+                        <input type="text" name="name" required class="form-control">
+                       </div>
+                       <div class="col-lg-3 col-md-3 col-sm-12 col-12 form-group">
+                          
+                       </div>
+                       <div class="col-lg-3 col-md-3 col-sm-12 col-12 form-group">
+                          
+                       </div>
+                   </div>
+               </div> 
+            </form>
+        </div>
+        <div class="form_2 data_info" style="display: none;">
+            <h2>Your Contact Details</h2>
+            <form>
+                <div class="container">
+                   <div class="row">
+                       <div class="col-lg-6 col-md-6 col-sm-12 col-12 form-group">
+                        <div class="row">
+                            <label>i am</label>
+                       <div class="col-3 form-group">
+                          <input type="radio"  id="radio1" name="optradio" value="option1">agent
+                          
+                        </div>
+                        <div class="col-3 form-group">
+                          <input type="radio"  id="radio2" name="optradio" value="option2">builder
+                          <label  for="radio2"></label>
+                        </div>
+                        <div class="col-3 form-group">
+                          <input type="radio"  name="optradio">owner
+                          
+                        </div>
+                        </div>
+                      
+                       </div>
+                       <div class="col-lg-6 col-md-6 col-sm-12 col-12 form-group">
+                        <label>Full Name*</label>
+                        <input type="text" name="name" required class="form-control">
+                   </div>
+                      </div>
+                   <div class="row">
+                       <div class="col-lg-6 col-md-6 col-sm-12 col-12 form-group">
+                            <label>Email*</label>
+                        <input type="email" name="emailaddress" required class="form-control">
+                       </div>
+                       <div class="col-lg-6 col-md-6 col-sm-12 col-12 form-group">
+                        <label>Mobile No.*</label>
+                        <input type="number" name="Phone" required class="form-control">
+                   </div>
+               </div>
         
-            </select> 
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
-             <label for="exampleFormControlSelect1">Phase:</label>
-             <select class="form-select" aria-label="Default select example">
-              <option selected>select</option>
-              <option value="1">DHA Phase 1</option>
-              <option value="2">DHA Phase 2</option>
-              <option value="3">DHA Phase 3</option>
-              <option value="1">DHA Phase 4</option>
-              <option value="2">DHA Phase 5</option>
-              <option value="3">DHA Phase 6</option>
-              <option value="1">DHA Phase 7</option>
-              <option value="2">DHA Phase 8</option>
-              <option value="3">DHA Phase 9</option>
-              <option value="1">DHA Phase 10</option>
-              <option value="2">DHA Phase 11</option>
-              <option value="3">DHA Phase 12</option>
-              <option value="1">DHA Phase 13</option>
-              <option value="2">DHA Phase 14</option>
-              <option value="3">DHA Phase 15</option>
-              <option value="1">DHA Phase 10</option>
-              <option value="2">DHA Phase 11</option>
-              <option value="3">DHA Phase 12</option>
-              <option value="1">DHA Phase 13</option>
-              <option value="2">DHA Phase 14</option>
-              <option value="3">DHA Phase 15</option>
-            </select>  
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
-              <label for="exampleFormControlSelect1">Block:</label>
-             <select class="form-select" aria-label="Default select example">
-              <option selected>select</option>
-              <option value="1">A</option>
-              <option value="2">B</option>
-              <option value="3">C</option>
-              <option value="1">D</option>
-              <option value="2">E</option>
-              <option value="3">F</option>
-              <option value="1">G</option>
-              <option value="2">H</option>
-              <option value="3">I</option>
-              <option value="1">J</option>
-              <option value="2">K</option>
-              <option value="3">L</option>
-              <option value="1">M</option>
-              <option value="2">N</option>
-              <option value="3">O</option>
-            </select>  
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
-                <label for="exampleFormControlSelect1">Proeprty Unit</label>
-             <select class="form-select" aria-label="Default select example">
-              <option selected>select</option>
-              <option value="1">marla</option>
-              <option value="2">kanal</option>
-              
-            </select> 
-            </div>
+            </form>
         </div>
-
-
-
-         <div class="row mt-2">
-            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
-             <label for="exampleFormControlSelect1">Size:</label>
-            <input class="form-control" type="text" placeholder="....." aria-label="default input example">
- 
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
-             <label for="exampleFormControlSelect1">in sqr ft:</label>
-             <input class="form-control" type="text" placeholder="sqr ft" aria-label="default input example">
- 
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
-              <label for="exampleFormControlSelect1">Sale Aggrement Value:</label>
-             <input class="form-control" type="text" placeholder="....." aria-label="default input example">
-  
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
-                <label for="exampleFormControlSelect1">Covered Area:</label>
-             <input class="form-control" type="text" placeholder="....." aria-label="default input example">
- 
-            </div>
+        <div class="form_3 data_info" >
+            
         </div>
-
-        <div class="row mt-2">
-            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
-            <label for="exampleFormControlSelect1">Customer:</label>
-             <select class="form-select" aria-label="Default select example">
-              <option selected>select</option>
-              <option value="1">filer</option>
-              <option value="2">no filer</option>
-            </select>  
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
-             
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
-             
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
-               
+    </div>
+    <div class="btns_wrap">
+        <div class="common_btns form_1_btns mt-4">
+            <button type="button" class="btn_next">Next <span class="icon"><ion-icon name="arrow-forward-sharp"></ion-icon></span></button>
         </div>
-        <div class="mt-4">
-            <button class="btn btn-success btn-sm">Search</button>
+        <div class="common_btns form_2_btns mt-4" style="display: none;">
+            <button type="button" class="btn_back"><span class="icon"><ion-icon name="arrow-back-sharp"></ion-icon></span>Back</button>
+            <button type="button" class="btn_next">Next <span class="icon"><ion-icon name="arrow-forward-sharp"></ion-icon></span></button>
         </div>
+        <div class="common_btns form_3_btns mt-4" style="display: none;">
+            <button type="button" class="btn_back"><span class="icon"><ion-icon name="arrow-back-sharp"></ion-icon></span>Back</button>
+            <button type="button" class="btn_done">Submitt</button>
         </div>
     </div>
 </div>
 
+<div class="modal_wrapper">
+    <div class="shadow"></div>
+    <div class="success_wrap">
+        <span class="modal_icon"><i class="fa fa-check"></i></span>
+        <p>successfully Submitted</p>
+    </div>
+</div>
+        </div>
+    </div>
+</section>
 
 
-<a href="#" class="transfer-cal"><i class="fa fa-calculator"></i> transfer calculator</a>
 
+
+
+
+
+
+
+<a href="calculator.html" class="transfer-cal"><i class="fa fa-calculator"></i> transfer calculator</a>
 
     <!-- FOOTER -->
     <footer class="footer">
@@ -358,5 +387,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
     <!-- custom js -->
     <script src="js/scripts.js"></script>
+    <script src="js/progress.js"></script>
 </body>
 </html>

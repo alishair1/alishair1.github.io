@@ -1,0 +1,40 @@
+.bannerimagecontact {
+    background: url(../images/contact-bg.jpg);
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+    background-attachment: fixed;
+    z-index: 1;
+   
+}   
+.bannerimagecontact h3 {
+    color: #fff;
+    font-size: 32px;
+    z-index: 1000;
+    position: relative;
+    padding-top: 10%;
+}
+
+
+.form-group input{
+    border-radius: 0;
+    height: 35px;
+    border: 2px solid #cacbcd;
+    margin-top: 5px;
+}
+.form-group select{
+    border-radius: 0;
+    height: 35px;
+    font-size: 12px;
+    border: 1.5px solid #cacbcd;
+    margin-top: 5px;
+}
+.form-group select option{
+    font-size: 12px;
+}
+.form-group label{
+    
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 700;
+}

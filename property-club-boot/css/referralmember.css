@@ -1,0 +1,94 @@
+    .agentimage {
+        object-fit: cover;
+    height: 145px;
+    object-position: -20% 0;
+    }
+    .a6
+    {    object-position: 56% 0;
+    }
+    .a2
+    {
+            object-position: 51% 0;
+    }
+       .pricecalculatorheading{ font-size: 15px;
+    line-height: 1.6;
+    }
+    .contactsubmit:hover{}
+    .contactsubmit {
+     padding: 7px 12px !important;
+     margin-top: 20px;
+}
+
+
+.pricecalculatorheading h1{
+	font-size: 32px;
+	color: #1a237d;
+}
+
+.form-group{
+	margin-left: 50%;
+}
+.form-group input{
+	border-radius: 0;
+	height: 35px;
+	border: 2px solid #cacbcd;
+}
+.form-group select{
+	border-radius: 0;
+	height: 35px;
+	font-size: 12px;
+	border: 1.5px solid #cacbcd;
+}
+.form-group select option{
+	font-size: 12px;
+}
+.form-group label{
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.pricecalculatorheading b{
+	font-size: 16px;
+	font-weight: 700;
+
+}
+.form-group .btn{
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 12px;
+	padding: 5px;
+	margin-top: 10px;
+}
+@media(max-width: 768px){
+	.form-group{
+	margin-left: 0%;
+}
+}
+
+
+
+.milestones{
+	 background: url("https://preview.colorlib.com/theme/theestate/images/milestones.jpg.webp");
+    background-size: cover;
+    padding: 50px;
+    position: relative;
+    background-attachment: fixed;
+    z-index: 1;
+    display: grid;
+    place-items: center;
+}
+
+.milestone_col{
+	display: block;
+	gap: 20px;
+}
+.milestone_counter{
+	margin-top: 10px;
+	color: #fff;
+	font-size: 40px;
+}
+.milestone_text{
+	margin-bottom: 10px;
+	color: #fff;
+	font-size: 20px;
+}

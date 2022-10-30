@@ -8,6 +8,7 @@
     font-family: 'lato', sans-serif;
     font-weight: 300;
     text-transform: capitalize;
+    list-style: none;
 }
 a{
     text-decoration: none!important;
