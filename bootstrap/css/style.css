@@ -1,0 +1,253 @@
+*{
+	text-transform: capitalize;
+	scroll-behavior: smooth;
+}
+
+.heading{
+	text-align: center;
+	color: #284A8A;
+	font-weight: 700;
+	position: relative;
+}
+
+.heading::after{
+	content:'';
+    position:absolute;
+    left:0; right:0;
+    top:100%;
+    margin:10px auto;
+    width:5%;
+	border-radius: 5px;
+    height:6px;
+}
+.pargraph{
+	color: #6c6f97;
+}
+.navbar{
+	background: transparent;
+	z-index: 1000;
+	width: 100%;
+	padding-left: 50px;
+	padding-right: 100px;
+}
+.navbar.scrolled {
+	background-color: rgb(135, 105, 175) !important;
+	transition: background-color 1s linear;
+  }
+
+.navbar .navbar-brand{
+	color: #fff;
+	font-size: 60px;
+	font-weight: 200;
+	transition: .3s;
+}
+.navbar .navbar-brand.scrolled{
+	color: #F1F1F1;
+	font-size: 30px;
+}
+.navbar .navbar-brand.scrolled:hover{
+	color: #ebdfdf;
+}
+.navbar .navbar-brand span{
+	font-weight: 800;
+}
+.navbar .navbar-nav .nav-item{
+	color: #fff;
+	font-weight: 700;
+	letter-spacing: .5px;
+	transition: .4s;
+	position: relative;
+}
+.navbar .navbar-nav .nav-item.scrolled{
+	color: #F1F1F1;
+}
+.navbar .navbar-nav .nav-item.scrolled:hover{
+	color: #ebdfdf;
+}
+
+.navbar .navbar-nav .nav-link::after{
+	content: "";
+	position:absolute;
+	background-color: rgb(31, 21, 3);
+	height: 3px;
+	width: 0;
+	left: 8%;
+	bottom: 1px;
+	transition: .4s;
+}
+.navbar .navbar-nav .nav-link:hover::after{
+	width: 90%;
+}
+.navbar .navbar-nav .nav-item:hover{
+	color: black;
+}
+.carousel{
+	height: 100vh;
+	width: 100%;
+}
+.carousel .carousel-inner .carousel-item img{
+	width: 100%;
+	height: 100vh;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption{
+	bottom: 35%;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption h1{
+	font-size: 70px;
+	color: #fff;
+}
+.carousel .carousel-inner .carousel-item .carousel-caption p{
+	font-size: 20px;
+}
+.carousel .carousel-inner .carousel-item .carousel-caption .btn{
+	width: 180px;
+	height: 55px;
+	border: none;
+	border-radius: 30px;
+	background-color: #fff;
+	color: #8495B3;
+	font-weight: 700;
+	letter-spacing: .5px;
+}
+.carousel .carousel-control-prev{
+	background-color: #6583B5;
+	width: 60px;
+	height: 35px;
+	top: calc(50%);
+	padding-right: 10px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.carousel .carousel-control-next{
+	background-color: #6583B5;
+	width: 70px;
+	height: 35px;
+	top: calc(50%);
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+
+
+
+
+.about .btn{
+	border-radius: 30px;
+	border: 2px solid ;
+	height: 50px;
+	width: 170px;
+	font-weight: 700;
+}
+.about-us{
+	color: #fff;
+}
+.about-us .fa-solid{
+	font-size: 50px;
+}
+.about-box1{
+	background-color: #4069AB;
+}
+.about-box2{
+	background-color: #222222;
+}
+
+
+.services .services-box .sub-box{
+	width: 320px;
+	border-radius: 5px;
+	background-color: #F1F1F1;
+}
+.services .services-box .sub-box h5{
+  transform: translateX(-20px);
+  color: #2F4F8C;
+
+}
+.services .services-box .sub-box .fa-solid{
+	transform: translateX(-30px);
+	font-size: 35px;
+	border: 3px solid #2F4F8C;
+	color: #2F4F8C;
+	padding: 15px;
+	border-radius: 50%;
+	background-color: #F1F1F1;
+
+}
+.services .services-box .sub-box .fa-brands{
+	transform: translateX(-30px);
+	font-size: 35px;
+	border: 3px solid #2F4F8C;
+	color: #2F4F8C;
+	padding: 15px;
+	border-radius: 50%;
+	background-color: #F1F1F1;
+
+}
+
+
+.sub-services2{
+	background-color: #4069AB;
+	color: #fff;
+}
+.sub-services2	.fa-solid{
+	font-size: 30px;
+	border: 2px solid #fff;
+	color: #fff;
+	padding: 15px;
+	border-radius: 50%;
+
+}
+.sub-services2 h1{
+	font-weight: 700;
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+.portfolio a{
+	font-weight: 700;
+	position: relative;
+}
+.portfolio a::after{
+	content: "";
+	position:absolute;
+	background-color: #4E69B0;
+	height: 3px;
+	width: 0;
+	left: 8%;
+	bottom: 1px;
+	transition: .4s;
+}
+
+.portfolio a:hover::after{
+	width: 90%;
+}
+
+
+.gallery{
+	position: relative;
+    
+	
+}
+.gallery img{
+	object-fit: cover;
+	height: 100%;
+    width: 110%;
+}
+#contact-us{
+	background-color: #4069AB;
+}
+#contact-us .cont{
+	color: #fff;
+}
+#contact-us .cont img{
+	margin-right: 10px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
