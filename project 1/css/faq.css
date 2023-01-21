@@ -1,0 +1,31 @@
+.faq ul li{
+    border: none; 
+    border-top: 1px solid rgba(125, 77, 77, .2);
+    border-bottom: 1px solid rgba(125, 77, 77, .2);
+    border-radius: 0px;
+}
+.faq ul li a{ margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+.faq h5{
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.faq ul li  .dropdown-toggle::after {
+    content: none;
+}
+
+
+@media screen and (max-width: 600px) {
+    .faq ul li a{ margin-top: 20px;
+        margin-bottom: 20px;
+        text-decoration: none;
+        font-size: 12px;
+        
+    }
+}
