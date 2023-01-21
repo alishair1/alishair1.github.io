@@ -417,3 +417,90 @@
    transition: all .3s ease;
 
 }
+
+
+.carousel .dots{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ff6f61;
+}
+.carousel .carousel-indicators{
+    transform: translateY(70px);
+}
+.carousel .carousel-control-prev{
+    background-color: #000;
+    border: .5px solid black;
+    width: 35px;
+    color: black;
+    height: 35px;
+    padding: 10px;
+    font-size: 14px;
+    margin-left: 20px;
+    top: 40%;
+    transition: all .4s ease;
+    border-radius: 50%;
+    font-weight: 700;
+} 
+.carousel .carousel-control-prev:hover{
+    background-color: #ff6f61;
+    border: 0px;
+}
+.carousel .carousel-control-next{
+    background-color: #000;
+    border: .5px solid black;
+    width: 35px;
+    color: black;
+    height: 35px;
+    padding: 10px;
+    font-size: 14px;
+    margin-right: 20px;
+    top: 40%;
+    transition: all .4s ease;
+    border-radius: 50%;
+    font-weight: 700;
+} 
+.carousel .carousel-control-next:hover{
+    background-color: #ff6f61;
+    border: 0px;
+}
+
+
+
+
+
+
+
+.brands .card .card-img-overlay{
+    text-align: center;
+    display: grid;
+    place-items: center;
+    transition: .4s;
+    opacity: 0;
+    background-color: rgba(29, 29, 79, .2);
+}
+.brands .card:hover > .card-img-overlay{
+    opacity: 1;
+}
+
+.footer h5{
+    font-size: 30px;
+}
+
+.footer form input{
+    border-radius: 0;
+    height: 70px;
+    background-color: #3b3b3b;
+}
+.footer form button{
+    height: 70px;
+    border-radius: 0%;
+    background-color: rgb(46, 35, 35);
+    background-color: #ffffff;
+}
+.footer .ul li {
+    margin-top: 10px;
+}
+footer .container .row ul li a:hover{
+    color: rgb(31, 26, 26);
+}
