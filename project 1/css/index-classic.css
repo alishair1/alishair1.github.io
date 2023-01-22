@@ -126,7 +126,7 @@
 @media screen and (max-width: 600px) {
     .productss .card .card-body{
         background-color: #fff;
-        width: 300px;
+        width: 250px;
         height: 100px;
         left: 10%;
     }
