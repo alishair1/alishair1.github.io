@@ -698,19 +698,19 @@
           <div class="row">
             <div class="col-12">
               <div class="row">
-                <div class="col-12 col-md-6">
+                <div class="col-sm-12 col-md-6">
   
                   <!-- Card -->
-                  <div class="card border-0">
+                  <div class="card border-0" style="max-width: 550px;">
   
                     <!-- Badge -->
-                    <div class="badge bg-primary card-badge text-uppercase">
-                      Sale
-                    </div>
+                 
   
                     <!-- Slider -->
                     <div class="mb-4" data-flickity='{"draggable": false, "fade": true}' id="productSlider">
-  
+                        <div class="badge bg-primary card-badge text-uppercase">
+                            Sale
+                          </div>
                       <!-- Item -->
                       <a href="#" data-bigpicture='{ "imgSrc": "images/img/men-shoe1.jpg"}'>
                         <img src="images/img/men-shoe1.jpg" alt="..." class="card-img-top">
@@ -737,7 +737,7 @@
                     <div class="col-12 px-2" style="max-width: 113px;">
   
                       <!-- Image -->
-                      <div class="ratio ratio-1x1 bg-cover" style="background-image: url(assets/img/products/product-7.jpg);"></div>
+                      <!-- <div class="ratio ratio-1x1 bg-cover" style="background-image: url(images/img/ladies-dress1.jpg);"></div> -->
   
                     </div>
   
@@ -745,7 +745,7 @@
                     <div class="col-12 px-2" style="max-width: 113px;">
   
                       <!-- Image -->
-                      <div class="ratio ratio-1x1 bg-cover" style="background-image: url(assets/img/products/product-122.jpg);"></div>
+                      <!-- <div class="ratio ratio-1x1 bg-cover" style="background-image: url(images/img/ladies-shoe.jpg);"></div> -->
   
                     </div>
   
@@ -753,14 +753,14 @@
                     <div class="col-12 px-2" style="max-width: 113px;">
   
                       <!-- Image -->
-                      <div class="ratio ratio-1x1 bg-cover" style="background-image: url(assets/img/products/product-146.jpg);"></div>
+                      <!-- <div class="ratio ratio-1x1 bg-cover" style="background-image: url(images/img/ladies-shoe.jpg);"></div> -->
   
                     </div>
   
                   </div>
   
                 </div>
-                <div class="col-12 col-md-6 ps-lg-10">
+                <div class="col-12 col-md-6 ps-lg-10 mt-4">
   
                   <!-- Header -->
                   <div class="row mb-1">
@@ -770,10 +770,10 @@
                       <a class="text-muted" href="shop.html">Sneakers</a>
   
                     </div>
-                    <div class="col-auto">
+                    <div class="col-auto d-flex">
   
                       <!-- Rating -->
-                      <div class="rating fs-xs text-dark" data-value="4">
+                      <div class="rating fs-xs text-dark d-flex" data-value="4">
                         <div class="rating-item">
                           <i class="fas fa-star"></i>
                         </div>
@@ -786,12 +786,12 @@
                         <div class="rating-item">
                           <i class="fas fa-star"></i>
                         </div>
-                        <div class="rating-item">
+                        <div class="rating-item text-black-50">
                           <i class="fas fa-star"></i>
                         </div>
                       </div>
   
-                      <a class="fs-sm text-reset ms-2" href="#reviews">
+                      <a class="fs-sm text-reset ms-2 text-decoration-none" href="#reviews">
                         Reviews (6)
                       </a>
   
@@ -799,7 +799,7 @@
                   </div>
   
                   <!-- Heading -->
-                  <h3 class="mb-2">Leather Sneakers</h3>
+                  <h3 class="mb-2 ">Leather Sneakers</h3>
   
                   <!-- Price -->
                   <div class="mb-7">
@@ -820,10 +820,10 @@
                       <!-- Radio -->
                       <div class="mb-8 ms-n1">
                         <div class="form-check form-check-inline form-check-img">
-                          <input type="radio" class="form-check-input" id="imgRadioOne" name="imgRadio" data-toggle="form-caption" data-target="#colorCaption" value="White" style="background-image: url(assets/img/products/product-7.jpg);" checked>
+                          <input type="radio" class="form-check-input" id="imgRadioOne" name="imgRadio" data-toggle="form-caption" data-target="#colorCaption" value="White" style="background-image: url(images/img/men-shoe1.jpg); background-size: cover;" checked>
                         </div>
                         <div class="form-check form-check-inline form-check-img">
-                          <input type="radio" class="form-check-input" id="imgRadioTwo" name="imgRadio" data-toggle="form-caption" data-target="#colorCaption" value="Black" style="background-image: url(assets/img/products/product-49.jpg);">
+                          <input type="radio" class="form-check-input" id="imgRadioTwo" name="imgRadio" data-toggle="form-caption" data-target="#colorCaption" value="Black" style="background-image: url(images/img/men-shoe2.jpg); background-size: cover;">
                         </div>
                       </div>
   
@@ -897,14 +897,14 @@
   
                       <!-- Size chart -->
                       <p class="mb-8">
-                        <img src="assets/img/icons/icon-ruler.svg" alt="..." class="img-fluid"> <a class="text-reset text-decoration-underline ms-3" data-bs-toggle="modal" href="#modalSizeChart">Size chart</a>
+                        <img src="images/icons/icon-ruler.svg" alt="..." class="img-fluid"> <a class="text-reset text-decoration-underline ms-3" data-bs-toggle="modal" href="#modalSizeChart">Size chart</a>
                       </p>
   
                       <div class="row gx-5 mb-7">
-                        <div class="col-12 col-lg-auto">
+                        <div class="col-12 col-lg-3">
   
                           <!-- Quantity -->
-                          <select class="form-select mb-2">
+                          <select class="Quantity form-select mb-2">
                             <option value="1" selected>1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
@@ -913,41 +913,41 @@
                           </select>
   
                         </div>
-                        <div class="col-12 col-lg">
+                        <div class="col-12 col-lg-9">
   
                           <!-- Submit -->
-                          <button type="submit" class="btn w-100 btn-dark mb-2">
+                          <button type="submit" class="btn  add-btn w-100 btn-dark mb-2">
                             Add to Cart <i class="fe fe-shopping-cart ms-2"></i>
                           </button>
   
                         </div>
-                        <div class="col-12 col-lg-auto">
+                        <div class="col-12 col-lg-4">
   
                           <!-- Wishlist -->
-                          <button class="btn btn-outline-dark w-100 mb-2" data-toggle="button">
-                            Wishlist <i class="fe fe-heart ms-2"></i>
+                          <button class="btn Wishlist btn-outline-dark w-100 mb-2" data-toggle="button">
+                            Wishlist <i class="fa fa-heart ms-2"></i>
                           </button>
   
                         </div>
                       </div>
   
                       <!-- Text -->
-                      <p>
-                        <span class="text-gray-500">Is your size/color sold out?</span>
+                      <p class="mt-3">
+                        <span class="text-success fs-5">Is your size/color sold out?</span>
                         <a class="text-reset text-decoration-underline" data-bs-toggle="modal" href="#modalWaitList">Join the Wait List!</a>
                       </p>
   
                       <!-- Share -->
-                      <p class="mb-0">
-                        <span class="me-4">Share:</span>
+                      <p class="mb-5 icon-social">
+                        <span class="me-4 mt-4 fs-5">Share:</span>
                         <a class="btn btn-xxs btn-circle btn-light fs-xxxs text-gray-350" href="#!">
-                          <i class="fab fa-twitter"></i>
+                          <i class="fa fa-t"></i>
                         </a>
                         <a class="btn btn-xxs btn-circle btn-light fs-xxxs text-gray-350" href="#!">
-                          <i class="fab fa-facebook-f"></i>
+                          <i class="fa fa-f"></i>
                         </a>
                         <a class="btn btn-xxs btn-circle btn-light fs-xxxs text-gray-350" href="#!">
-                          <i class="fab fa-pinterest-p"></i>
+                          <i class="fa fa-p"></i>
                         </a>
                       </p>
   
@@ -962,7 +962,7 @@
       </section>
   
       <!-- DESCRIPTION -->
-      <section class="pt-11">
+      <section class="pt-5 DESCRIPTION">
         <div class="container">
           <div class="row">
             <div class="col-12">
@@ -989,14 +989,14 @@
                         <div class="col-12">
   
                           <!-- Text -->
-                          <p class="text-gray-500">
+                          <p class="text-success pt-5">
                             Won't herb first male seas, beast. Let upon, female upon third fifth every. Man subdue rule after years herb after
                             form. And image may, morning. Behold in tree day sea that together cattle whose. Fifth gathering brought
                             bearing. Abundantly creeping whose. Beginning form have void two. A whose.
                           </p>
   
                         </div>
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-md-6 mt-4 mb-5">
   
                           <!-- List -->
                           <ul class="list list-unstyled mb-md-0 text-gray-500">
@@ -1012,10 +1012,10 @@
                           </ul>
   
                         </div>
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-md-6 mt-4 mb-5">
   
                           <!-- List -->
-                          <ul class="list list-unstyled mb-0">
+                          <ul class="list list-unstyled mb-5">
                             <li>
                               <strong>Outer</strong>: Leather 100%, Polyamide 100%
                             </li>
@@ -1039,12 +1039,12 @@
                         <div class="col-12 col-md-6">
   
                           <!-- Text -->
-                          <p class="mb-4">
+                          <p class="mb-4 mt-5">
                             <strong>Fitting information:</strong>
                           </p>
   
                           <!-- List -->
-                          <ul class="mb-md-0 text-gray-500">
+                          <ul class="mb-md-0 text-success">
                             <li>
                               Upon seas hath every years have whose
                               subdue creeping they're it were.
@@ -1061,12 +1061,12 @@
                         <div class="col-12 col-md-6">
   
                           <!-- Text -->
-                          <p class="mb-4">
+                          <p class="mb-4 mt-5">
                             <strong>Model measurements:</strong>
                           </p>
   
                           <!-- List -->
-                          <ul class="list-unstyled text-gray-500">
+                          <ul class="list-unstyled text-success">
                             <li>Height: 1.80 m</li>
                             <li>Bust/Chest: 89 cm</li>
                             <li>Hips: 91 cm</li>
@@ -1075,8 +1075,8 @@
                           </ul>
   
                           <!-- Size -->
-                          <p class="mb-0">
-                            <img src="assets/img/icons/icon-ruler.svg" alt="..." class="img-fluid">
+                          <p class="mb-5">
+                            <img src="images/icons/icon-ruler.svg" alt="..." class="img-fluid">
                             <a class="text-reset text-decoration-underline ms-3" data-bs-toggle="modal" href="#modalSizeChart">Size chart</a>
                           </p>
   
@@ -1091,44 +1091,44 @@
   
                       <!-- Table -->
                       <div class="table-responsive">
-                        <table class="table table-bordered table-sm table-hover">
+                        <table class="table table-bordered table-sm table-hover mt-5">
                           <thead>
                             <tr>
-                              <th>Shipping Options</th>
-                              <th>Delivery Time</th>
-                              <th>Price</th>
+                              <th class="p-3">Shipping Options</th>
+                              <th class="p-3">Delivery Time</th>
+                              <th class="p-3">Price</th>
                             </tr>
                           </thead>
                           <tbody>
                             <tr>
-                              <td>Standard Shipping</td>
-                              <td>Delivery in 5 - 7 working days</td>
-                              <td>$8.00</td>
+                              <td class="p-3">Standard Shipping</td>
+                              <td class="p-3">Delivery in 5 - 7 working days</td>
+                              <td class="p-3">$8.00</td>
                             </tr>
                             <tr>
-                              <td>Express Shipping</td>
-                              <td>Delivery in 3 - 5 working days</td>
-                              <td>$12.00</td>
+                              <td class="p-3">Express Shipping</td>
+                              <td class="p-3">Delivery in 3 - 5 working days</td>
+                              <td class="p-3">$12.00</td>
                             </tr>
                             <tr>
-                              <td>1 - 2 day Shipping</td>
-                              <td>Delivery in 1 - 2 working days</td>
-                              <td>$12.00</td>
+                              <td class="p-3">1 - 2 day Shipping</td>
+                              <td class="p-3">Delivery in 1 - 2 working days</td>
+                              <td class="p-3">$12.00</td>
                             </tr>
                             <tr>
-                              <td>Free Shipping</td>
-                              <td>
+                              <td class="p-3">Free Shipping</td>
+                              <td class="p-3">
                                 Living won't the He one every subdue meat replenish
                                 face was you morning firmament darkness.
                               </td>
-                              <td>$0.00</td>
+                              <td class="p-3">$0.00</td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
   
                       <!-- Caption -->
-                      <p class="mb-0 text-gray-500">
+                      <p class="mb-5 mt-3 text-success">
                         May, life blessed night so creature likeness their, for. <a class="text-body text-decoration-underline" href="#!">Find out more</a>
                       </p>
   
@@ -1149,269 +1149,279 @@
             <div class="col-12">
   
               <!-- Heading -->
-              <h4 class="mb-10 text-center">You might also like</h4>
+              <h4 class="mb-5 mt-5 text-center">You might also like</h4>
   
               <!-- Items -->
               <div class="row">
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3">
   
-                  <!-- Card -->
-                  <div class="card mb-7">
-  
-                    <!-- Badge -->
-                    <div class="badge bg-white text-body card-badge card-badge-start text-uppercase">
-                      New
-                    </div>
-  
+                        <!-- Card -->
+                  <div class="card mb-7 border-0">
+
+                    
+
                     <!-- Image -->
                     <div class="card-img">
-  
+                      <!-- Badge -->
+                    <div class="badge bg-dark text-white card-badge card-badge-start text-uppercase">
+                      Sale
+                    </div>
                       <!-- Image -->
                       <a class="card-img-hover" href="product.html">
-                        <img class="card-img-top card-img-back" src="assets/img/products/product-120.jpg" alt="...">
-                        <img class="card-img-top card-img-front" src="assets/img/products/product-5.jpg" alt="...">
+                        <img class="card-img-top card-img-back" src="images/img/ladies-shoe.jpg" alt="...">
+                        <img class="card-img-top card-img-front" src="images/img/ladies-shoe2.jpg" alt="...">
                       </a>
-  
+
                       <!-- Actions -->
-                      <div class="card-actions">
+                      <div class="card-actions text-center">
                         <span class="card-action">
                           <button class="btn btn-xs btn-circle btn-white-primary" data-bs-toggle="modal" data-bs-target="#modalProduct">
-                            <i class="fe fe-eye"></i>
+                            <i class="fa fa-eye"></i>
                           </button>
                         </span>
                         <span class="card-action">
                           <button class="btn btn-xs btn-circle btn-white-primary" data-toggle="button">
-                            <i class="fe fe-shopping-cart"></i>
+                            <i class="fa fa-shopping-cart"></i>
                           </button>
                         </span>
                         <span class="card-action">
                           <button class="btn btn-xs btn-circle btn-white-primary" data-toggle="button">
-                            <i class="fe fe-heart"></i>
+                            <i class="fa fa-heart"></i>
                           </button>
                         </span>
                       </div>
-  
+
                     </div>
-  
+
                     <!-- Body -->
                     <div class="card-body px-0">
-  
+
                       <!-- Category -->
                       <div class="fs-xs">
-                        <a class="text-muted" href="shop.html">Shoes</a>
+                        <a class="text-muted text-decoration-none" href="shop.html">Shoes</a>
                       </div>
-  
+
                       <!-- Title -->
                       <div class="fw-bold">
-                        <a class="text-body" href="product.html">
+                        <a class="text-body text-decoration-none" href="product.html">
                           Leather mid-heel Sandals
                         </a>
                       </div>
-  
+
                       <!-- Price -->
                       <div class="fw-bold text-muted">
                         $129.00
                       </div>
-  
+
                     </div>
-  
+
                   </div>
+          
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-3">
   
-                </div>
-                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                            <!-- Card -->
+                            <div class="card mb-7 border-0">
+
+                    
+
+                              <!-- Image -->
+                              <div class="card-img">
+                                <!-- Badge -->
+                              <div class="badge bg-white text-body card-badge card-badge-start text-uppercase">
+                                New
+                              </div>
+                                <!-- Image -->
+                                <a class="card-img-hover" href="product.html">
+                                  <img class="card-img-top card-img-back" src="images/img/ladies-shoe.jpg" alt="...">
+                                  <img class="card-img-top card-img-front" src="images/img/ladies-shoe2.jpg" alt="...">
+                                </a>
+          
+                                <!-- Actions -->
+                                <div class="card-actions text-center">
+                                  <span class="card-action">
+                                    <button class="btn btn-xs btn-circle btn-white-primary" data-bs-toggle="modal" data-bs-target="#modalProduct">
+                                      <i class="fa fa-eye"></i>
+                                    </button>
+                                  </span>
+                                  <span class="card-action">
+                                    <button class="btn btn-xs btn-circle btn-white-primary" data-toggle="button">
+                                      <i class="fa fa-shopping-cart"></i>
+                                    </button>
+                                  </span>
+                                  <span class="card-action">
+                                    <button class="btn btn-xs btn-circle btn-white-primary" data-toggle="button">
+                                      <i class="fa fa-heart"></i>
+                                    </button>
+                                  </span>
+                                </div>
+          
+                              </div>
+          
+                              <!-- Body -->
+                              <div class="card-body px-0">
+          
+                                <!-- Category -->
+                                <div class="fs-xs">
+                                  <a class="text-muted text-decoration-none" href="shop.html">Shoes</a>
+                                </div>
+          
+                                <!-- Title -->
+                                <div class="fw-bold">
+                                  <a class="text-body text-decoration-none" href="product.html">
+                                    Leather mid-heel Sandals
+                                  </a>
+                                </div>
+          
+                                <!-- Price -->
+                                <div class="fw-bold text-muted">
+                                  $129.00
+                                </div>
+          
+                              </div>
+          
+                            </div>
   
-                  <!-- Card -->
-                  <div class="card mb-7">
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+          
+                            <!-- Card -->
+                            <div class="card mb-7 border-0">
+
+                    
+
+                              <!-- Image -->
+                              <div class="card-img">
+                                <!-- Badge -->
+                              <div class="badge bg-dark text-white card-badge card-badge-start text-uppercase">
+                                Sale
+                              </div>
+                                <!-- Image -->
+                                <a class="card-img-hover" href="product.html">
+                                  <img class="card-img-top card-img-back" src="images/img/ladies-shoe.jpg" alt="...">
+                                  <img class="card-img-top card-img-front" src="images/img/ladies-shoe2.jpg" alt="...">
+                                </a>
+          
+                                <!-- Actions -->
+                                <div class="card-actions text-center">
+                                  <span class="card-action">
+                                    <button class="btn btn-xs btn-circle btn-white-primary" data-bs-toggle="modal" data-bs-target="#modalProduct">
+                                      <i class="fa fa-eye"></i>
+                                    </button>
+                                  </span>
+                                  <span class="card-action">
+                                    <button class="btn btn-xs btn-circle btn-white-primary" data-toggle="button">
+                                      <i class="fa fa-shopping-cart"></i>
+                                    </button>
+                                  </span>
+                                  <span class="card-action">
+                                    <button class="btn btn-xs btn-circle btn-white-primary" data-toggle="button">
+                                      <i class="fa fa-heart"></i>
+                                    </button>
+                                  </span>
+                                </div>
+          
+                              </div>
+          
+                              <!-- Body -->
+                              <div class="card-body px-0">
+          
+                                <!-- Category -->
+                                <div class="fs-xs">
+                                  <a class="text-muted text-decoration-none" href="shop.html">Shoes</a>
+                                </div>
+          
+                                <!-- Title -->
+                                <div class="fw-bold">
+                                  <a class="text-body text-decoration-none" href="product.html">
+                                    Leather mid-heel Sandals
+                                  </a>
+                                </div>
+          
+                                <!-- Price -->
+                                <div class="fw-bold text-muted">
+                                  $129.00
+                                </div>
+          
+                              </div>
+          
+                            </div>
   
-                    <!-- Image -->
-                    <div class="card-img">
+                          </div>
+                          <div class="col-6 col-sm-6 col-md-4 col-lg-3 d-md-none d-lg-block">
+            
+                            <!-- Card -->
+                            <div class="card mb-7 border-0">
+
+                    
+
+                              <!-- Image -->
+                              <div class="card-img">
+                                <!-- Badge -->
+                              <div class="badge bg-white text-body card-badge card-badge-start text-uppercase">
+                                New
+                              </div>
+                                <!-- Image -->
+                                <a class="card-img-hover" href="product.html">
+                                  <img class="card-img-top card-img-back" src="images/img/ladies-shoe.jpg" alt="...">
+                                  <img class="card-img-top card-img-front" src="images/img/ladies-shoe2.jpg" alt="...">
+                                </a>
+          
+                                <!-- Actions -->
+                                <div class="card-actions text-center">
+                                  <span class="card-action">
+                                    <button class="btn btn-xs btn-circle btn-white-primary" data-bs-toggle="modal" data-bs-target="#modalProduct">
+                                      <i class="fa fa-eye"></i>
+                                    </button>
+                                  </span>
+                                  <span class="card-action">
+                                    <button class="btn btn-xs btn-circle btn-white-primary" data-toggle="button">
+                                      <i class="fa fa-shopping-cart"></i>
+                                    </button>
+                                  </span>
+                                  <span class="card-action">
+                                    <button class="btn btn-xs btn-circle btn-white-primary" data-toggle="button">
+                                      <i class="fa fa-heart"></i>
+                                    </button>
+                                  </span>
+                                </div>
+          
+                              </div>
+          
+                              <!-- Body -->
+                              <div class="card-body px-0">
+          
+                                <!-- Category -->
+                                <div class="fs-xs">
+                                  <a class="text-muted text-decoration-none" href="shop.html">Shoes</a>
+                                </div>
+          
+                                <!-- Title -->
+                                <div class="fw-bold">
+                                  <a class="text-body text-decoration-none" href="product.html">
+                                    Leather mid-heel Sandals
+                                  </a>
+                                </div>
+          
+                                <!-- Price -->
+                                <div class="fw-bold text-muted">
+                                  $129.00
+                                </div>
+          
+                              </div>
+          
+                            </div>
   
-                      <!-- Image -->
-                      <a class="card-img-hover" href="product.html">
-                        <img class="card-img-top card-img-back" src="assets/img/products/product-121.jpg" alt="...">
-                        <img class="card-img-top card-img-front" src="assets/img/products/product-6.jpg" alt="...">
-                      </a>
-  
-                      <!-- Actions -->
-                      <div class="card-actions">
-                        <span class="card-action">
-                          <button class="btn btn-xs btn-circle btn-white-primary" data-bs-toggle="modal" data-bs-target="#modalProduct">
-                            <i class="fe fe-eye"></i>
-                          </button>
-                        </span>
-                        <span class="card-action">
-                          <button class="btn btn-xs btn-circle btn-white-primary" data-toggle="button">
-                            <i class="fe fe-shopping-cart"></i>
-                          </button>
-                        </span>
-                        <span class="card-action">
-                          <button class="btn btn-xs btn-circle btn-white-primary" data-toggle="button">
-                            <i class="fe fe-heart"></i>
-                          </button>
-                        </span>
+                          </div>
+                        </div>
+            
                       </div>
-  
                     </div>
-  
-                    <!-- Body -->
-                    <div class="card-body px-0">
-  
-                      <!-- Category -->
-                      <div class="fs-xs">
-                        <a class="text-muted" href="shop.html">Dresses</a>
-                      </div>
-  
-                      <!-- Title -->
-                      <div class="fw-bold">
-                        <a class="text-body" href="product.html">
-                          Cotton floral print Dress
-                        </a>
-                      </div>
-  
-                      <!-- Price -->
-                      <div class="fw-bold text-muted">
-                        $40.00
-                      </div>
-  
-                    </div>
-  
                   </div>
-  
-                </div>
-                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
-  
-                  <!-- Card -->
-                  <div class="card mb-7">
-  
-                    <!-- Badge -->
-                    <div class="badge bg-dark card-badge card-badge-start text-uppercase">
-                      Sale
-                    </div>
-  
-                    <!-- Image -->
-                    <div class="card-img">
-  
-                      <!-- Image -->
-                      <a class="card-img-hover" href="product.html">
-                        <img class="card-img-top card-img-back" src="assets/img/products/product-122.jpg" alt="...">
-                        <img class="card-img-top card-img-front" src="assets/img/products/product-7.jpg" alt="...">
-                      </a>
-  
-                      <!-- Actions -->
-                      <div class="card-actions">
-                        <span class="card-action">
-                          <button class="btn btn-xs btn-circle btn-white-primary" data-bs-toggle="modal" data-bs-target="#modalProduct">
-                            <i class="fe fe-eye"></i>
-                          </button>
-                        </span>
-                        <span class="card-action">
-                          <button class="btn btn-xs btn-circle btn-white-primary" data-toggle="button">
-                            <i class="fe fe-shopping-cart"></i>
-                          </button>
-                        </span>
-                        <span class="card-action">
-                          <button class="btn btn-xs btn-circle btn-white-primary" data-toggle="button">
-                            <i class="fe fe-heart"></i>
-                          </button>
-                        </span>
-                      </div>
-  
-                    </div>
-  
-                    <!-- Body -->
-                    <div class="card-body px-0">
-  
-                      <!-- Category -->
-                      <div class="fs-xs">
-                        <a class="text-muted" href="shop.html">Shoes</a>
-                      </div>
-  
-                      <!-- Title -->
-                      <div class="fw-bold">
-                        <a class="text-body" href="product.html">
-                          Leather Sneakers
-                        </a>
-                      </div>
-  
-                      <!-- Price -->
-                      <div class="fw-bold">
-                        <span class="fs-xs text-gray-350 text-decoration-line-through">$85.00</span>
-                        <span class="text-primary">$85.00</span>
-                      </div>
-  
-                    </div>
-  
-                  </div>
-  
-                </div>
-                <div class="col-6 col-sm-6 col-md-4 col-lg-3 d-md-none d-lg-block">
-  
-                  <!-- Card -->
-                  <div class="card mb-7">
-  
-                    <!-- Image -->
-                    <div class="card-img">
-  
-                      <!-- Image -->
-                      <a href="#!">
-                        <img class="card-img-top card-img-front" src="assets/img/products/product-8.jpg" alt="...">
-                      </a>
-  
-                      <!-- Actions -->
-                      <div class="card-actions">
-                        <span class="card-action">
-                          <button class="btn btn-xs btn-circle btn-white-primary" data-bs-toggle="modal" data-bs-target="#modalProduct">
-                            <i class="fe fe-eye"></i>
-                          </button>
-                        </span>
-                        <span class="card-action">
-                          <button class="btn btn-xs btn-circle btn-white-primary" data-toggle="button">
-                            <i class="fe fe-shopping-cart"></i>
-                          </button>
-                        </span>
-                        <span class="card-action">
-                          <button class="btn btn-xs btn-circle btn-white-primary" data-toggle="button">
-                            <i class="fe fe-heart"></i>
-                          </button>
-                        </span>
-                      </div>
-  
-                    </div>
-  
-                    <!-- Body -->
-                    <div class="card-body px-0">
-  
-                      <!-- Category -->
-                      <div class="fs-xs">
-                        <a class="text-muted" href="shop.html">Tops</a>
-                      </div>
-  
-                      <!-- Title -->
-                      <div class="fw-bold">
-                        <a class="text-body" href="product.html">
-                          Cropped cotton Top
-                        </a>
-                      </div>
-  
-                      <!-- Price -->
-                      <div class="fw-bold text-muted">
-                        $29.00
-                      </div>
-  
-                    </div>
-  
-                  </div>
-  
-                </div>
-              </div>
-  
-            </div>
-          </div>
-        </div>
-      </section>
+                </section>
   
       <!-- REVIEWS -->
-      <section class="pt-9 pb-11" id="reviews">
+      <section class="review pt-5 pb-5" id="reviews">
         <div class="container">
           <div class="row">
             <div class="col-12">
@@ -1420,19 +1430,20 @@
               <h4 class="mb-10 text-center">Customer Reviews</h4>
   
               <!-- Header -->
-              <div class="row align-items-center">
-                <div class="col-12 col-md-auto">
+              <div class="row align-items-center mt-5">
+                <div class="col-sm-12 text-center col-lg-4 col-12">
   
                   <!-- Dropdown -->
                   <div class="dropdown mb-4 mb-md-0">
   
                     <!-- Toggle -->
-                    <a class="dropdown-toggle text-reset" data-bs-toggle="dropdown" href="#">
+                    <a class="dropdown-toggle-none text-reset text-decoration-none fs-5" data-bs-toggle="dropdown" href="#">
                       <strong>Sort by: Newest</strong>
+                      <i class="fa fa-angle-down"></i>
                     </a>
   
                     <!-- Menu -->
-                    <div class="dropdown-menu mt-3">
+                    <div class="dropdown-menu mt-2 rounded-0">
                       <a class="dropdown-item" href="#!">Newest</a>
                       <a class="dropdown-item" href="#!">Oldest</a>
                     </div>
@@ -1440,10 +1451,10 @@
                   </div>
   
                 </div>
-                <div class="col-12 col-md text-md-center">
+                <div class="col-sm-12 text-center col-lg-4 col-12  d-flex">
   
                   <!-- Rating -->
-                  <div class="rating text-dark h6 mb-4 mb-md-0" data-value="4">
+                  <div class="rating text-dark h6 mb-4 mb-md-0 d-flex" data-value="4">
                     <div class="rating-item">
                       <i class="fas fa-star"></i>
                     </div>
@@ -1456,7 +1467,7 @@
                     <div class="rating-item">
                       <i class="fas fa-star"></i>
                     </div>
-                    <div class="rating-item">
+                    <div class="rating-item text-black-50">
                       <i class="fas fa-star"></i>
                     </div>
                   </div>
@@ -1465,7 +1476,7 @@
                   <strong class="fs-sm ms-2">Reviews (3)</strong>
   
                 </div>
-                <div class="col-12 col-md-auto">
+                <div class="col-sm-12 text-center col-lg-4 col-12">
   
                   <!-- Button -->
                   <a class="btn btn-sm btn-dark" data-bs-toggle="collapse" href="#reviewForm">
@@ -1476,98 +1487,7 @@
               </div>
   
               <!-- New Review -->
-              <div class="collapse" id="reviewForm">
-  
-                <!-- Divider -->
-                <hr class="my-8">
-  
-                <!-- Form -->
-                <form>
-                  <div class="row">
-                    <div class="col-12 mb-6 text-center">
-  
-                      <!-- Text -->
-                      <p class="mb-1 fs-xs">
-                        Score:
-                      </p>
-  
-                      <!-- Rating form -->
-                      <div class="rating-form">
-  
-                        <!-- Input -->
-                        <input class="rating-input" type="range" min="1" max="5" value="5">
-  
-                        <!-- Rating -->
-                        <div class="rating h5 text-dark" data-value="5">
-                          <div class="rating-item">
-                            <i class="fas fa-star"></i>
-                          </div>
-                          <div class="rating-item">
-                            <i class="fas fa-star"></i>
-                          </div>
-                          <div class="rating-item">
-                            <i class="fas fa-star"></i>
-                          </div>
-                          <div class="rating-item">
-                            <i class="fas fa-star"></i>
-                          </div>
-                          <div class="rating-item">
-                            <i class="fas fa-star"></i>
-                          </div>
-                        </div>
-  
-                      </div>
-  
-                    </div>
-                    <div class="col-12 col-md-6">
-  
-                      <!-- Name -->
-                      <div class="form-group">
-                        <label class="visually-hidden" for="reviewName">Your Name:</label>
-                        <input class="form-control form-control-sm" id="reviewName" type="text" placeholder="Your Name *" required>
-                      </div>
-  
-                    </div>
-                    <div class="col-12 col-md-6">
-  
-                      <!-- Email -->
-                      <div class="form-group">
-                        <label class="visually-hidden" for="reviewEmail">Your Email:</label>
-                        <input class="form-control form-control-sm" id="reviewEmail" type="email" placeholder="Your Email *" required>
-                      </div>
-  
-                    </div>
-                    <div class="col-12">
-  
-                      <!-- Name -->
-                      <div class="form-group">
-                        <label class="visually-hidden" for="reviewTitle">Review Title:</label>
-                        <input class="form-control form-control-sm" id="reviewTitle" type="text" placeholder="Review Title *" required>
-                      </div>
-  
-                    </div>
-                    <div class="col-12">
-  
-                      <!-- Name -->
-                      <div class="form-group">
-                        <label class="visually-hidden" for="reviewText">Review:</label>
-                        <textarea class="form-control form-control-sm" id="reviewText" rows="5" placeholder="Review *" required></textarea>
-                      </div>
-  
-                    </div>
-                    <div class="col-12 text-center">
-  
-                      <!-- Button -->
-                      <button class="btn btn-outline-dark" type="submit">
-                        Post Review
-                      </button>
-  
-                    </div>
-                  </div>
-                </form>
-  
-              </div>
-  
+             
               <!-- Reviews -->
               <div class="mt-8">
   
@@ -1575,24 +1495,24 @@
                 <div class="review">
                   <div class="review-body">
                     <div class="row">
-                      <div class="col-12 col-md-auto">
+                      <div class="col-12 col-md-auto col-lg-2">
   
                         <!-- Avatar -->
                         <div class="avatar avatar-xxl mb-6 mb-md-0">
-                          <span class="avatar-title rounded-circle">
+                          <span class="avatar-title">
                             <i class="fa fa-user"></i>
                           </span>
                         </div>
   
                       </div>
-                      <div class="col-12 col-md">
+                      <div class="col-12 col-md col-lg-10">
   
                         <!-- Header -->
-                        <div class="row mb-6">
+                        <div class="row mb-3">
                           <div class="col-12">
   
                             <!-- Rating -->
-                            <div class="rating fs-sm text-dark" data-value="5">
+                            <div class="rating fs-sm text-dark d-flex" data-value="5">
                               <div class="rating-item">
                                 <i class="fas fa-star"></i>
                               </div>
@@ -1622,12 +1542,12 @@
                         </div>
   
                         <!-- Title -->
-                        <p class="mb-2 fs-lg fw-bold">
+                        <p class="mb-2  fs-lg fw-bold">
                           So cute!
                         </p>
   
                         <!-- Text -->
-                        <p class="text-gray-500">
+                        <p class="text-success fs-5">
                           Justo ut diam erat hendrerit. Morbi porttitor, per eu. Sodales curabitur diam sociis. Taciti lobortis nascetur. Ante laoreet odio hendrerit.
                           Dictumst curabitur nascetur lectus potenti dis sollicitudin habitant quis vestibulum.
                         </p>
@@ -1644,11 +1564,11 @@
   
                             <!-- Rate -->
                             <div class="rate">
-                              <a class="rate-item" data-toggle="vote" data-count="3" href="#" role="button">
-                                <i class="fe fe-thumbs-up"></i>
+                              <a class="rate-item text-decoration-none text-dark" data-toggle="vote" data-count="3" href="#" role="button">
+                                <i class="fa fa-thumbs-up"></i>
                               </a>
-                              <a class="rate-item" data-toggle="vote" data-count="0" href="#" role="button">
-                                <i class="fe fe-thumbs-down"></i>
+                              <a class="rate-item text-decoration-none text-dark" data-toggle="vote" data-count="0" href="#" role="button">
+                                <i class="fa fa-thumbs-down"></i>
                               </a>
                             </div>
   
@@ -1680,7 +1600,7 @@
                   <!-- Body -->
                   <div class="review-body">
                     <div class="row">
-                      <div class="col-12 col-md-auto">
+                      <div class="col-12 col-md col-lg-2">
   
                         <!-- Avatar -->
                         <div class="avatar avatar-xxl mb-6 mb-md-0">
@@ -1690,14 +1610,14 @@
                         </div>
   
                       </div>
-                      <div class="col-12 col-md">
+                      <div class="col-12 col-md col-lg-10">
   
                         <!-- Header -->
-                        <div class="row mb-6">
+                        <div class="row mb-4">
                           <div class="col-12">
   
                             <!-- Rating -->
-                            <div class="rating fs-sm text-dark" data-value="3">
+                            <div class="rating fs-sm text-dark d-flex" data-value="3">
                               <div class="rating-item">
                                 <i class="fas fa-star"></i>
                               </div>
@@ -1732,7 +1652,7 @@
                         </p>
   
                         <!-- Text -->
-                        <p class="text-gray-500">
+                        <p class="text-success fs-5">
                           Shall good midst can't. Have fill own his multiply the divided. Thing great. Of heaven whose signs.
                         </p>
   
@@ -1749,10 +1669,10 @@
                             <!-- Rate -->
                             <div class="rate">
                               <a class="rate-item" data-toggle="vote" data-count="2" href="#" role="button">
-                                <i class="fe fe-thumbs-up"></i>
+                                <i class="fa fa-thumbs-up text-decoration-none text-dark"></i>
                               </a>
                               <a class="rate-item" data-toggle="vote" data-count="1" href="#" role="button">
-                                <i class="fe fe-thumbs-down"></i>
+                                <i class="fa fa-thumbs-down text-decoration-none text-dark"></i>
                               </a>
                             </div>
   
@@ -1783,7 +1703,7 @@
   
                       <!-- Content -->
                       <div class="row">
-                        <div class="col-12 col-md-auto">
+                        <div class="col-12 col-md-auto col-lg-2">
   
                           <!-- Avatar -->
                           <div class="avatar avatar-xxl mb-6 mb-md-0">
@@ -1793,14 +1713,14 @@
                           </div>
   
                         </div>
-                        <div class="col-12 col-md">
+                        <div class="col-12 col-md col-lg-10">
   
                           <!-- Header -->
-                          <div class="row mb-6">
+                          <div class="row mb-3">
                             <div class="col-12">
   
                               <!-- Rating -->
-                              <div class="rating fs-sm text-dark" data-value="4">
+                              <div class="rating fs-sm text-dark d-flex" data-value="4">
                                 <div class="rating-item">
                                   <i class="fas fa-star"></i>
                                 </div>
@@ -1835,7 +1755,7 @@
                           </p>
   
                           <!-- Text -->
-                          <p class="text-gray-500">
+                          <p class="text-success fs-5">
                             Made face lights yielding forth created for image behold blessed seas.
                           </p>
   
@@ -1852,10 +1772,10 @@
                               <!-- Rate -->
                               <div class="rate">
                                 <a class="rate-item" data-toggle="vote" data-count="7" href="#" role="button">
-                                  <i class="fe fe-thumbs-up"></i>
+                                  <i class="fa fa-thumbs-up text-decoration-none text-dark"></i>
                                 </a>
                                 <a class="rate-item" data-toggle="vote" data-count="0" href="#" role="button">
-                                  <i class="fe fe-thumbs-down"></i>
+                                  <i class="fa fa-thumbs-down text-decoration-none text-dark"></i>
                                 </a>
                               </div>
   
@@ -1887,24 +1807,24 @@
               </div>
   
               <!-- Pagination -->
-              <nav class="d-flex justify-content-center mt-9">
-                <ul class="pagination pagination-sm text-gray-400">
+              <nav class="d-flex justify-content-center mt-5">
+                <ul class="pagination pagination-sm text-success ">
                   <li class="page-item">
-                    <a class="page-link page-link-arrow" href="#">
+                    <a class="page-link page-link-arrow  border-0 text-success" href="#">
                       <i class="fa fa-caret-left"></i>
                     </a>
                   </li>
                   <li class="page-item active">
-                    <a class="page-link" href="#">1</a>
+                    <a class="page-link text-success border-0 " href="#">1</a>
                   </li>
                   <li class="page-item">
-                    <a class="page-link" href="#">2</a>
+                    <a class="page-link text-success border-0 " href="#">2</a>
                   </li>
                   <li class="page-item">
-                    <a class="page-link" href="#">3</a>
+                    <a class="page-link text-success border-0 " href="#">3</a>
                   </li>
                   <li class="page-item">
-                    <a class="page-link page-link-arrow" href="#">
+                    <a class="page-link text-success border-0  page-link-arrow" href="#">
                       <i class="fa fa-caret-right"></i>
                     </a>
                   </li>
@@ -1917,7 +1837,7 @@
       </section>
   
       <!-- FEATURES -->
-      <section class="bg-light py-9">
+      <section class="bg-light py-5">
         <div class="container">
           <div class="row">
             <div class="col-12 col-md-6 col-lg-3">
@@ -1926,10 +1846,10 @@
               <div class="d-flex mb-6 mb-lg-0">
   
                 <!-- Icon -->
-                <i class="fe fe-truck fs-lg text-primary"></i>
+                <i class="fa fa-truck fs-lg text-success fs-4"></i>
   
                 <!-- Body -->
-                <div class="ms-6">
+                <div class="ms-5">
   
                   <!-- Heading -->
                   <h6 class="heading-xxs mb-1">
@@ -1952,10 +1872,10 @@
               <div class="d-flex mb-6 mb-lg-0">
   
                 <!-- Icon -->
-                <i class="fe fe-repeat fs-lg text-primary"></i>
+                <i class="fa fa-repeat fs-lg text-success fs-4"></i>
   
                 <!-- Body -->
-                <div class="ms-6">
+                <div class="ms-5">
   
                   <!-- Heading -->
                   <h6 class="mb-1 heading-xxs">
@@ -1978,10 +1898,10 @@
               <div class="d-flex mb-6 mb-md-0">
   
                 <!-- Icon -->
-                <i class="fe fe-lock fs-lg text-primary"></i>
+                <i class="fa fa-lock fs-lg text-success fs-4"></i>
   
                 <!-- Body -->
-                <div class="ms-6">
+                <div class="ms-5">
   
                   <!-- Heading -->
                   <h6 class="mb-1 heading-xxs">
@@ -2004,10 +1924,10 @@
               <div class="d-flex">
   
                 <!-- Icon -->
-                <i class="fe fe-tag fs-lg text-primary"></i>
+                <i class="fa fa-tag fs-lg text-success fs-4"></i>
   
                 <!-- Body -->
-                <div class="ms-6">
+                <div class="ms-5">
   
                   <!-- Heading -->
                   <h6 class="mb-1 heading-xxs">

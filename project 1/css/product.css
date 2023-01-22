@@ -9,3 +9,278 @@
     height: 30px;
     padding-top: 10px;
 }
+
+
+.product .form-group .form-check-img input{
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+}
+
+.product .form-group .form-check-img .form-check-input{
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+.product .form-group .form-check-img>
+.form-check-input{
+    background-clip:padding-box;
+    background-size:cover;
+    border:0;border-bottom:2px solid transparent;
+    border-radius:0;
+    cursor:pointer;
+    height:100%;
+    height:70px;
+    opacity:.8;
+    width:100%;
+    width:70px;
+}
+.product .form-group .form-check-img>.form-check-input:checked{
+    border-bottom-color:#1f1f1f;opacity:1
+}
+.product .form-group .form-check-size>.form-check-input{
+    display:none
+}
+.product .form-group .form-check-size>.form-check-label{
+    border:1px solid #ddd;
+    margin-left:0;
+    min-width:3rem;
+    padding:.5rem;
+    text-align:center;
+    transition:all .1s ease-in-out;
+}
+.product .form-group .form-check-size>.form-check-input:checked~.form-check-label{
+    border-color:currentColor;
+}
+.product .form-group .form-check-size>.form-check-input:disabled~.form-check-label{
+    background-color:#f5f5f5
+}
+.product .form-group .form-switch>.form-check-input{
+    background-color:#fff;
+    background-position:0;
+    background-size:1.125rem;
+    border:1px solid #ff6f61;
+    border-radius:2rem;
+}
+.product .form-group .form-switch>.form-check-input:checked,.form-switch>
+.form-check-input:checked:focus{
+    background-color:#ff6f61;
+}
+.product .form-group .btn-check:checked+.btn-outline-border{
+    border-color:#111;
+}
+.product .form-group .form-control{
+    background-clip:border-box;
+    transition:all .1s ease-in-out;
+    transition-property:border;
+}
+.product .form-group .form-control-lg,.form-control-sm,.form-select-lg,.form-select-sm{
+    line-height:1.5;
+}
+.product .form-group .form-control-xs,.form-select-xs{
+    font-size:.9375rem;
+    height:calc(2.40625rem + 2px);
+    line-height:1.5;
+    padding-bottom:.5rem;
+    padding-left:.75rem;
+    padding-top:.5rem;
+}
+.product .form-group .form-control-xs{
+    padding-right:.75rem;
+}
+.product .form-group .form-control-xxs,.form-select-xxs{
+    font-size:.9375rem;
+    height:calc(1.78125rem + 2px);
+    line-height:1.5;
+    padding-bottom:.1875rem;
+    padding-left:.5rem;
+    padding-top:.1875rem;
+}
+.product .form-group .form-control-xxs{
+    padding-right:.5rem;
+}
+.product .form-group .form-control-gray-700{
+    background-color:#303030;
+    border-color:#303030;
+    color:#fff;
+}
+.product .form-group .form-control-gray-700::-moz-placeholder{
+    color:#a6a6a6;
+}
+.product .form-group .form-control-gray-700::placeholder{
+    color:#a6a6a6;
+}
+.product .form-group .form-control-gray-700:focus{
+    background-color:#303030;
+    border-color:#303030;
+    color:#fff;
+}
+.product .form-group .form-control-light{
+    background-color:transparent;
+    border-color:#fff;
+    color:#fff;
+}
+
+
+
+
+.product .Quantity{
+    width: 140px;
+    height: 60px;
+    border-radius: 0;
+}
+.product .add-btn{
+    width: 336px;
+    height: 60px;
+    border-radius: 0;
+}
+.product .Wishlist{
+    width: 160px;
+    height: 70px;
+    border-radius: 0;
+}
+
+
+.product .icon-social a{
+    border-radius: 50%;
+    font-size: 12px;
+    vertical-align: middle;
+    padding-top: 8px;
+    text-align: center;
+    height: 35px;
+    width: 35px;
+    background-color: #dddddd;
+}
+.product .icon-social a:hover{
+    background-color: #d9c8c8;
+
+}
+
+
+
+.DESCRIPTION .nav-link{
+    border: 0;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    color: black;
+    font-size: 20px;
+}
+@media screen and (max-width: 600px) {
+            
+        .DESCRIPTION .nav-link{
+            padding: 10px;
+            font-size: 10x;
+        }
+}
+
+.card .card-img .card-img-hover .card-img-front{
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    transition: .4s;
+    -webkit-transition: opacity .4s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -ms-transition: opacity .4s ease-in-out;
+    -o-transition: opacity .4s ease-in-out;
+    transition: opacity .4s ease-in-out;
+ }
+
+ .card .card-img .card-img-hover:hover .card-img-front{
+     opacity: 1;
+  }
+
+  .card .card-img .card-img-hover:hover .card-img-back{
+     opacity: 0;
+     -webkit-transition: opacity 1s ease-in-out;
+     -moz-transition: opacity 1s ease-in-out;
+     -ms-transition: opacity 1s ease-in-out;
+     -o-transition: opacity 1s ease-in-out;
+     transition: opacity 1s ease-in-out;
+  }
+
+  .card .card-img .badge{
+     transform: translateY(100px);
+     position: relative;
+     left: 0%;
+     border-radius: 0;
+     text-align: center;
+     z-index: 1000;
+ }
+
+ .card .card-actions{
+     opacity: 0;
+     transition: 0.5s;
+ }
+
+ .card .card-actions .btn{
+     color: rgb(0, 0, 0);
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     font-size: 10px;
+     text-align: center;
+     background-color: #ffffff;
+     cursor: pointer;
+ }
+
+ .card .card-actions .btn:hover{
+    background-color: #7f822db7;
+    color: #ffffff;
+ }
+
+ .card .card-img:hover > .card-actions{
+     opacity: 1;
+     transform: translateY(-60px);
+ }
+ 
+
+
+ .review .rating .rating-item{
+    font-size: 25px;
+ }  
+ .review .btn{
+    width: 190px;
+    height: 60px;
+    border-radius: 0;
+    font-size: 20px;
+    padding-top: 12px;    
+}
+.review .review-body{
+    border: 1px solid #e5e5e5;
+    padding: 50px;
+    margin-top: 20px;
+}
+.review .review-body .avatar .avatar-title{
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    font-size: 40px;
+    color: #cccccc;
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: #f5f5f5;
+    margin-bottom: 10px;
+    
+}
+.review .review-body .btn{
+    width: 140px;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 0;
+    border: 1px solid #d5d5d5;
+}
