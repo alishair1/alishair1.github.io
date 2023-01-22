@@ -7,7 +7,23 @@
     text-decoration: none;
     font-family: 'Josefin Sans', sans-serif;
 }
-
+html{
+    scroll-behavior: smooth;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 8px;
+    
+  }
+  
+  ::-webkit-scrollbar-track { background: whitesmoke; }
+  
+  ::-webkit-scrollbar-thumb {
+    background:yellowgreen;
+    border-radius: 5px;
+    border-left: 2px solid #fff;
+    cursor: pointer;
+  }
 
 
 
@@ -493,7 +509,8 @@
     background-color: #3b3b3b;
 }
 .footer form button{
-    height: 70px;
+    height: 60px;
+    margin-top: 5px;
     border-radius: 0%;
     background-color: rgb(46, 35, 35);
     background-color: #ffffff;

@@ -1,0 +1,226 @@
+.classic-slider-top .carousel-inner .carousel-item .btn{
+    width: 200px;
+    height: 60px;
+    border-radius: 0;
+    padding-top: 15px;
+}
+
+.classic-slider-top  .carousel-inner .carousel-item .btn:hover> .fa-arrow-right{
+    transform: translateX(5px);
+    transition: .5s;
+}
+
+.classic-slider-top  .carousel-control-prev{
+   width: 50px;
+   height: 40px;
+   background-color: rgb(255, 255, 255);
+   border-radius: 0;
+ 
+   border: 0;
+   color: #000;
+
+} 
+.classic-slider-top  .carousel-control-prev:hover{
+    background-color: #ff6f61;
+    border: 0px;
+}
+.classic-slider-top  .carousel-control-next{
+    width: 50px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0;
+   
+    border: 0;
+    color: #000;
+} 
+.classic-slider-top  .carousel-control-next:hover{
+    background-color: #ff6f61;
+    border: 0px;
+}
+
+
+
+
+
+.catg-card .card{
+    background-size: cover;
+    background: no-repeat;
+    object-fit: fill;
+    transition: .4s;
+   
+}
+.catg-card .card:hover{
+   background-color:  rgba(61, 54, 54, .2);
+}
+.catg-card .card:hover>.card-bg>.card-bg-img{transform:translateX(-.25rem)}
+.catg-card .card .card-body .box1{
+    margin-top: 50%;
+}
+.catg-card .card .card-body .box3{
+    margin-top: 34%;
+}
+.catg-card .card .card-body .box4{
+    margin-top: 70%;
+}
+.catg-card .card .card-body .btn{
+    text-decoration: none;
+    color: #fff;
+}
+.catg-card .card .card-body .btn:hover > .fa{
+    transform: translateX(5px);
+    transition: .4s;
+}
+.catg-card .card .card-body .card-circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    left: 80%;
+}
+
+@media screen and (max-width: 600px) {
+    .picks-cards .card .card-body .card-circle{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        position: relative;
+        left: 70%;
+    }
+}
+
+
+
+.productss  .card-circle{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    position: absolute;
+    left: 80%;
+    top: 5%;
+    background-color: #ff6f61;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    padding-top: 20px;
+}
+.productss  .card-circle strong{
+    opacity: .8;
+}
+.productss .card .card-body{
+    background-color: #fff;
+    width: 400px;
+    height: 200px;
+    padding-top: 40px;
+    left: 20%;
+    transform: translateY(-100px);
+}
+
+.productss .card .card-body .btn:hover > .fa{
+    transform: translateX(5px);
+    transition: .4s;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .productss .card .card-body{
+        background-color: #fff;
+        width: 300px;
+        height: 100px;
+        left: 10%;
+    }
+    .productss  .card-circle{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: absolute;
+        left: 70%;
+        top: 5%;
+        background-color: #ff6f61;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        padding-top: 20px;
+    }
+}
+
+
+
+.ARRIVALS{
+    
+}
+.ARRIVALS .card .card-btn{
+    position: absolute;
+    bottom: 23%;
+    left: 0;
+    height: 50px;
+    border-radius: 0;
+    opacity: 0;
+}
+.ARRIVALS .card .card-img:hover> .card-btn{
+    opacity: 1;
+}
+.ARRIVALS .card .badge{
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 70px;
+    padding-top: 10px;
+    height: 30px;
+    border-radius: 0%;
+}
+.ARRIVALS .card .card-action{
+    position: absolute;
+    right: 8%;
+    top: 5%;
+    padding-top: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #000;
+}
+.ARRIVALS .card .card-action:hover{
+    background-color: #ff6f61;
+    color: #fff;
+}
+.ARRIVALS .card .card-body{
+    margin-top: 20px;
+}
+.ARRIVALS .card .card-body a{
+    text-decoration: dashed;
+    font-size: 20px;
+}
+.ARRIVALS .card .card-body a > .text-muted{
+    color: #ff6f61;
+}
+
+
+.blogs .card:hover{
+    transform: translateY(-10px);
+}
+{
+
+}
+
+.blogs .link-underline{
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+.blogs .link-underline::after{
+	content: "";
+	position:absolute;
+	background-color: rgb(31, 21, 3);
+	height: 3px;
+
+	left: 0;
+	bottom: -10px;
+	transition: .4s;
+    width: 100%;
+}
+.blogs .link-underline:hover::after{
+	width: 0;
+}
